@@ -1,0 +1,177 @@
+﻿,,,,Components of AIPI,,,
+Country,iso3,type,AIPI,Digitial Infrastructure,Innovation and Economic Integration,Human Capital and Labor Market Policies,Regulation and Ethics
+Australia,AUS,AE,0.73,0.18,0.16,0.17,0.21
+Austria,AUT,AE,0.72,0.19,0.17,0.16,0.20
+Belgium,BEL,AE,0.67,0.17,0.17,0.16,0.16
+Canada,CAN,AE,0.71,0.17,0.16,0.17,0.21
+Croatia,HRV,AE,0.58,0.17,0.14,0.13,0.14
+Cyprus,CYP,AE,0.63,0.17,0.15,0.14,0.16
+Czechia,CZE,AE,0.65,0.17,0.16,0.16,0.16
+Denmark,DNK,AE,0.78,0.20,0.18,0.18,0.22
+Estonia,EST,AE,0.76,0.20,0.16,0.18,0.22
+Finland,FIN,AE,0.76,0.19,0.17,0.17,0.23
+France,FRA,AE,0.70,0.18,0.17,0.16,0.18
+Germany,DEU,AE,0.75,0.19,0.18,0.18,0.20
+Greece,GRC,AE,0.58,0.15,0.15,0.14,0.14
+Hong Kong,HKG,AE,0.70,0.20,0.17,0.16,0.17
+Iceland,ISL,AE,0.70,0.17,0.15,0.17,0.21
+Ireland,IRL,AE,0.69,0.17,0.16,0.17,0.19
+Israel,ISR,AE,0.73,0.17,0.19,0.17,0.19
+Italy,ITA,AE,0.62,0.17,0.16,0.13,0.15
+Japan,JPN,AE,0.73,0.18,0.18,0.17,0.20
+Korea,KOR,AE,0.73,0.18,0.18,0.16,0.20
+Latvia,LVA,AE,0.63,0.16,0.15,0.16,0.16
+Lithuania,LTU,AE,0.66,0.18,0.15,0.17,0.17
+Luxembourg,LUX,AE,0.74,0.19,0.15,0.17,0.22
+Macao,MAC,AE,NA,0.16,NA,0.09,0.14
+Malta,MLT,AE,0.66,0.17,0.15,0.15,0.19
+Netherlands,NLD,AE,0.77,0.19,0.18,0.17,0.22
+New Zealand,NZL,AE,0.75,0.19,0.16,0.18,0.22
+Norway,NOR,AE,0.71,0.17,0.16,0.17,0.21
+Portugal,PRT,AE,0.65,0.16,0.16,0.15,0.18
+Puerto Rico,PRI,AE,NA,0.08,NA,0.14,0.14
+Singapore,SGP,AE,0.80,0.21,0.18,0.20,0.22
+Slovakia,SVK,AE,0.59,0.17,0.14,0.15,0.14
+Slovenia,SVN,AE,0.63,0.16,0.14,0.15,0.18
+Spain,ESP,AE,0.65,0.17,0.16,0.15,0.17
+Sweden,SWE,AE,0.75,0.18,0.18,0.17,0.21
+Switzerland,CHE,AE,0.76,0.19,0.17,0.19,0.21
+"Taiwan, China",TWN,AE,NA,NA,0.13,0.20,0.18
+United Kingdom,GBR,AE,0.73,0.18,0.16,0.17,0.21
+United States,USA,AE,0.77,0.19,0.18,0.18,0.22
+Albania,ALB,EM,0.53,0.11,0.13,0.14,0.15
+Algeria,DZA,EM,0.37,0.08,0.07,0.14,0.07
+Angola,AGO,EM,0.26,0.06,0.09,0.07,0.05
+Argentina,ARG,EM,0.47,0.13,0.09,0.12,0.14
+Armenia,ARM,EM,0.49,0.12,0.12,0.12,0.13
+Azerbaijan,AZE,EM,0.47,0.11,0.10,0.15,0.11
+Bahamas,BHS,EM,0.46,0.11,0.08,0.12,0.15
+Bahrain,BHR,EM,0.52,0.12,0.14,0.15,0.10
+Barbados,BRB,EM,0.50,0.10,0.12,0.13,0.16
+Belarus,BLR,EM,0.47,0.15,0.11,0.14,0.08
+Belize,BLZ,EM,0.42,0.09,0.10,0.13,0.11
+Bolivia,BOL,EM,0.38,0.09,0.09,0.12,0.08
+Bosnia and Herzegovina,BIH,EM,0.43,0.11,0.11,0.12,0.09
+Botswana,BWA,EM,0.41,0.08,0.11,0.11,0.11
+Brazil,BRA,EM,0.50,0.14,0.11,0.12,0.14
+Brunei Darussalam,BRN,EM,0.50,0.12,0.11,0.15,0.12
+Bulgaria,BGR,EM,0.58,0.15,0.14,0.15,0.14
+Cabo Verde,CPV,EM,0.43,0.08,0.11,0.12,0.12
+Chile,CHL,EM,0.59,0.15,0.12,0.14,0.17
+China,CHN,EM,0.64,0.19,0.15,0.15,0.15
+Colombia,COL,EM,0.49,0.12,0.10,0.13,0.14
+Costa Rica,CRI,EM,0.54,0.12,0.13,0.14,0.15
+Dominican Republic,DOM,EM,0.47,0.09,0.13,0.12,0.12
+Ecuador,ECU,EM,0.44,0.10,0.09,0.12,0.13
+Egypt,EGY,EM,0.39,0.09,0.10,0.12,0.08
+El Salvador,SLV,EM,0.39,0.08,0.11,0.10,0.09
+Eswatini,SWZ,EM,0.31,0.06,0.09,0.09,0.06
+Fiji,FJI,EM,0.45,0.09,0.11,0.13,0.12
+Gabon,GAB,EM,0.32,0.08,0.08,0.10,0.07
+Georgia,GEO,EM,0.53,0.12,0.13,0.13,0.14
+Guatemala,GTM,EM,0.39,0.08,0.12,0.10,0.09
+Guyana,GUY,EM,0.42,0.07,0.12,0.12,0.11
+Hungary,HUN,EM,0.56,0.16,0.14,0.13,0.14
+India,IND,EM,0.49,0.11,0.11,0.12,0.15
+Indonesia,IDN,EM,0.52,0.12,0.11,0.13,0.16
+Iran,IRN,EM,0.38,0.12,0.09,0.11,0.06
+Iraq,IRQ,EM,0.27,0.07,0.04,0.11,0.06
+Jamaica,JAM,EM,0.43,0.09,0.09,0.13,0.12
+Jordan,JOR,EM,0.48,0.09,0.13,0.13,0.13
+Kazakhstan,KAZ,EM,0.55,0.15,0.11,0.16,0.13
+Kuwait,KWT,EM,0.46,0.12,0.11,0.11,0.12
+Lebanon,LBN,EM,0.42,0.09,0.13,0.12,0.08
+Libya,LBY,EM,0.24,0.06,0.05,0.11,0.03
+Malaysia,MYS,EM,0.63,0.15,0.14,0.17,0.17
+Maldives,MDV,EM,NA,0.10,NA,0.08,0.11
+Mauritius,MUS,EM,0.53,0.12,0.13,0.13,0.14
+Mexico,MEX,EM,0.53,0.13,0.13,0.14,0.14
+Mongolia,MNG,EM,0.48,0.13,0.10,0.14,0.12
+Montenegro,MNE,EM,0.50,0.11,0.11,0.15,0.13
+Morocco,MAR,EM,0.43,0.10,0.11,0.12,0.10
+Namibia,NAM,EM,0.42,0.08,0.10,0.12,0.12
+Oman,OMN,EM,0.53,0.12,0.13,0.16,0.13
+Pakistan,PAK,EM,0.37,0.08,0.09,0.10,0.11
+Panama,PAN,EM,0.50,0.11,0.14,0.12,0.14
+Paraguay,PRY,EM,0.41,0.10,0.10,0.11,0.11
+Peru,PER,EM,0.49,0.11,0.12,0.12,0.13
+Philippines,PHL,EM,0.50,0.10,0.12,0.15,0.12
+Poland,POL,EM,0.60,0.17,0.14,0.14,0.15
+Qatar,QAT,EM,0.53,0.13,0.13,0.14,0.13
+Republic of North Macedonia,MKD,EM,0.48,0.12,0.12,0.12,0.13
+Romania,ROU,EM,0.58,0.15,0.15,0.13,0.15
+Russian Federation,RUS,EM,0.56,0.16,0.12,0.16,0.12
+Saint Lucia,LCA,EM,0.37,0.08,0.05,0.11,0.14
+Saint Vincent and the Grenadines,VCT,EM,0.34,0.07,0.03,0.10,0.14
+Saudi Arabia,SAU,EM,0.58,0.14,0.12,0.18,0.14
+Serbia,SRB,EM,0.54,0.15,0.11,0.14,0.14
+Seychelles,SYC,EM,0.53,0.11,0.14,0.13,0.14
+South Africa,ZAF,EM,0.50,0.12,0.11,0.12,0.14
+Sri Lanka,LKA,EM,0.44,0.11,0.09,0.13,0.11
+Suriname,SUR,EM,0.42,0.09,0.11,0.12,0.10
+Syrian Arab Republic,SYR,EM,0.30,0.07,0.08,0.13,0.02
+Thailand,THA,EM,0.54,0.14,0.12,0.14,0.13
+Trinidad and Tobago,TTO,EM,0.44,0.09,0.11,0.12,0.11
+Tunisia,TUN,EM,0.47,0.11,0.10,0.13,0.12
+Turkey,TUR,EM,0.54,0.14,0.13,0.14,0.13
+Ukraine,UKR,EM,0.51,0.14,0.10,0.15,0.12
+United Arab Emirates,ARE,EM,0.63,0.15,0.15,0.15,0.17
+Uruguay,URY,EM,0.55,0.13,0.12,0.13,0.17
+Venezuela,VEN,EM,0.27,0.07,0.07,0.11,0.02
+Afghanistan,AFG,LIC,NA,0.05,NA,0.05,0.04
+Bangladesh,BGD,LIC,0.38,0.09,0.11,0.09,0.10
+Benin,BEN,LIC,0.36,0.07,0.10,0.10,0.10
+Bhutan,BTN,LIC,0.44,0.09,0.09,0.12,0.15
+Burkina Faso,BFA,LIC,0.31,0.06,0.08,0.08,0.10
+Burundi,BDI,LIC,0.29,0.04,0.07,0.11,0.07
+Cambodia,KHM,LIC,0.37,0.08,0.11,0.09,0.08
+Cameroon,CMR,LIC,0.34,0.07,0.09,0.10,0.08
+Central African Republic,CAF,LIC,0.18,0.02,0.09,0.03,0.04
+Chad,TCD,LIC,0.23,0.03,0.08,0.07,0.05
+Comoros,COM,LIC,0.25,0.04,0.11,0.07,0.04
+Congo,COG,LIC,0.28,0.05,0.10,0.08,0.05
+Congo,COD,LIC,0.25,0.04,0.07,0.07,0.06
+Côte d'Ivoire,CIV,LIC,0.37,0.08,0.08,0.10,0.10
+Djibouti,DJI,LIC,0.32,0.06,0.12,0.09,0.05
+Ethiopia,ETH,LIC,0.25,0.05,0.07,0.06,0.07
+Gambia,GMB,LIC,0.36,0.05,0.10,0.12,0.09
+Ghana,GHA,LIC,0.43,0.09,0.09,0.11,0.13
+Guinea,GIN,LIC,0.32,0.06,0.08,0.12,0.07
+Guinea-Bissau,GNB,LIC,0.26,0.04,0.12,0.04,0.06
+Haiti,HTI,LIC,0.27,0.03,0.14,0.06,0.04
+Honduras,HND,LIC,0.34,0.06,0.09,0.11,0.08
+Kenya,KEN,LIC,0.45,0.10,0.11,0.11,0.13
+Kyrgyzstan,KGZ,LIC,0.43,0.11,0.10,0.12,0.10
+Lao People's Democratic Republic,LAO,LIC,0.33,0.06,0.09,0.11,0.08
+Lesotho,LSO,LIC,0.36,0.07,0.08,0.10,0.10
+Liberia,LBR,LIC,0.37,0.04,0.15,0.10,0.08
+Madagascar,MDG,LIC,0.31,0.05,0.07,0.09,0.09
+Malawi,MWI,LIC,0.34,0.05,0.10,0.10,0.10
+Mali,MLI,LIC,0.30,0.06,0.08,0.08,0.08
+Mauritania,MRT,LIC,0.23,0.05,0.07,0.06,0.05
+Moldova,MDA,LIC,0.48,0.13,0.10,0.13,0.13
+Mozambique,MOZ,LIC,0.26,0.05,0.07,0.07,0.07
+Myanmar,MMR,LIC,0.33,0.07,0.09,0.12,0.05
+Nepal,NPL,LIC,0.35,0.08,0.09,0.10,0.09
+Nicaragua,NIC,LIC,0.33,0.07,0.11,0.09,0.06
+Niger,NER,LIC,0.33,0.04,0.13,0.06,0.09
+Nigeria,NGA,LIC,0.34,0.08,0.09,0.09,0.07
+Papua New Guinea,PNG,LIC,0.29,0.05,0.10,0.05,0.09
+Rwanda,RWA,LIC,0.44,0.08,0.11,0.10,0.14
+Sao Tome and Principe,STP,LIC,NA,0.06,NA,0.07,0.09
+Senegal,SEN,LIC,0.40,0.08,0.09,0.10,0.12
+Sierra Leone,SLE,LIC,0.30,0.05,0.09,0.08,0.08
+Somalia,SOM,LIC,NA,0.04,0.12,NA,0.03
+South Sudan,SSD,LIC,NA,0.02,NA,0.04,0.01
+Sudan,SDN,LIC,0.23,0.05,0.08,0.07,0.03
+Tajikistan,TJK,LIC,0.37,0.06,0.09,0.14,0.07
+Tanzania,TZA,LIC,0.35,0.06,0.10,0.09,0.09
+Timor-Leste,TLS,LIC,0.43,0.08,0.13,0.11,0.12
+Togo,TGO,LIC,0.32,0.06,0.08,0.08,0.09
+Uganda,UGA,LIC,0.35,0.06,0.11,0.09,0.09
+Uzbekistan,UZB,LIC,NA,0.11,NA,0.13,0.10
+Viet Nam,VNM,LIC,0.48,0.14,0.11,0.12,0.11
+Yemen,YEM,LIC,0.25,0.04,0.12,0.07,0.02
+Zambia,ZMB,LIC,0.37,0.07,0.10,0.11,0.09
+Zimbabwe,ZWE,LIC,0.30,0.06,0.09,0.09,0.06
+,,,,,,,
