@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "AI Preparedness Index",
+  "width": 800,
+  "height": 400,
+  "projection": {"type": "equalEarth"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.ISO_A3",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/aipidata.csv"
+        },
+        "key": "iso3",
+        "fields": ["AIPI","Country"]
+      }
+    },
+    { "calculate": "+datum.AIPI", "as": "AIPI_num" }
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "AIPI_num",
+      "type": "quantitative",
+      "title": "AIPI",
+      "scale": {"domain": [0,1]}
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "AIPI_num", "type": "quantitative", "title": "AIPI"}
+    ]
+  }
+}
