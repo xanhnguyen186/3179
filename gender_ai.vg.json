@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/global_ai_tools_students_use.csv"
+  },
+  "transform": [
+    { "filter": "lower(datum.gender) != 'non-binary'" },
+    { "calculate": "lower(toString(datum.uses_ai_for_study)) == 'true' ? 1 : 0", "as": "ai_yes" },
+    { "filter": "datum.ai_yes == 1" },
+    {
+      "aggregate": [{ "op": "count", "as": "count" }],
+      "groupby": ["grade", "gender"]
+    },
+    {
+      "joinaggregate": [{ "op": "sum", "field": "count", "as": "total_by_grade" }],
+      "groupby": ["grade"]
+    },
+    { "calculate": "datum.count / datum.total_by_grade", "as": "share_within_ai_users" }
+  ],
+  "resolve": { "scale": { "color": "shared" } },
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "gender_select",
+          "select": { "type": "point", "fields": ["gender"] },
+          "bind": "legend"
+        }
+      ],
+      "mark": { "type": "area", "line": true, "point": true, "interpolate": "monotone", "orient": "vertical" },
+      "encoding": {
+        "x": { "field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"], "title": "Grade" },
+        "y": {
+          "field": "share_within_ai_users",
+          "type": "quantitative",
+          "stack": null,
+          "title": "Gender Share among AI Users",
+          "axis": { "format": ".0%" }
+        },
+        "color": { "field": "gender", "type": "nominal", "title": "Gender", "scale": { "scheme": "category10" } },
+        "opacity": { "condition": { "param": "gender_select", "value": 0.6 }, "value": 0.15 },
+        "tooltip": [
+          { "field": "grade", "title": "Grade" },
+          { "field": "gender", "title": "Gender" },
+          { "field": "share_within_ai_users", "title": "Share", "format": ".0%" },
+          { "field": "count", "title": "AI Users" }
+        ]
+      }
+    },
+    {
+      "mark": { "type": "text", "align": "center", "baseline": "bottom", "dy": -6, "fontSize": 11 },
+      "encoding": {
+        "x": { "field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"] },
+        "y": { "field": "share_within_ai_users", "type": "quantitative" },
+        "color": { "field": "gender", "type": "nominal", "legend": null },
+        "text": { "field": "share_within_ai_users", "type": "quantitative", "format": ".0%" },
+        "opacity": { "value": 1 }
+      }
+    }
+  ],
+  "config": { "axis": { "grid": true } }
+}
