@@ -8,26 +8,20 @@
     { "filter": "lower(datum.gender) != 'non-binary'" },
     { "calculate": "lower(toString(datum.uses_ai_for_study)) == 'true' ? 1 : 0", "as": "ai_yes" },
     { "filter": "datum.ai_yes == 1" },
-    {
-      "aggregate": [{ "op": "count", "as": "count" }],
-      "groupby": ["grade", "gender"]
-    },
-    {
-      "joinaggregate": [{ "op": "sum", "field": "count", "as": "total_by_grade" }],
-      "groupby": ["grade"]
-    },
+    { "aggregate": [{ "op": "count", "as": "count" }], "groupby": ["grade", "gender"] },
+    { "joinaggregate": [{ "op": "sum", "field": "count", "as": "total_by_grade" }], "groupby": ["grade"] },
     { "calculate": "datum.count / datum.total_by_grade", "as": "share_within_ai_users" }
   ],
-  "resolve": { "scale": { "color": "shared" } },
+
   "layer": [
     {
-      "params": [
-        {
-          "name": "gender_select",
-          "select": { "type": "point", "fields": ["gender"] },
+      "selection": {
+        "gender_filter": {
+          "type": "point",
+          "encodings": ["color"],
           "bind": "legend"
         }
-      ],
+      },
       "mark": { "type": "area", "line": true, "point": true, "interpolate": "monotone", "orient": "vertical" },
       "encoding": {
         "x": { "field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"], "title": "Grade" },
@@ -38,8 +32,16 @@
           "title": "Gender Share among AI Users",
           "axis": { "format": ".0%" }
         },
-        "color": { "field": "gender", "type": "nominal", "title": "Gender", "scale": { "scheme": "category10" } },
-        "opacity": { "condition": { "param": "gender_select", "value": 0.6 }, "value": 0.15 },
+        "color": {
+          "field": "gender",
+          "type": "nominal",
+          "title": "Gender",
+          "scale": { "scheme": "category10" }
+        },
+        "opacity": {
+          "condition": { "selection": "gender_filter", "value": 0.6 },
+          "value": 0.15
+        },
         "tooltip": [
           { "field": "grade", "title": "Grade" },
           { "field": "gender", "title": "Gender" },
@@ -49,16 +51,25 @@
       }
     },
     {
+      "transform": [{ "filter": { "selection": "gender_filter" } }],
       "mark": { "type": "text", "align": "center", "baseline": "bottom", "dy": -6, "fontSize": 11 },
       "encoding": {
         "x": { "field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"] },
         "y": { "field": "share_within_ai_users", "type": "quantitative" },
-        "color": { "field": "gender", "type": "nominal", "legend": null },
-        "text": { "field": "share_within_ai_users", "type": "quantitative", "format": ".0%" },
-        "opacity": { "value": 1 }
+        "color": {
+          "field": "gender",
+          "type": "nominal"
+        },
+        "text": {
+          "field": "share_within_ai_users",
+          "type": "quantitative",
+          "format": ".0%"
+        }
       }
     }
   ],
-  "config": { "axis": { "grid": true } }
-}
 
+  "config": {
+    "axis": { "grid": true }
+  }
+}
