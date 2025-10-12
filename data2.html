@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <script src="vega_lite_vis.js"></script>
+    <script src="vega_lite_vis_2.js"></script>
+<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism UI</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+        min-height: 100%;
+        font-family: 'Segoe UI', sans-serif;
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        /* one continuous background */
+        background-image: url('https://images7.alphacoders.com/138/1382822.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* optional, for parallax feel */
+    }
+
+/* remove background from .background */
+    .background {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0; /* spacing between cards */
+    }
+
+
+    /* Glass frame */
+    .glass-card {
+      width: 90%;
+      max-width: 1100px;
+      padding: 2rem;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .glass-card h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .glass-card p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .glass-card a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+
+
+<body>
+    <div class="background">
+    <div class="glass-card">
+      <h1>Artificial Intelligence in Australia</h1>
+    </div>
+  </div>
+
+
+  <div class="background">
+    <div class="glass-card">
+      <h2>The World’s Readiness for Artificial Intelligence</h2>
+    </div>
+  </div>
+
+  <div class="background">
+    <div class="glass-card">
+      <p> This map shows the AI Preparedness Index (AIPI) across the world, with darker blue representing higher readiness for adopting and integrating AI, and lighter yellow/green representing lower levels of preparedness.</p>
+      <div id="map">
+        
+        </div>
+        <p>Australia is at the forefront of AI readiness, aligned with other advanced economies. In contrast, large parts of Africa, South America, and some Asian nations lag behind, highlighting a significant global divide in AI preparedness.</p>
+    </div>
+  </div>
+ 
+  
+  <div class="background">
+    <div class="glass-card">
+      <h2>How Australian Students Are Using AI</h2>
+      </div>
+  </div>
+
+  <div class="background">
+    <div class="glass-card">
+      <h3>Gender Share among AI Students Users</h3>
+      <div id = "linechart">
+         </div>
+    
+    <p> In Grade 9, female students make up the majority of AI users (58%), but their share steadily declines in higher grades. By Grade 10, males overtake females (54% vs. 46%), and this gap widens by Grade 12, where males lead at 56%. Overall, the chart highlights a shift from female dominance in earlier grades to male dominance in later years, suggesting changing patterns of AI engagement as students progress through school.</p>
+    </div>
+  </div>
+
+
+</body>
+
+
