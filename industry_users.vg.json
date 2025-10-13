@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 420,
+  "background": null,
+  "view": {"fill": "transparent"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/AI_adoption_data2.csv"
+  },
+  "transform": [
+    {"filter": "datum.year == 2023 || datum.year == 2024"},
+    {
+      "aggregate": [
+        {"op": "sum", "field": "daily_active_users", "as": "total_users"}
+      ],
+      "groupby": ["industry", "year"]
+    },
+    {"pivot": "year", "value": "total_users", "groupby": ["industry"]},
+    {"calculate": "datum['2024'] - datum['2023']", "as": "delta"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "rule", "strokeWidth": 4},
+      "encoding": {
+        "y": {
+          "field": "industry",
+          "type": "nominal",
+          "title": "Industry",
+          "sort": {"field": "delta", "order": "descending"}
+        },
+        "x": {"field": "2023", "type": "quantitative", "title": "Daily Active Users"},
+        "x2": {"field": "2024"},
+        "color": {
+          "condition": {"test": "datum.delta >= 0", "value": "#bbb4d8"},
+          "value": "#d62728"
+        },
+        "tooltip": [
+          {"field": "industry", "title": "Industry"},
+          {"field": "2023", "title": "2023 users", "format": ","},
+          {"field": "2024", "title": "2024 users", "format": ","},
+          {"field": "delta", "title": "Change in users", "format": "+,"}
+        ]
+      }
+    },
+    {
+      "transform": [{"calculate": "2023", "as": "year"}],
+      "mark": {"type": "point", "filled": true, "size": 90},
+      "encoding": {
+        "y": {"field": "industry", "type": "nominal"},
+        "x": {"field": "2023", "type": "quantitative"},
+        "color": {
+          "field": "year",
+          "type": "ordinal",
+          "scale": {"domain": [2023, 2024], "range": ["#8c3352", "#4E7AB1"]},
+          "legend": {"title": "Year"}
+        }
+      }
+    },
+    {
+      "transform": [{"calculate": "2024", "as": "year"}],
+      "mark": {"type": "point", "filled": true, "size": 90},
+      "encoding": {
+        "y": {"field": "industry", "type": "nominal"},
+        "x": {"field": "2024", "type": "quantitative"},
+        "color": {
+          "field": "year",
+          "type": "ordinal",
+          "scale": {"domain": [2023, 2024], "range": ["#f6a5c0", "#4E7AB1"]},
+          "legend": {"title": "Year"}
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "dx": 8, "align": "left", "baseline": "middle"},
+      "encoding": {
+        "y": {"field": "industry", "type": "nominal"},
+        "x": {"field": "2024", "type": "quantitative"},
+        "text": {"field": "delta", "format": "+.2s"},
+        "color": {"value": "#555"}
+      }
+    }
+  ],
+  "encoding": {
+    "x": {
+      "title": "Daily Active Users",
+      "axis": {"format": "s"},
+      "scale": {"domain": [0, 8000000]}
+    }
+  },
+  "title": "Daily Active Users by Industry (2023 - 2024)"
+}

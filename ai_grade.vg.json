@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 640,
+  "height": 320,
+  "background": null,
+  "view": {"fill": "transparent"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/global_ai_tools_students_use.csv"
+  },
+
+  "transform": [
+    {
+      "fold": [
+        "uses_chatgpt","uses_grammarly","uses_gemini",
+        "uses_quillbot","uses_notion_ai","uses_phind","uses_edu_chat"
+      ],
+      "as": ["tool_raw","used"]
+    },
+    {
+      "calculate": "datum.tool_raw == 'uses_chatgpt' ? 'ChatGPT' : datum.tool_raw == 'uses_grammarly' ? 'Grammarly' : datum.tool_raw == 'uses_gemini' ? 'Gemini' : datum.tool_raw == 'uses_quillbot' ? 'QuillBot' : datum.tool_raw == 'uses_notion_ai' ? 'Notion' : datum.tool_raw == 'uses_phind' ? 'Phind' : datum.tool_raw == 'uses_edu_chat' ? 'Educhat' : datum.tool_raw",
+      "as": "tool"
+    },
+    { "calculate": "lower(toString(datum.used)) == 'true' ? 1 : 0", "as": "used_bin" },
+    { "aggregate": [{"op":"mean","field":"used_bin","as":"prop_use"}], "groupby": ["grade","tool"] }
+  ],
+
+  "layer": [
+    {
+  "selection": {
+    "tool_filter": {
+      "type": "point",
+      "fields": ["tool"],
+      "bind": "legend",
+      "empty": "none"
+    }
+  },
+  "mark": { "type": "area", "interpolate": "monotone", "line": true },
+  "encoding": {
+    "x": { "field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"], "title": "Grade" },
+    "y": { "field": "prop_use", "type": "quantitative", "title": "Proportion of Students Using Tool", "axis": {"format": ".0%"}, "stack": null },
+    "color": {
+      "field": "tool", "type": "nominal", "title": "AI Tool",
+      "scale": {
+        "domain": ["Gemini","ChatGPT","Grammarly","Phind","QuillBot","Notion","Educhat"],
+        "range":  ["#ee2e21","#f86624","#f3a332","#a7cb8e","#83a6ce","#c78dc7","#f496a6"]
+      }
+    },
+    "opacity": {
+      "condition": { "selection": "tool_filter", "value": 1 },
+      "value": 0.1
+    },
+    "tooltip": [
+      { "field": "tool", "title": "Tool" },
+      { "field": "grade", "title": "Grade" },
+      { "field": "prop_use", "title": "Proportion", "format": ".1%" }
+    ]
+  }
+},
+
+
+    {
+      "transform": [{ "filter": { "selection": "tool_filter" } }], 
+      "mark": { "type":"text","align":"center","baseline":"bottom","dy":-6,"fontSize":11 },
+      "encoding": {
+        "x": {"field":"grade","type":"ordinal","sort":["9th","10th","11th","12th"]},
+        "y": {"field":"prop_use","type":"quantitative"},
+        "color": {"field":"tool","type":"nominal"},
+        "text": {"field":"prop_use","type":"quantitative","format":".0%"}
+      }
+    }
+  ],
+
+  "title": "AI Tool Usage by Grade"
+}

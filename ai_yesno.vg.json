@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 320,
+  "height": 260,
+  "background": null,
+  "view": {"fill": "transparent", "stroke": null},
+  "data": {
+    "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/global_ai_tools_students_use.csv"
+  },
+  "transform": [
+    { "filter": "lower(datum.gender) != 'non-binary'" },
+    { "filter": "datum.country == 'Australia'" },
+    {
+      "calculate": "lower(toString(datum.uses_ai_for_study)) == 'true' ? 'Uses AI' : 'Does not use AI'",
+      "as": "uses_ai_label"
+    },
+    {
+      "aggregate": [{"op": "count", "as": "count"}],
+      "groupby": ["uses_ai_label"]
+    },
+    {
+      "joinaggregate": [{"op": "sum", "field": "count", "as": "total"}]
+    },
+    {"calculate": "datum.count / datum.total", "as": "pct"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "arc", "innerRadius": 70},
+      "encoding": {
+        "theta": {"field": "count", "type": "quantitative"},
+        "color": {
+          "field": "uses_ai_label",
+          "type": "nominal",
+          "scale": {"range": ["#cea0aa", "#b8d7d5"]},
+          "title": "AI for Study"
+        },
+        "tooltip": [
+          {"field": "uses_ai_label", "title": "Response"},
+          {"field": "count", "title": "Number of Students", "format": ","},
+          {"field": "pct", "title": "Share", "format": ".0%"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "radius": 60,
+        "dy": -50,
+        "color": "black",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "theta": {"field": "count", "type": "quantitative"},
+        "text": {"field": "pct", "format": ".0%"}
+      }
+    }
+  ],
+  "title": "Proportion of Students Using AI for Study"
+}
