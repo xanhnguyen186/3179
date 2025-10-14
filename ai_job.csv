@@ -1,0 +1,733 @@
+job_id,job_title,salary_usd,salary_currency,experience_level,employment_type,company_location,company_size,employee_residence,remote_ratio,required_skills,education_required,years_experience,industry,posting_date,application_deadline,job_description_length,benefits_score,company_name,,salary_range
+AI00027,ML Ops Engineer,80979,USD,MI,CT,Australia,S,India,50,"Hadoop, Linux, Git, Scala",Master,2,Media,18/11/2024,18/1/2025,2109,7.7,TechCorp Inc,,60Ð90k
+AI00064,AI Software Engineer,99972,USD,MI,PT,Australia,M,Canada,50,"Java, R, Deep Learning, NLP, Azure",PhD,4,Technology,20/2/2024,15/3/2024,799,6.5,Cloud AI Solutions,,90Ð120k
+AI00082,ML Ops Engineer,196942,USD,EX,CT,Australia,L,Australia,100,"R, Tableau, SQL, MLOps, Docker",Master,19,Gaming,1/4/2024,16/4/2024,826,7.5,TechCorp Inc,,160Ð200k
+AI00120,AI Product Manager,106633,USD,SE,FT,Australia,M,South Korea,100,"Linux, Scala, SQL, Git",Bachelor,9,Automotive,18/5/2024,25/6/2024,1243,5.5,Algorithmic Solutions,,90Ð120k
+AI00147,AI Research Scientist,224919,USD,EX,FL,Australia,M,Switzerland,100,"Kubernetes, Deep Learning, PyTorch",Associate,19,Education,2/12/2024,24/1/2025,911,5.7,TechCorp Inc,,200Ð250k
+AI00152,Deep Learning Engineer,66384,USD,MI,CT,Australia,S,Israel,0,"Git, Tableau, Hadoop, Computer Vision",Associate,2,Government,21/4/2024,24/5/2024,1421,9.1,Autonomous Tech,,60Ð90k
+AI00194,AI Specialist,74408,USD,EN,CT,Australia,M,Norway,100,"TensorFlow, Docker, R, NLP, Java",Associate,1,Automotive,7/8/2024,24/9/2024,1036,7.9,Machine Intelligence Group,,60Ð90k
+AI00218,NLP Engineer,59644,USD,EN,PT,Australia,M,Australia,0,"R, Docker, GCP, Java",Associate,0,Consulting,20/4/2024,27/5/2024,646,8.7,Future Systems,,30Ð60k
+AI00271,Deep Learning Engineer,64400,USD,EN,CT,Australia,L,Australia,0,"AWS, R, Python",Bachelor,1,Transportation,20/10/2024,19/12/2024,1385,8.7,AI Innovations,,60Ð90k
+AI00299,Principal Data Scientist,178470,USD,EX,FT,Australia,L,Singapore,100,"Python, TensorFlow, Git, PyTorch, MLOps",PhD,18,Energy,16/2/2024,23/3/2024,1577,7.8,Quantum Computing Inc,,160Ð200k
+AI00305,Research Scientist,63711,USD,EN,PT,Australia,M,India,0,"Kubernetes, Scala, PyTorch, AWS, Docker",Master,0,Healthcare,11/8/2024,21/9/2024,540,7.5,Future Systems,,60Ð90k
+AI00306,Data Analyst,64384,USD,EN,PT,Australia,L,Finland,0,"Python, Kubernetes, Scala, Linux",PhD,0,Consulting,23/2/2024,31/3/2024,887,6.3,Smart Analytics,,60Ð90k
+AI00328,AI Research Scientist,81908,USD,EN,FL,Australia,L,Australia,100,"Mathematics, PyTorch, Azure",Associate,0,Consulting,4/4/2025,3/5/2025,1599,5.7,Predictive Systems,,60Ð90k
+AI00348,ML Ops Engineer,92858,USD,SE,FL,Australia,S,Australia,50,"Docker, AWS, Computer Vision, MLOps",Associate,6,Manufacturing,16/12/2024,29/1/2025,1124,8.9,Smart Analytics,,90Ð120k
+AI00360,Autonomous Systems Engineer,77926,USD,EN,PT,Australia,M,Sweden,0,"Kubernetes, Data Visualization, Computer Vision, SQL",PhD,1,Transportation,28/7/2024,12/8/2024,1269,7,Digital Transformation LLC,,60Ð90k
+AI00372,Data Engineer,182747,USD,EX,FT,Australia,S,China,100,"R, Hadoop, Data Visualization",Bachelor,15,Gaming,5/10/2024,13/12/2024,2290,7.2,Digital Transformation LLC,,160Ð200k
+AI00390,ML Ops Engineer,63685,USD,EN,FT,Australia,S,Australia,0,"Data Visualization, Python, TensorFlow",Associate,0,Technology,6/1/2025,14/3/2025,912,6.6,DataVision Ltd,,60Ð90k
+AI00411,Head of AI,119767,USD,SE,FL,Australia,L,United States,100,"Git, Linux, Python",Bachelor,5,Energy,12/10/2024,26/11/2024,1702,9.6,Predictive Systems,,90Ð120k
+AI00430,Head of AI,162221,USD,SE,FL,Australia,L,Australia,50,"MLOps, R, Tableau",PhD,9,Energy,15/10/2024,6/11/2024,1439,8.2,Autonomous Tech,,160Ð200k
+AI00493,Principal Data Scientist,104397,USD,SE,FT,Australia,S,Australia,50,"Mathematics, NLP, Deep Learning, Python",PhD,8,Government,27/6/2024,22/8/2024,1903,5.7,Digital Transformation LLC,,90Ð120k
+AI00497,AI Software Engineer,161796,USD,SE,FL,Australia,L,Australia,100,"Spark, PyTorch, TensorFlow, Scala",Associate,9,Finance,22/11/2024,8/1/2025,1838,7,Advanced Robotics,,160Ð200k
+AI00524,AI Product Manager,134087,USD,EX,FT,Australia,S,Australia,0,"Python, Scala, TensorFlow, Spark, GCP",PhD,12,Consulting,1/7/2024,24/7/2024,968,5.9,Neural Networks Co,,120Ð160k
+AI00530,Principal Data Scientist,140113,USD,SE,CT,Australia,M,South Korea,50,"PyTorch, Kubernetes, R",Master,5,Telecommunications,4/5/2024,15/7/2024,1430,9.1,Algorithmic Solutions,,120Ð160k
+AI00547,Machine Learning Engineer,115383,USD,SE,FT,Australia,M,South Korea,50,"Spark, GCP, R, Hadoop, Data Visualization",PhD,8,Education,25/7/2024,4/9/2024,1711,6.4,Future Systems,,90Ð120k
+AI00632,Computer Vision Engineer,61587,USD,EN,FT,Australia,M,Australia,50,"GCP, Git, PyTorch",Associate,0,Transportation,18/7/2024,4/8/2024,1531,6.2,Cognitive Computing,,60Ð90k
+AI00639,Principal Data Scientist,89020,USD,MI,CT,Australia,S,Australia,50,"Spark, PyTorch, Statistics",PhD,2,Technology,10/4/2024,20/5/2024,1107,9.3,TechCorp Inc,,60Ð90k
+AI00654,AI Consultant,106477,USD,SE,CT,Australia,M,Australia,0,"Azure, Java, NLP, Spark, Computer Vision",PhD,7,Media,29/6/2024,31/7/2024,976,7.8,Quantum Computing Inc,,90Ð120k
+AI00678,Data Analyst,60380,USD,EN,FL,Australia,M,Australia,0,"Scala, Kubernetes, Computer Vision",Associate,1,Technology,7/12/2024,13/1/2025,888,5.6,Advanced Robotics,,60Ð90k
+AI00683,AI Product Manager,193865,USD,EX,CT,Australia,M,Australia,50,"Linux, Docker, Data Visualization, SQL, NLP",Master,11,Manufacturing,27/1/2024,19/2/2024,1894,8,DeepTech Ventures,,160Ð200k
+AI00698,NLP Engineer,84547,USD,MI,FL,Australia,L,Australia,100,"Spark, R, NLP, Computer Vision",Bachelor,3,Consulting,13/2/2025,22/4/2025,2292,7.4,DeepTech Ventures,,60Ð90k
+AI00729,Data Analyst,60973,USD,EN,FT,Australia,S,Finland,0,"SQL, Deep Learning, Tableau, Kubernetes, Data Visualization",Associate,1,Manufacturing,9/4/2025,18/5/2025,1339,5.1,Autonomous Tech,,60Ð90k
+AI00785,AI Specialist,129638,USD,SE,PT,Australia,S,Australia,0,"Deep Learning, Statistics, Spark, Kubernetes, Scala",Master,9,Healthcare,29/3/2025,13/5/2025,1292,10,Autonomous Tech,,120Ð160k
+AI00807,Autonomous Systems Engineer,66331,USD,EN,FL,Australia,M,United States,50,"GCP, Tableau, Python, Data Visualization, NLP",Associate,1,Telecommunications,27/4/2024,22/6/2024,517,8.1,TechCorp Inc,,60Ð90k
+AI00839,Computer Vision Engineer,86315,USD,MI,FT,Australia,S,Australia,0,"Tableau, GCP, MLOps",PhD,3,Real Estate,27/4/2025,11/6/2025,1326,7.5,Future Systems,,60Ð90k
+AI00855,AI Software Engineer,81479,USD,MI,FT,Australia,M,Australia,50,"GCP, Statistics, Docker",Bachelor,4,Telecommunications,20/3/2024,13/4/2024,2018,6.9,DataVision Ltd,,60Ð90k
+AI00899,Autonomous Systems Engineer,72245,USD,MI,CT,Australia,S,Australia,100,"Git, Scala, Computer Vision, Tableau, Java",Master,4,Automotive,6/5/2024,9/6/2024,1529,5.4,Cognitive Computing,,60Ð90k
+AI00903,Research Scientist,81756,USD,MI,FT,Australia,M,Australia,0,"Mathematics, SQL, Java, Data Visualization",Associate,2,Healthcare,14/2/2024,20/4/2024,1721,7,Cognitive Computing,,60Ð90k
+AI00927,Principal Data Scientist,264209,USD,EX,FT,Australia,L,Australia,100,"Linux, Kubernetes, R",Bachelor,19,Government,8/7/2024,14/9/2024,619,5.8,Cloud AI Solutions,,250Ð300k
+AI00935,Data Analyst,162562,USD,EX,FL,Australia,L,Australia,100,"Git, Python, Linux",Master,15,Manufacturing,13/6/2024,8/7/2024,655,6.8,DataVision Ltd,,160Ð200k
+AI00973,NLP Engineer,53593,USD,EN,PT,Australia,M,Australia,0,"Git, PyTorch, GCP",PhD,1,Government,11/12/2024,5/1/2025,1410,8.5,DeepTech Ventures,,30Ð60k
+AI01002,Robotics Engineer,141302,USD,SE,PT,Australia,M,Australia,50,"Git, Tableau, Data Visualization, Linux",PhD,8,Gaming,4/8/2024,6/10/2024,2273,5.4,Cognitive Computing,,120Ð160k
+AI01029,AI Research Scientist,145214,USD,EX,FT,Australia,M,France,0,"Kubernetes, Spark, Linux",Associate,17,Real Estate,7/4/2024,24/4/2024,1873,5.9,Smart Analytics,,120Ð160k
+AI01030,AI Product Manager,179667,USD,EX,FT,Australia,L,Australia,0,"SQL, R, MLOps, Deep Learning, Statistics",PhD,11,Healthcare,27/2/2024,13/4/2024,1045,9.4,DataVision Ltd,,160Ð200k
+AI01049,Data Engineer,269645,USD,EX,FL,Australia,L,Australia,100,"Hadoop, Linux, Python, TensorFlow",Bachelor,16,Healthcare,25/4/2024,16/6/2024,1694,7.2,AI Innovations,,250Ð300k
+AI01050,Data Analyst,123571,USD,SE,CT,Australia,S,Australia,0,"Hadoop, Spark, MLOps, Computer Vision, Scala",Master,9,Healthcare,21/10/2024,9/11/2024,2124,8.8,Neural Networks Co,,120Ð160k
+AI01067,Autonomous Systems Engineer,64276,USD,EN,FL,Australia,L,Australia,50,"R, Docker, SQL, NLP",Bachelor,0,Consulting,4/3/2024,27/4/2024,877,7.5,Smart Analytics,,60Ð90k
+AI01114,AI Research Scientist,72552,USD,MI,CT,Australia,S,Australia,0,"TensorFlow, R, Tableau, Kubernetes",Bachelor,3,Finance,24/3/2025,30/5/2025,825,9.1,AI Innovations,,60Ð90k
+AI01119,Data Engineer,51089,USD,EN,CT,Australia,S,Australia,0,"Data Visualization, PyTorch, Spark",Associate,1,Retail,15/2/2025,11/3/2025,621,7.6,Smart Analytics,,30Ð60k
+AI01147,AI Research Scientist,118612,USD,SE,PT,Australia,L,Australia,0,"GCP, Java, SQL, Kubernetes",Associate,7,Gaming,7/10/2024,17/12/2024,1279,9.8,Cognitive Computing,,90Ð120k
+AI01154,AI Consultant,116906,USD,MI,PT,Australia,L,Austria,50,"R, Python, Computer Vision, Deep Learning",Associate,4,Gaming,21/12/2024,4/1/2025,2336,8.6,AI Innovations,,90Ð120k
+AI01156,Data Engineer,142412,USD,SE,PT,Australia,M,Australia,50,"Kubernetes, Mathematics, Computer Vision, Deep Learning, SQL",Associate,6,Gaming,23/11/2024,26/12/2024,1495,7.8,Algorithmic Solutions,,120Ð160k
+AI01165,Autonomous Systems Engineer,175790,USD,EX,PT,Australia,L,Australia,50,"Statistics, Tableau, Python",Master,11,Healthcare,2/5/2024,14/6/2024,1134,7.8,Autonomous Tech,,160Ð200k
+AI01183,Head of AI,125594,USD,SE,CT,Australia,M,Australia,50,"AWS, Scala, Azure, Deep Learning",PhD,6,Technology,14/9/2024,17/10/2024,1475,6.7,Cognitive Computing,,120Ð160k
+AI01186,AI Consultant,96277,USD,MI,FT,Australia,L,Australia,0,"Hadoop, Docker, Linux, Kubernetes",Bachelor,3,Transportation,22/10/2024,10/12/2024,2253,5.9,Cognitive Computing,,90Ð120k
+AI01203,Data Scientist,153686,USD,EX,FT,Australia,S,Australia,50,"Hadoop, PyTorch, Java",Associate,15,Telecommunications,25/12/2024,14/1/2025,1959,6.2,Advanced Robotics,,120Ð160k
+AI01223,AI Architect,185576,USD,EX,CT,Australia,S,Australia,100,"Scala, Git, Python, Spark, SQL",Master,10,Education,5/6/2024,19/7/2024,1766,7.4,Advanced Robotics,,160Ð200k
+AI01253,Head of AI,65792,USD,EN,CT,Australia,L,Australia,0,"AWS, Docker, Git, Python",Bachelor,1,Technology,27/8/2024,4/11/2024,1206,9.4,Smart Analytics,,60Ð90k
+AI01267,Research Scientist,83412,USD,MI,CT,Australia,S,Australia,50,"Python, TensorFlow, Data Visualization",Bachelor,4,Healthcare,1/8/2024,12/10/2024,1379,9.9,TechCorp Inc,,60Ð90k
+AI01296,AI Architect,92965,USD,MI,CT,Australia,S,Australia,100,"Spark, Computer Vision, SQL",Bachelor,4,Real Estate,3/4/2024,23/5/2024,695,6.7,Future Systems,,90Ð120k
+AI01298,Data Engineer,74684,USD,MI,CT,Australia,S,Australia,0,"AWS, Java, Spark, NLP",Associate,2,Finance,26/5/2024,24/6/2024,2141,7.1,Future Systems,,60Ð90k
+AI01302,Machine Learning Researcher,62450,USD,EN,CT,Australia,M,Australia,50,"Java, PyTorch, Python, Kubernetes",PhD,0,Retail,2/4/2025,25/4/2025,552,9.8,Cognitive Computing,,60Ð90k
+AI01304,Deep Learning Engineer,129026,USD,EX,CT,Australia,S,Australia,50,"NLP, Python, GCP, Data Visualization",Master,10,Telecommunications,15/3/2025,3/4/2025,2393,9.2,Quantum Computing Inc,,120Ð160k
+AI01311,Autonomous Systems Engineer,104220,USD,SE,FT,Australia,M,Israel,0,"Python, AWS, MLOps",PhD,5,Consulting,27/9/2024,25/11/2024,2131,5.2,Quantum Computing Inc,,90Ð120k
+AI01317,Deep Learning Engineer,168134,USD,EX,PT,Australia,L,Australia,50,"Tableau, R, AWS, PyTorch",Associate,16,Manufacturing,27/4/2025,30/6/2025,1665,5.9,Neural Networks Co,,160Ð200k
+AI01330,Computer Vision Engineer,129483,USD,SE,PT,Australia,L,Japan,50,"TensorFlow, Data Visualization, Azure",PhD,6,Retail,3/3/2025,29/4/2025,1733,8.3,Machine Intelligence Group,,120Ð160k
+AI01374,Data Scientist,289435,USD,EX,FL,Australia,L,Australia,100,"PyTorch, NLP, Tableau, Computer Vision",Bachelor,15,Retail,3/1/2025,21/1/2025,1637,8.3,Advanced Robotics,,250Ð300k
+AI01386,Computer Vision Engineer,172415,USD,EX,CT,Australia,L,Australia,0,"Computer Vision, Python, GCP",Bachelor,19,Finance,9/3/2024,11/4/2024,1189,9.6,Algorithmic Solutions,,160Ð200k
+AI01397,AI Consultant,72226,USD,EN,FL,Australia,S,Australia,100,"Data Visualization, Linux, Azure",Master,1,Retail,19/7/2024,18/9/2024,1390,5.1,Predictive Systems,,60Ð90k
+AI01423,Principal Data Scientist,57537,USD,EN,FT,Australia,S,Australia,50,"Java, PyTorch, R",Associate,1,Energy,5/1/2024,24/2/2024,2108,5.5,Digital Transformation LLC,,30Ð60k
+AI01443,Head of AI,223945,USD,EX,FL,Australia,S,China,100,"GCP, Git, NLP, Computer Vision, Python",PhD,14,Telecommunications,5/1/2024,31/1/2024,1616,9.7,TechCorp Inc,,200Ð250k
+AI01459,Machine Learning Researcher,70893,USD,EN,FL,Australia,M,Australia,50,"SQL, Data Visualization, GCP, Computer Vision, Git",Master,0,Retail,4/5/2024,7/6/2024,1555,6.6,Cognitive Computing,,60Ð90k
+AI01465,AI Software Engineer,73530,USD,MI,FL,Australia,S,Sweden,0,"Tableau, PyTorch, SQL, Spark, Hadoop",Associate,2,Consulting,10/6/2024,31/7/2024,2134,8.3,AI Innovations,,60Ð90k
+AI01473,Head of AI,95872,USD,MI,FT,Australia,M,Australia,50,"Python, Spark, Data Visualization, GCP, TensorFlow",Associate,2,Manufacturing,13/2/2024,4/3/2024,1242,6.1,Machine Intelligence Group,,90Ð120k
+AI01479,Machine Learning Researcher,108543,USD,SE,FL,Australia,S,Australia,100,"Data Visualization, Scala, Docker, Hadoop, GCP",Bachelor,7,Transportation,23/3/2024,16/4/2024,1404,8.8,Future Systems,,90Ð120k
+AI01487,Principal Data Scientist,72459,USD,EN,PT,Australia,S,Canada,50,"Computer Vision, Statistics, Tableau, Data Visualization",Associate,1,Retail,6/10/2024,28/11/2024,840,7,Machine Intelligence Group,,60Ð90k
+AI01519,Autonomous Systems Engineer,81157,USD,MI,PT,Australia,S,Australia,0,"Hadoop, Kubernetes, Data Visualization",Master,3,Real Estate,8/7/2024,14/9/2024,1363,7.9,AI Innovations,,60Ð90k
+AI01582,AI Consultant,59222,USD,EN,FT,Australia,M,Australia,100,"Python, Spark, MLOps, Linux",Associate,0,Finance,25/3/2025,13/4/2025,2392,7.2,Advanced Robotics,,30Ð60k
+AI01603,AI Specialist,102093,USD,SE,FT,Australia,S,Netherlands,0,"Tableau, Git, SQL, Hadoop, Spark",PhD,6,Manufacturing,6/1/2024,23/1/2024,1161,6.3,Digital Transformation LLC,,90Ð120k
+AI01612,AI Software Engineer,106903,USD,SE,FT,Australia,S,Australia,50,"Git, Data Visualization, Computer Vision",Associate,7,Real Estate,5/2/2024,27/3/2024,584,8,Neural Networks Co,,90Ð120k
+AI01620,NLP Engineer,167289,USD,SE,CT,Australia,L,Australia,100,"Python, AWS, Deep Learning, Azure",Bachelor,5,Automotive,4/1/2024,5/3/2024,1124,6,Autonomous Tech,,160Ð200k
+AI01645,AI Consultant,51215,USD,EN,CT,Australia,M,Australia,100,"Python, Linux, Git, Statistics",Associate,0,Real Estate,13/6/2024,3/8/2024,1672,5.4,Algorithmic Solutions,,30Ð60k
+AI01674,AI Architect,135021,USD,SE,PT,Australia,S,Australia,100,"Linux, SQL, Computer Vision",Master,7,Automotive,28/2/2025,11/4/2025,603,6.6,AI Innovations,,120Ð160k
+AI01683,Robotics Engineer,226504,USD,EX,FT,Australia,S,Australia,100,"PyTorch, Scala, Data Visualization, GCP",Associate,18,Healthcare,8/12/2024,9/1/2025,993,5.8,Machine Intelligence Group,,200Ð250k
+AI01684,Autonomous Systems Engineer,186222,USD,EX,CT,Australia,S,Finland,100,"Linux, Data Visualization, Java",Associate,15,Media,17/3/2024,9/5/2024,1023,6,Cognitive Computing,,160Ð200k
+AI01730,Machine Learning Engineer,137257,USD,SE,FT,Australia,S,Australia,100,"Statistics, AWS, Mathematics, Azure, TensorFlow",Bachelor,9,Real Estate,28/3/2025,7/6/2025,2392,9.3,Neural Networks Co,,120Ð160k
+AI01736,AI Consultant,62844,USD,EN,FL,Australia,M,Australia,50,"R, Linux, Docker, Kubernetes",Bachelor,0,Media,4/9/2024,27/9/2024,1570,7.1,Machine Intelligence Group,,60Ð90k
+AI01748,Data Scientist,88944,USD,EN,PT,Australia,L,Ireland,100,"Scala, Computer Vision, TensorFlow, Tableau",Associate,1,Finance,24/5/2024,30/7/2024,1630,7.9,Machine Intelligence Group,,60Ð90k
+AI01770,Machine Learning Researcher,59459,USD,EN,PT,Australia,L,Australia,50,"Java, R, Deep Learning",Associate,0,Automotive,22/9/2024,9/11/2024,1539,6.8,Smart Analytics,,30Ð60k
+AI01846,AI Research Scientist,82425,USD,MI,PT,Australia,M,Norway,0,"SQL, AWS, Deep Learning, PyTorch, Computer Vision",Associate,4,Finance,27/12/2024,18/2/2025,1755,7.3,Future Systems,,60Ð90k
+AI01857,Machine Learning Researcher,63724,USD,EN,FT,Australia,L,Switzerland,100,"Data Visualization, SQL, Deep Learning",Associate,0,Media,3/4/2025,8/6/2025,862,6,DataVision Ltd,,60Ð90k
+AI01864,NLP Engineer,95706,USD,MI,CT,Australia,L,Australia,100,"Python, TensorFlow, PyTorch",PhD,2,Automotive,20/1/2025,18/3/2025,518,6.3,Quantum Computing Inc,,90Ð120k
+AI01868,Computer Vision Engineer,259535,USD,EX,FL,Australia,L,Israel,0,"Docker, Scala, Deep Learning, Python, Spark",PhD,19,Media,4/1/2024,22/1/2024,2414,7.7,DataVision Ltd,,250Ð300k
+AI01873,Data Scientist,69797,USD,EN,FT,Australia,L,Australia,50,"Docker, Data Visualization, AWS, MLOps",Associate,0,Finance,18/3/2025,28/4/2025,1693,9.9,Future Systems,,60Ð90k
+AI01907,Machine Learning Engineer,59376,USD,EN,CT,Australia,S,Australia,100,"TensorFlow, Kubernetes, MLOps",Master,0,Finance,3/5/2024,13/6/2024,1906,7.7,TechCorp Inc,,30Ð60k
+AI01909,Machine Learning Engineer,99872,USD,MI,PT,Australia,L,Australia,50,"Kubernetes, Deep Learning, PyTorch, Azure",Master,4,Government,9/4/2024,4/6/2024,546,6.2,Neural Networks Co,,90Ð120k
+AI01919,NLP Engineer,117847,USD,SE,FT,Australia,S,India,100,"R, Git, NLP, Tableau, Statistics",Bachelor,5,Manufacturing,20/9/2024,11/10/2024,1757,7.8,Cloud AI Solutions,,90Ð120k
+AI01957,AI Product Manager,124687,USD,SE,CT,Australia,M,Australia,0,"TensorFlow, Scala, Data Visualization, Python",Master,8,Gaming,26/5/2024,19/6/2024,1425,6.8,Advanced Robotics,,120Ð160k
+AI01962,Machine Learning Engineer,189567,USD,EX,CT,Australia,S,Australia,0,"Java, Kubernetes, PyTorch, Linux",Master,10,Education,29/11/2024,17/12/2024,1672,9,Advanced Robotics,,160Ð200k
+AI01963,Machine Learning Engineer,176467,USD,EX,FT,Australia,L,Singapore,50,"Docker, SQL, Deep Learning",Associate,10,Finance,23/8/2024,28/10/2024,2228,6.3,Neural Networks Co,,160Ð200k
+AI01973,Data Scientist,75459,USD,MI,FL,Australia,S,Australia,50,"Statistics, Azure, Deep Learning, Mathematics, Computer Vision",PhD,4,Transportation,1/5/2024,20/6/2024,2244,8.3,DeepTech Ventures,,60Ð90k
+AI01989,AI Research Scientist,219209,USD,EX,FT,Australia,M,Canada,100,"SQL, Hadoop, MLOps, Deep Learning, TensorFlow",Associate,13,Consulting,11/4/2025,29/4/2025,1307,8.4,Autonomous Tech,,200Ð250k
+AI02008,NLP Engineer,74504,USD,MI,FT,Australia,M,Australia,50,"Hadoop, Linux, Data Visualization",PhD,2,Gaming,28/10/2024,23/12/2024,1384,9.5,Cloud AI Solutions,,60Ð90k
+AI02052,ML Ops Engineer,56037,USD,EN,FT,Australia,S,Australia,100,"Python, MLOps, Linux, TensorFlow, Deep Learning",Master,1,Retail,3/2/2024,5/4/2024,1961,5.8,Cognitive Computing,,30Ð60k
+AI02062,Computer Vision Engineer,96824,USD,MI,PT,Australia,S,Australia,100,"GCP, PyTorch, Deep Learning, MLOps",Master,4,Consulting,15/3/2025,16/5/2025,1517,9.9,Future Systems,,90Ð120k
+AI02077,AI Software Engineer,88064,USD,MI,PT,Australia,M,Australia,100,"Hadoop, Computer Vision, Data Visualization, Python",Associate,4,Energy,15/2/2024,30/3/2024,922,9.3,DeepTech Ventures,,60Ð90k
+AI02109,AI Research Scientist,214971,USD,EX,CT,Australia,L,Australia,0,"Python, R, Kubernetes",Bachelor,15,Media,31/10/2024,15/11/2024,1754,7.9,Quantum Computing Inc,,200Ð250k
+AI02116,Deep Learning Engineer,96213,USD,MI,PT,Australia,M,Australia,50,"Hadoop, PyTorch, Tableau",Master,4,Gaming,2/2/2025,16/4/2025,919,7.7,Digital Transformation LLC,,90Ð120k
+AI02140,Data Engineer,79605,USD,EN,PT,Australia,L,South Korea,0,"Java, SQL, Azure, Scala",Associate,1,Telecommunications,26/2/2024,5/4/2024,802,8.9,Predictive Systems,,60Ð90k
+AI02159,Research Scientist,66115,USD,EN,PT,Australia,S,Australia,0,"Linux, Python, AWS, NLP",Master,1,Automotive,1/9/2024,15/10/2024,718,7.5,Cloud AI Solutions,,60Ð90k
+AI02170,AI Product Manager,84132,USD,EN,CT,Australia,L,Israel,0,"AWS, R, SQL, Git",Associate,0,Energy,12/8/2024,10/9/2024,1786,9.7,Future Systems,,60Ð90k
+AI02179,AI Product Manager,132252,USD,SE,FL,Australia,M,Australia,100,"PyTorch, Deep Learning, Scala, TensorFlow",Master,8,Government,18/5/2024,17/7/2024,2330,7,Digital Transformation LLC,,120Ð160k
+AI02183,Computer Vision Engineer,61490,USD,EN,FT,Australia,S,Australia,50,"GCP, Linux, Docker, Git",PhD,0,Real Estate,6/10/2024,25/11/2024,1192,8.6,Algorithmic Solutions,,60Ð90k
+AI02248,AI Software Engineer,75857,USD,EN,CT,Australia,M,Australia,100,"PyTorch, Azure, SQL",Master,0,Education,8/6/2024,24/7/2024,1757,7.7,Digital Transformation LLC,,60Ð90k
+AI02264,Deep Learning Engineer,139280,USD,SE,PT,Australia,L,Australia,50,"Mathematics, GCP, AWS, Git, Python",Associate,9,Transportation,6/9/2024,10/11/2024,1610,5.7,Quantum Computing Inc,,120Ð160k
+AI02266,Computer Vision Engineer,119365,USD,SE,FT,Australia,S,Australia,100,"Python, Azure, TensorFlow, NLP, MLOps",Bachelor,9,Retail,12/12/2024,5/1/2025,825,9.1,TechCorp Inc,,90Ð120k
+AI02276,ML Ops Engineer,87938,USD,MI,FT,Australia,S,India,100,"Statistics, GCP, Python, Tableau",Associate,4,Healthcare,24/2/2024,7/5/2024,808,8.2,DataVision Ltd,,60Ð90k
+AI02284,AI Consultant,126405,USD,EX,CT,Australia,S,Australia,0,"Data Visualization, R, Git, AWS, Computer Vision",Associate,16,Healthcare,25/10/2024,2/12/2024,958,9.1,Quantum Computing Inc,,120Ð160k
+AI02306,AI Consultant,104779,USD,SE,FL,Australia,S,Australia,50,"GCP, MLOps, Python, Statistics",Master,5,Energy,16/9/2024,9/11/2024,2136,7.3,Predictive Systems,,90Ð120k
+AI02307,Deep Learning Engineer,98366,USD,MI,FT,Australia,S,Australia,50,"Docker, AWS, PyTorch",Master,3,Automotive,14/3/2024,8/4/2024,2397,6.8,Cloud AI Solutions,,90Ð120k
+AI02328,AI Research Scientist,56447,USD,EN,PT,Australia,S,Australia,0,"Linux, SQL, R, GCP, Java",PhD,1,Media,9/9/2024,7/10/2024,2195,8.6,Machine Intelligence Group,,30Ð60k
+AI02362,Robotics Engineer,127905,USD,EX,FL,Australia,S,Australia,100,"Linux, Spark, TensorFlow",Associate,13,Healthcare,11/5/2024,13/6/2024,1542,8,Predictive Systems,,120Ð160k
+AI02432,Autonomous Systems Engineer,51367,USD,EN,FT,Australia,M,Australia,50,"Mathematics, Azure, GCP, AWS",Bachelor,1,Consulting,10/5/2024,7/7/2024,1074,7.6,Neural Networks Co,,30Ð60k
+AI02446,AI Software Engineer,101396,USD,MI,FT,Australia,L,Australia,100,"Hadoop, GCP, Azure, Scala",PhD,4,Retail,22/1/2025,10/3/2025,2055,7.9,Predictive Systems,,90Ð120k
+AI02476,AI Consultant,98817,USD,SE,FL,Australia,S,Australia,0,"AWS, Statistics, SQL, Computer Vision, Tableau",Master,7,Real Estate,25/6/2024,5/9/2024,1040,8.4,Neural Networks Co,,90Ð120k
+AI02481,AI Architect,146369,USD,SE,PT,Australia,M,Australia,50,"Deep Learning, Azure, R, Linux",Master,8,Consulting,24/11/2024,22/1/2025,2446,8.4,Autonomous Tech,,120Ð160k
+AI02518,Data Analyst,221652,USD,EX,FT,Australia,L,Australia,50,"TensorFlow, NLP, SQL, R, Deep Learning",Bachelor,19,Real Estate,5/5/2024,30/6/2024,1568,7.8,Smart Analytics,,200Ð250k
+AI02582,AI Architect,147595,USD,EX,FL,Australia,M,Australia,0,"PyTorch, Deep Learning, NLP",Associate,16,Gaming,10/4/2025,13/6/2025,785,8.3,Future Systems,,120Ð160k
+AI02585,Research Scientist,196014,USD,EX,FT,Australia,S,Australia,0,"Kubernetes, Scala, Data Visualization, Git, Python",PhD,12,Consulting,24/3/2024,17/4/2024,503,8.3,AI Innovations,,160Ð200k
+AI02586,Computer Vision Engineer,209255,USD,EX,CT,Australia,S,Australia,50,"Python, Spark, Tableau, Linux, TensorFlow",PhD,18,Manufacturing,11/5/2024,11/7/2024,2088,6.7,Neural Networks Co,,200Ð250k
+AI02592,ML Ops Engineer,192067,USD,EX,FL,Australia,L,Australia,50,"Linux, Deep Learning, Kubernetes, Git, GCP",Associate,19,Energy,25/3/2024,21/5/2024,1468,5,Autonomous Tech,,160Ð200k
+AI02613,Head of AI,69274,USD,EN,PT,Australia,M,Austria,100,"GCP, Python, Deep Learning, PyTorch",PhD,1,Manufacturing,13/8/2024,4/9/2024,1265,6,DeepTech Ventures,,60Ð90k
+AI02616,Deep Learning Engineer,61148,USD,EN,FL,Australia,L,Australia,100,"Kubernetes, Python, MLOps, TensorFlow, Deep Learning",PhD,0,Transportation,3/2/2025,21/2/2025,984,9.3,Machine Intelligence Group,,60Ð90k
+AI02633,Research Scientist,104147,USD,SE,FT,Australia,S,United Kingdom,50,"Data Visualization, GCP, PyTorch, Statistics",Associate,7,Healthcare,13/3/2025,31/3/2025,1642,5.6,Digital Transformation LLC,,90Ð120k
+AI02659,Autonomous Systems Engineer,68299,USD,MI,CT,Australia,S,Australia,100,"GCP, TensorFlow, Python, Linux",Associate,4,Education,27/9/2024,17/11/2024,919,9.4,Machine Intelligence Group,,60Ð90k
+AI02678,AI Architect,195760,USD,EX,PT,Australia,M,Australia,100,"PyTorch, Scala, AWS, Docker",Associate,12,Government,23/4/2024,11/6/2024,1079,8.8,Smart Analytics,,160Ð200k
+AI02689,AI Architect,85176,USD,MI,CT,Australia,S,Australia,0,"Python, Mathematics, Spark, Data Visualization, GCP",Bachelor,3,Real Estate,29/1/2025,27/2/2025,1464,7.6,DeepTech Ventures,,60Ð90k
+AI02699,Autonomous Systems Engineer,123333,USD,MI,CT,Australia,L,Australia,100,"Spark, Kubernetes, Statistics",PhD,3,Manufacturing,9/9/2024,14/10/2024,2408,7,Cloud AI Solutions,,120Ð160k
+AI02713,Data Engineer,75628,USD,MI,FT,Australia,M,Sweden,100,"NLP, SQL, Mathematics, Git, Spark",Associate,2,Retail,19/12/2024,7/2/2025,898,9.6,Predictive Systems,,60Ð90k
+AI02759,Computer Vision Engineer,125074,USD,EX,PT,Australia,S,Australia,100,"MLOps, Java, SQL",PhD,10,Telecommunications,21/8/2024,25/10/2024,2232,7.6,Cognitive Computing,,120Ð160k
+AI02768,AI Specialist,90241,USD,MI,PT,Australia,S,Australia,0,"Deep Learning, Python, TensorFlow",Master,2,Consulting,3/7/2024,1/9/2024,1534,5.7,DataVision Ltd,,90Ð120k
+AI02783,Autonomous Systems Engineer,51501,USD,EN,FT,Australia,M,Australia,100,"Computer Vision, TensorFlow, Mathematics, SQL, Deep Learning",PhD,1,Energy,22/3/2025,10/5/2025,2499,8.6,Cloud AI Solutions,,30Ð60k
+AI02801,Machine Learning Researcher,99839,USD,MI,FT,Australia,L,United Kingdom,100,"Linux, TensorFlow, Python",Bachelor,4,Gaming,11/11/2024,16/1/2025,1940,8.6,Predictive Systems,,90Ð120k
+AI02834,Machine Learning Researcher,127521,USD,SE,PT,Australia,L,United Kingdom,50,"Azure, SQL, PyTorch",Bachelor,6,Gaming,10/12/2024,29/12/2024,835,6.2,Neural Networks Co,,120Ð160k
+AI02848,AI Software Engineer,233372,USD,EX,FT,Australia,M,Australia,50,"PyTorch, Scala, NLP",Master,13,Real Estate,14/2/2025,31/3/2025,1578,6.8,Smart Analytics,,200Ð250k
+AI02850,AI Research Scientist,127437,USD,SE,PT,Australia,M,Austria,0,"Azure, Kubernetes, Computer Vision",Bachelor,6,Healthcare,30/9/2024,25/11/2024,529,6.4,Advanced Robotics,,120Ð160k
+AI02851,Robotics Engineer,168778,USD,SE,CT,Australia,L,Australia,50,"NLP, MLOps, Scala, GCP",Bachelor,5,Government,18/4/2025,3/5/2025,1675,9,Autonomous Tech,,160Ð200k
+AI02881,Research Scientist,121034,USD,MI,PT,Australia,L,Switzerland,100,"SQL, Tableau, TensorFlow",Associate,4,Telecommunications,9/5/2024,30/5/2024,689,8.6,Smart Analytics,,120Ð160k
+AI02980,ML Ops Engineer,235830,USD,EX,PT,Australia,L,Australia,50,"Data Visualization, Linux, Python, Hadoop",PhD,12,Real Estate,13/1/2024,18/3/2024,2052,6.5,Algorithmic Solutions,,200Ð250k
+AI02988,AI Research Scientist,154321,USD,EX,FT,Australia,M,Australia,50,"Docker, Spark, Hadoop, Mathematics",Bachelor,18,Healthcare,30/9/2024,6/11/2024,1911,9.6,Machine Intelligence Group,,120Ð160k
+AI03025,AI Architect,192167,USD,EX,FT,Australia,S,Australia,50,"Mathematics, GCP, Scala",Bachelor,14,Transportation,5/4/2025,10/5/2025,621,8,Autonomous Tech,,160Ð200k
+AI03099,AI Product Manager,74511,USD,EN,PT,Australia,L,Singapore,50,"PyTorch, Scala, Computer Vision, GCP, Spark",PhD,0,Media,31/12/2024,14/3/2025,599,9.6,Digital Transformation LLC,,60Ð90k
+AI03112,Deep Learning Engineer,74725,USD,EN,CT,Australia,M,China,50,"Python, Hadoop, Spark",Associate,1,Government,2/8/2024,17/8/2024,1736,8.7,Future Systems,,60Ð90k
+AI03144,AI Research Scientist,187201,USD,EX,FT,Australia,L,Australia,0,"SQL, Hadoop, NLP",PhD,19,Energy,28/8/2024,16/9/2024,599,5.9,Advanced Robotics,,160Ð200k
+AI03187,Autonomous Systems Engineer,133477,USD,SE,CT,Australia,L,Australia,0,"MLOps, SQL, Kubernetes, Scala, PyTorch",Associate,7,Media,10/9/2024,11/10/2024,844,5.8,Neural Networks Co,,120Ð160k
+AI03193,NLP Engineer,76926,USD,MI,PT,Australia,S,France,50,"Computer Vision, PyTorch, TensorFlow, Azure, Linux",Master,4,Energy,7/4/2025,20/5/2025,2475,7.9,Cloud AI Solutions,,60Ð90k
+AI03225,NLP Engineer,191781,USD,EX,PT,Australia,S,China,50,"Git, Statistics, Data Visualization, Deep Learning",Bachelor,10,Consulting,19/10/2024,20/12/2024,1034,6.8,Machine Intelligence Group,,160Ð200k
+AI03239,AI Architect,181001,USD,EX,FL,Australia,S,France,0,"Mathematics, Deep Learning, Git, MLOps",PhD,18,Education,29/3/2025,22/5/2025,2332,5.3,Predictive Systems,,160Ð200k
+AI03262,Autonomous Systems Engineer,183553,USD,EX,CT,Australia,S,United States,100,"Java, Linux, MLOps, Kubernetes",PhD,19,Transportation,1/3/2024,24/4/2024,1260,7,Advanced Robotics,,160Ð200k
+AI03294,AI Software Engineer,95938,USD,MI,FT,Australia,S,Australia,0,"Python, Java, Kubernetes, Azure",Bachelor,2,Finance,8/5/2024,12/6/2024,2122,9.2,Advanced Robotics,,90Ð120k
+AI03296,AI Specialist,95499,USD,MI,FL,Australia,S,Norway,0,"Docker, Java, Linux, Computer Vision",PhD,3,Energy,22/7/2024,25/8/2024,1033,7.2,Future Systems,,90Ð120k
+AI03318,AI Research Scientist,68516,USD,EN,FT,Australia,L,Australia,50,"NLP, Scala, TensorFlow",Bachelor,1,Education,25/2/2024,28/3/2024,1153,5.4,Smart Analytics,,60Ð90k
+AI03341,AI Product Manager,125516,USD,EX,FT,Australia,S,Australia,100,"Python, Mathematics, TensorFlow, Tableau",PhD,12,Real Estate,29/4/2025,26/6/2025,1818,6.9,AI Innovations,,120Ð160k
+AI03377,Data Scientist,80618,USD,EN,PT,Australia,L,Australia,100,"Python, TensorFlow, Scala",Master,0,Consulting,11/1/2025,17/2/2025,966,9.8,AI Innovations,,60Ð90k
+AI03406,Data Engineer,62047,USD,EN,CT,Australia,L,Australia,100,"Spark, Linux, MLOps, Mathematics",Bachelor,0,Manufacturing,28/8/2024,21/10/2024,1109,5.6,TechCorp Inc,,60Ð90k
+AI03412,Computer Vision Engineer,61796,USD,EN,CT,Australia,M,Australia,100,"Scala, Azure, R, Computer Vision",PhD,0,Government,11/3/2025,17/4/2025,1670,9.2,AI Innovations,,60Ð90k
+AI03413,AI Software Engineer,91480,USD,MI,FL,Australia,M,Australia,100,"Python, Deep Learning, TensorFlow, Mathematics",Bachelor,4,Transportation,31/3/2024,20/5/2024,1760,8,Autonomous Tech,,90Ð120k
+AI03439,Deep Learning Engineer,123389,USD,SE,FL,Australia,S,Australia,50,"PyTorch, Spark, Azure, GCP",PhD,5,Real Estate,29/9/2024,8/11/2024,2429,5.5,Smart Analytics,,120Ð160k
+AI03455,Autonomous Systems Engineer,151691,USD,SE,FL,Australia,L,Australia,50,"Spark, Azure, PyTorch, Scala",Associate,7,Media,18/4/2025,19/6/2025,1387,6.5,Cognitive Computing,,120Ð160k
+AI03505,Deep Learning Engineer,70797,USD,EN,PT,Australia,L,Australia,50,"Kubernetes, Git, TensorFlow",Master,1,Retail,17/4/2024,5/5/2024,2015,8,Smart Analytics,,60Ð90k
+AI03575,Data Engineer,84000,USD,MI,FL,Australia,M,Australia,50,"Python, Deep Learning, Azure, Linux, Git",Master,4,Media,29/6/2024,25/7/2024,1999,5.2,Digital Transformation LLC,,60Ð90k
+AI03592,Data Scientist,164033,USD,SE,FL,Australia,L,Australia,100,"Computer Vision, GCP, Mathematics, SQL",Bachelor,6,Gaming,17/8/2024,13/10/2024,1324,7.2,Digital Transformation LLC,,160Ð200k
+AI03608,Computer Vision Engineer,289765,USD,EX,FT,Australia,L,Australia,50,"Tableau, R, Scala",PhD,18,Energy,22/4/2024,9/6/2024,2485,9.6,Cognitive Computing,,250Ð300k
+AI03611,Deep Learning Engineer,239105,USD,EX,FL,Australia,L,Australia,100,"Computer Vision, Python, Hadoop",PhD,10,Education,13/3/2024,19/4/2024,754,8.6,DeepTech Ventures,,200Ð250k
+AI03648,Robotics Engineer,167175,USD,SE,CT,Australia,L,Australia,0,"Python, Scala, GCP",Associate,8,Education,4/6/2024,20/7/2024,631,6.5,TechCorp Inc,,160Ð200k
+AI03651,AI Software Engineer,90891,USD,MI,PT,Australia,M,Denmark,50,"GCP, R, Tableau, Linux",PhD,4,Manufacturing,31/5/2024,22/6/2024,1476,7.3,Algorithmic Solutions,,90Ð120k
+AI03669,Data Analyst,75483,USD,EN,FT,Australia,M,Denmark,100,"Python, Git, Hadoop, Scala, GCP",Associate,0,Telecommunications,17/5/2024,23/7/2024,826,8.8,Digital Transformation LLC,,60Ð90k
+AI03696,Data Engineer,87328,USD,EN,FL,Australia,L,Australia,100,"AWS, Data Visualization, GCP",Associate,0,Manufacturing,16/7/2024,12/9/2024,2109,7.3,Neural Networks Co,,60Ð90k
+AI03709,Data Engineer,60632,USD,EN,FL,Australia,L,France,100,"SQL, R, Kubernetes",Bachelor,1,Technology,21/4/2024,15/5/2024,1877,7.5,Predictive Systems,,60Ð90k
+AI03722,Computer Vision Engineer,97323,USD,MI,FL,Australia,M,Australia,50,"MLOps, Python, TensorFlow, Linux",PhD,3,Education,16/3/2025,18/5/2025,1527,7.9,Smart Analytics,,90Ð120k
+AI03724,Machine Learning Researcher,77756,USD,EN,PT,Australia,M,Australia,100,"Kubernetes, Linux, PyTorch, Data Visualization",Bachelor,0,Automotive,30/1/2024,28/3/2024,2304,9.1,Autonomous Tech,,60Ð90k
+AI03738,Computer Vision Engineer,74655,USD,MI,PT,Australia,M,Australia,0,"TensorFlow, Scala, Data Visualization, Git",PhD,4,Automotive,24/4/2024,25/6/2024,2080,5.4,Autonomous Tech,,60Ð90k
+AI03787,Robotics Engineer,80433,USD,EN,PT,Australia,L,Finland,0,"Java, Computer Vision, Docker, R, Tableau",Associate,0,Retail,17/2/2024,15/4/2024,1989,6.7,AI Innovations,,60Ð90k
+AI03796,Data Analyst,89123,USD,MI,FT,Australia,S,Switzerland,50,"MLOps, Azure, Mathematics, Computer Vision, Python",Bachelor,2,Manufacturing,18/10/2024,30/12/2024,1266,7.1,Cloud AI Solutions,,60Ð90k
+AI03858,Deep Learning Engineer,95715,USD,MI,FL,Australia,M,Australia,100,"Tableau, Linux, Java",PhD,4,Government,25/6/2024,12/8/2024,2004,9.3,DeepTech Ventures,,90Ð120k
+AI03868,Data Engineer,124142,USD,MI,FL,Australia,L,Australia,100,"AWS, Mathematics, Scala, Statistics",Bachelor,4,Manufacturing,12/6/2024,9/7/2024,2184,5.6,Future Systems,,120Ð160k
+AI03884,AI Product Manager,105208,USD,SE,CT,Australia,M,Australia,0,"Statistics, Kubernetes, AWS",Bachelor,6,Automotive,8/2/2024,6/3/2024,1973,5.1,TechCorp Inc,,90Ð120k
+AI03896,Machine Learning Researcher,122831,USD,SE,PT,Australia,S,Australia,0,"R, Kubernetes, NLP",Bachelor,8,Technology,28/10/2024,17/11/2024,833,6.1,Predictive Systems,,120Ð160k
+AI03931,Head of AI,89634,USD,MI,FL,Australia,L,Australia,50,"Git, Azure, Kubernetes, GCP",Associate,2,Media,22/7/2024,7/9/2024,1429,8.3,AI Innovations,,60Ð90k
+AI03937,Machine Learning Engineer,86015,USD,MI,FT,Australia,L,Australia,100,"MLOps, PyTorch, Java",Master,2,Energy,15/1/2024,6/2/2024,1137,7.8,Digital Transformation LLC,,60Ð90k
+AI03951,AI Product Manager,56642,USD,EN,FL,Australia,M,Australia,50,"Scala, Mathematics, Tableau, PyTorch, Hadoop",Master,1,Retail,8/6/2024,19/7/2024,1122,9.2,TechCorp Inc,,30Ð60k
+AI03976,Data Analyst,152803,USD,SE,FT,Australia,L,Norway,0,"Docker, TensorFlow, Computer Vision",Bachelor,7,Retail,31/5/2024,27/7/2024,603,5.6,DeepTech Ventures,,120Ð160k
+AI03992,AI Product Manager,86140,USD,EN,FT,Australia,L,Australia,100,"Docker, Git, Hadoop, Data Visualization",Bachelor,1,Transportation,26/3/2024,12/5/2024,2001,5.8,Advanced Robotics,,60Ð90k
+AI04013,Autonomous Systems Engineer,124151,USD,EX,FT,Australia,S,France,0,"GCP, Git, Deep Learning, Data Visualization",Associate,16,Finance,4/4/2024,24/4/2024,529,7.1,Algorithmic Solutions,,120Ð160k
+AI04014,Computer Vision Engineer,87402,USD,MI,FT,Australia,L,Australia,50,"Python, TensorFlow, MLOps, Hadoop, Statistics",PhD,2,Government,20/12/2024,18/1/2025,1627,5,Smart Analytics,,60Ð90k
+AI04027,Autonomous Systems Engineer,84350,USD,MI,FT,Australia,L,Australia,0,"Spark, Java, Git",Associate,2,Healthcare,2/6/2024,5/8/2024,2007,5,Predictive Systems,,60Ð90k
+AI04048,AI Architect,157518,USD,SE,FT,Australia,L,France,50,"SQL, MLOps, Linux, Mathematics, Statistics",Master,8,Media,25/11/2024,22/1/2025,2461,9.8,Cloud AI Solutions,,120Ð160k
+AI04146,Machine Learning Engineer,119384,USD,SE,FT,Australia,M,Switzerland,100,"Kubernetes, Azure, Git",PhD,6,Education,9/1/2025,19/3/2025,607,7.9,Cloud AI Solutions,,90Ð120k
+AI04161,AI Research Scientist,49858,USD,EN,PT,Australia,S,Australia,0,"NLP, SQL, Scala, Computer Vision",Master,0,Finance,8/1/2025,7/2/2025,1312,7.2,Quantum Computing Inc,,30Ð60k
+AI04166,AI Consultant,106981,USD,MI,FL,Australia,L,Switzerland,100,"Tableau, Python, NLP",Associate,4,Media,10/11/2024,14/1/2025,2387,9.5,Autonomous Tech,,90Ð120k
+AI04214,AI Research Scientist,200157,USD,EX,FL,Australia,S,Australia,50,"Docker, Python, NLP, Git, Spark",Associate,10,Healthcare,15/1/2025,6/2/2025,1939,6.2,Algorithmic Solutions,,200Ð250k
+AI04237,Robotics Engineer,146612,USD,SE,FT,Australia,M,Australia,100,"Hadoop, Git, Mathematics, AWS",Bachelor,5,Media,8/1/2024,10/3/2024,2044,7.7,Quantum Computing Inc,,120Ð160k
+AI04253,Robotics Engineer,128003,USD,SE,FT,Australia,L,Australia,50,"Linux, Hadoop, Git",Associate,7,Manufacturing,23/9/2024,16/11/2024,1072,7.4,Cloud AI Solutions,,120Ð160k
+AI04284,Computer Vision Engineer,65824,USD,EN,CT,Australia,M,Australia,100,"Statistics, Tableau, AWS",Master,0,Telecommunications,5/4/2025,21/5/2025,1332,5.9,Future Systems,,60Ð90k
+AI04301,AI Research Scientist,137061,USD,SE,PT,Australia,S,Australia,50,"Java, PyTorch, NLP",PhD,5,Education,13/2/2024,16/3/2024,1971,6.9,Future Systems,,120Ð160k
+AI04320,Machine Learning Researcher,256973,USD,EX,CT,Australia,L,Australia,50,"Tableau, GCP, Spark",Associate,11,Transportation,30/5/2024,13/7/2024,857,8.1,Predictive Systems,,250Ð300k
+AI04344,NLP Engineer,64449,USD,EN,FL,Australia,S,Australia,100,"Hadoop, Python, Azure, Statistics",PhD,0,Gaming,13/4/2025,7/5/2025,1691,5.4,Machine Intelligence Group,,60Ð90k
+AI04416,Deep Learning Engineer,253344,USD,EX,PT,Australia,L,Australia,100,"Java, AWS, MLOps, SQL",Associate,12,Automotive,9/11/2024,11/1/2025,2456,5.3,TechCorp Inc,,250Ð300k
+AI04427,AI Product Manager,46731,USD,EN,FT,Australia,S,China,100,"R, Hadoop, NLP, Deep Learning, Kubernetes",Master,1,Technology,10/4/2025,20/5/2025,1513,5.9,DataVision Ltd,,30Ð60k
+AI04501,Machine Learning Engineer,215515,USD,EX,CT,Australia,S,Australia,50,"Kubernetes, Mathematics, Statistics, Java, Hadoop",Master,11,Technology,26/1/2024,4/3/2024,1706,6.1,Quantum Computing Inc,,200Ð250k
+AI04533,AI Research Scientist,215521,USD,EX,CT,Australia,M,United Kingdom,50,"Azure, NLP, Git, Deep Learning",Associate,15,Energy,21/1/2024,14/2/2024,926,10,Cloud AI Solutions,,200Ð250k
+AI04541,NLP Engineer,96983,USD,MI,CT,Australia,S,Australia,50,"SQL, PyTorch, Docker, AWS, Data Visualization",PhD,2,Media,22/4/2024,8/5/2024,2099,7.1,Machine Intelligence Group,,90Ð120k
+AI04569,NLP Engineer,97398,USD,MI,PT,Australia,M,Australia,0,"Scala, Linux, Data Visualization, SQL",Master,2,Healthcare,11/10/2024,24/12/2024,2174,6.9,TechCorp Inc,,90Ð120k
+AI04580,Research Scientist,127287,USD,SE,FT,Australia,M,Australia,50,"Git, GCP, Tableau, Statistics",Master,6,Automotive,27/8/2024,21/9/2024,1394,5.7,Smart Analytics,,120Ð160k
+AI04604,Research Scientist,68045,USD,MI,FL,Australia,S,Australia,100,"Spark, Computer Vision, Java, R",Master,3,Gaming,1/6/2024,5/7/2024,1848,6,DeepTech Ventures,,60Ð90k
+AI04675,AI Architect,63023,USD,EN,CT,Australia,S,Australia,50,"R, Tableau, Azure",Bachelor,1,Telecommunications,25/6/2024,10/7/2024,996,9.8,DeepTech Ventures,,60Ð90k
+AI04692,AI Specialist,135354,USD,SE,PT,Australia,L,Australia,50,"Tableau, Python, Kubernetes, Spark",Associate,5,Gaming,20/11/2024,31/12/2024,2140,7.6,Neural Networks Co,,120Ð160k
+AI04698,Autonomous Systems Engineer,112267,USD,MI,PT,Australia,L,Ireland,0,"GCP, Data Visualization, Python, Linux, Docker",Bachelor,3,Technology,12/9/2024,15/10/2024,1613,8.1,Smart Analytics,,90Ð120k
+AI04714,AI Consultant,77459,USD,EN,CT,Australia,L,Australia,100,"MLOps, Kubernetes, Azure",PhD,1,Gaming,18/3/2024,7/5/2024,915,6.1,Cognitive Computing,,60Ð90k
+AI04717,Principal Data Scientist,68167,USD,MI,FT,Australia,S,Canada,50,"Python, AWS, SQL, Data Visualization, TensorFlow",Master,2,Consulting,2/6/2024,29/6/2024,783,8.7,Neural Networks Co,,60Ð90k
+AI04724,Machine Learning Engineer,98611,USD,MI,FT,Australia,S,Australia,100,"MLOps, Hadoop, R, SQL",Bachelor,3,Gaming,24/2/2025,17/3/2025,1243,8.5,Cognitive Computing,,90Ð120k
+AI04738,Machine Learning Engineer,117957,USD,SE,CT,Australia,L,Australia,0,"Computer Vision, Python, Docker, SQL",Master,6,Healthcare,13/1/2024,14/3/2024,1243,7.7,DataVision Ltd,,90Ð120k
+AI04751,AI Software Engineer,53421,USD,EN,PT,Australia,S,Australia,50,"Java, GCP, Linux",Bachelor,1,Consulting,16/6/2024,11/7/2024,975,6.2,Quantum Computing Inc,,30Ð60k
+AI04754,ML Ops Engineer,107349,USD,SE,CT,Australia,M,Netherlands,50,"Python, Git, Mathematics, SQL",Associate,5,Automotive,2/2/2025,9/3/2025,1035,5.5,Predictive Systems,,90Ð120k
+AI04757,Deep Learning Engineer,85575,USD,MI,CT,Australia,M,Australia,50,"Azure, AWS, Deep Learning, TensorFlow, Statistics",Bachelor,3,Finance,2/7/2024,4/9/2024,2149,6.9,Quantum Computing Inc,,60Ð90k
+AI04761,Deep Learning Engineer,79846,USD,MI,FL,Australia,M,Australia,0,"AWS, Data Visualization, Docker, Python, TensorFlow",Master,4,Telecommunications,5/7/2024,8/8/2024,704,5.5,Cloud AI Solutions,,60Ð90k
+AI04769,Computer Vision Engineer,61307,USD,EN,FL,Australia,M,Australia,100,"Tableau, MLOps, Scala, NLP, PyTorch",Bachelor,0,Consulting,20/4/2024,26/5/2024,765,7.9,DataVision Ltd,,60Ð90k
+AI04781,ML Ops Engineer,131390,USD,SE,FL,Australia,M,Australia,100,"TensorFlow, Python, GCP, PyTorch, R",Associate,7,Gaming,13/4/2025,30/4/2025,2029,5.8,Future Systems,,120Ð160k
+AI04805,Head of AI,144311,USD,SE,FL,Australia,L,Australia,0,"Scala, GCP, Data Visualization",Master,9,Transportation,21/9/2024,7/10/2024,2005,7.2,Algorithmic Solutions,,120Ð160k
+AI04810,Data Analyst,223675,USD,EX,FL,Australia,L,Australia,50,"Data Visualization, Python, TensorFlow, Computer Vision, MLOps",Bachelor,14,Healthcare,22/8/2024,7/9/2024,1938,9.6,Neural Networks Co,,200Ð250k
+AI04856,ML Ops Engineer,122025,USD,MI,CT,Australia,L,Germany,100,"R, Tableau, Python",Bachelor,3,Retail,19/7/2024,30/9/2024,1668,5.5,Cognitive Computing,,120Ð160k
+AI04857,Research Scientist,104698,USD,SE,FT,Australia,S,Australia,50,"AWS, Scala, NLP, SQL",Bachelor,6,Energy,5/11/2024,7/1/2025,1844,8.1,Machine Intelligence Group,,90Ð120k
+AI04860,Principal Data Scientist,60615,USD,EN,FL,Australia,S,Australia,0,"GCP, Java, MLOps",Master,1,Energy,4/9/2024,5/11/2024,1175,9.5,Algorithmic Solutions,,60Ð90k
+AI04873,Robotics Engineer,64321,USD,EN,FT,Australia,S,Australia,0,"TensorFlow, Python, Tableau",Bachelor,1,Manufacturing,16/12/2024,26/1/2025,973,5,Quantum Computing Inc,,60Ð90k
+AI04924,AI Consultant,49213,USD,EN,CT,Australia,S,Singapore,50,"PyTorch, SQL, Statistics",Associate,1,Technology,6/12/2024,9/1/2025,1925,9.7,Future Systems,,30Ð60k
+AI05002,Data Engineer,94160,USD,MI,FT,Australia,L,South Korea,50,"TensorFlow, AWS, Tableau, NLP",PhD,3,Retail,19/1/2025,16/2/2025,1133,5.7,Smart Analytics,,90Ð120k
+AI05009,Autonomous Systems Engineer,94844,USD,MI,FL,Australia,M,Australia,50,"Linux, TensorFlow, Deep Learning, SQL, Git",Bachelor,4,Healthcare,5/10/2024,31/10/2024,503,9.2,Cognitive Computing,,90Ð120k
+AI05044,Deep Learning Engineer,80349,USD,EN,FT,Australia,L,Australia,0,"R, Azure, Statistics, Python, GCP",Associate,1,Real Estate,25/8/2024,8/9/2024,1866,9.3,Cognitive Computing,,60Ð90k
+AI05067,Data Scientist,181979,USD,EX,CT,Australia,M,Australia,0,"Mathematics, Azure, SQL, Hadoop",Associate,17,Consulting,18/4/2024,16/6/2024,735,8.2,Quantum Computing Inc,,160Ð200k
+AI05089,AI Architect,135093,USD,SE,CT,Australia,M,Switzerland,100,"Linux, Git, Statistics, Scala",Associate,6,Government,12/1/2025,23/2/2025,1748,8.3,Cognitive Computing,,120Ð160k
+AI05098,AI Research Scientist,98606,USD,MI,PT,Australia,L,Australia,50,"AWS, Git, Deep Learning",Bachelor,2,Retail,23/12/2024,6/1/2025,1069,6.2,Digital Transformation LLC,,90Ð120k
+AI05104,Autonomous Systems Engineer,205127,USD,EX,PT,Australia,M,Australia,100,"Azure, Scala, Java, Data Visualization, SQL",Bachelor,11,Manufacturing,7/4/2024,21/5/2024,633,9.9,DeepTech Ventures,,200Ð250k
+AI05123,Computer Vision Engineer,136886,USD,SE,CT,Australia,S,South Korea,50,"TensorFlow, Azure, Tableau",PhD,7,Technology,4/8/2024,27/9/2024,2445,7.3,Algorithmic Solutions,,120Ð160k
+AI05135,Data Scientist,106118,USD,MI,FL,Australia,M,Australia,100,"Java, R, Tableau, Data Visualization, Deep Learning",Master,3,Telecommunications,21/7/2024,1/10/2024,548,7.3,Cognitive Computing,,90Ð120k
+AI05148,ML Ops Engineer,165378,USD,EX,FT,Australia,S,Australia,100,"Data Visualization, Docker, Kubernetes, Hadoop, Linux",PhD,13,Transportation,5/4/2024,12/6/2024,1011,5.3,Advanced Robotics,,160Ð200k
+AI05165,ML Ops Engineer,48515,USD,EN,FT,Australia,S,Norway,100,"Python, Deep Learning, Tableau",Master,1,Automotive,9/5/2024,21/7/2024,1597,7.3,TechCorp Inc,,30Ð60k
+AI05178,Autonomous Systems Engineer,207395,USD,EX,PT,Australia,M,Australia,50,"Data Visualization, Linux, Azure, Statistics, PyTorch",Master,17,Energy,10/1/2025,3/3/2025,1525,5.6,Future Systems,,200Ð250k
+AI05188,Computer Vision Engineer,218544,USD,EX,FL,Australia,M,Ireland,100,"Computer Vision, SQL, GCP, Linux, Tableau",Master,11,Finance,20/4/2025,5/6/2025,2218,5.6,Advanced Robotics,,200Ð250k
+AI05209,Machine Learning Engineer,58260,USD,EN,FL,Australia,S,Australia,100,"Spark, AWS, Docker, Java",Associate,0,Finance,31/1/2024,11/4/2024,1190,9,AI Innovations,,30Ð60k
+AI05218,AI Specialist,122344,USD,MI,CT,Australia,L,Netherlands,50,"Python, TensorFlow, Java",Master,3,Finance,21/1/2024,5/2/2024,1162,9.3,Cloud AI Solutions,,120Ð160k
+AI05219,Research Scientist,257666,USD,EX,PT,Australia,L,Australia,0,"SQL, PyTorch, Java",Associate,12,Transportation,28/8/2024,1/11/2024,1613,8.1,DataVision Ltd,,250Ð300k
+AI05228,Research Scientist,58950,USD,EN,FL,Australia,S,Australia,50,"Scala, Python, TensorFlow, GCP, Hadoop",PhD,1,Real Estate,22/1/2025,31/3/2025,699,8.8,Cloud AI Solutions,,30Ð60k
+AI05230,Data Scientist,139628,USD,SE,PT,Australia,L,Australia,0,"Python, Linux, Azure",Associate,7,Telecommunications,8/3/2025,14/4/2025,656,8.5,DeepTech Ventures,,120Ð160k
+AI05263,Data Analyst,98023,USD,MI,CT,Australia,L,Israel,100,"Python, Hadoop, Tableau",Bachelor,4,Retail,26/3/2025,17/4/2025,2204,9.2,Cognitive Computing,,90Ð120k
+AI05276,NLP Engineer,142805,USD,SE,FT,Australia,M,Australia,0,"Hadoop, Statistics, Kubernetes, Azure",Master,6,Manufacturing,24/9/2024,21/11/2024,2395,5.7,Cloud AI Solutions,,120Ð160k
+AI05294,NLP Engineer,157366,USD,SE,FL,Australia,L,Australia,50,"Python, Kubernetes, TensorFlow, Hadoop",Master,8,Government,30/12/2024,5/2/2025,1999,6.3,Digital Transformation LLC,,120Ð160k
+AI05336,Machine Learning Engineer,138378,USD,EX,FT,Australia,M,Australia,50,"SQL, Git, Data Visualization",PhD,11,Technology,13/11/2024,7/1/2025,2002,5.3,Smart Analytics,,120Ð160k
+AI05418,Data Analyst,77776,USD,EN,PT,Australia,L,Germany,100,"SQL, Python, Kubernetes, Linux, Scala",PhD,1,Transportation,23/11/2024,22/1/2025,1761,5.3,Algorithmic Solutions,,60Ð90k
+AI05451,Data Analyst,62980,USD,EN,FT,Australia,L,Australia,50,"Kubernetes, Python, Computer Vision, TensorFlow, Linux",Associate,1,Real Estate,10/12/2024,4/1/2025,503,8.7,Future Systems,,60Ð90k
+AI05457,Autonomous Systems Engineer,52089,USD,EN,FT,Australia,S,Australia,0,"MLOps, Python, TensorFlow",PhD,0,Healthcare,22/5/2024,14/7/2024,1736,7.1,DeepTech Ventures,,30Ð60k
+AI05463,ML Ops Engineer,103869,USD,MI,FL,Australia,L,Australia,100,"Git, SQL, Python, GCP",Master,3,Transportation,21/4/2025,4/6/2025,2113,9.2,Algorithmic Solutions,,90Ð120k
+AI05483,Deep Learning Engineer,106701,USD,SE,FT,Australia,S,Australia,0,"Python, Git, SQL, Deep Learning, TensorFlow",PhD,9,Healthcare,26/10/2024,18/12/2024,1834,6.3,Autonomous Tech,,90Ð120k
+AI05549,Principal Data Scientist,89200,USD,MI,CT,Australia,S,Australia,0,"Kubernetes, NLP, SQL, PyTorch, Linux",PhD,2,Transportation,4/9/2024,12/10/2024,1799,7.7,Machine Intelligence Group,,60Ð90k
+AI05593,Autonomous Systems Engineer,67598,USD,MI,FL,Australia,S,Australia,100,"Kubernetes, Spark, Statistics",Master,3,Transportation,23/10/2024,16/12/2024,2317,7.8,Autonomous Tech,,60Ð90k
+AI05611,Data Engineer,73109,USD,EN,PT,Australia,M,Netherlands,100,"Azure, Python, Kubernetes",Associate,1,Education,12/3/2025,7/4/2025,1404,8.3,Cloud AI Solutions,,60Ð90k
+AI05618,Data Engineer,97773,USD,MI,CT,Australia,S,Australia,50,"NLP, Statistics, Python, Hadoop",Associate,3,Consulting,15/3/2025,30/3/2025,1883,8.2,DataVision Ltd,,90Ð120k
+AI05621,Data Scientist,118502,USD,SE,PT,Australia,M,Australia,50,"SQL, Mathematics, GCP, Deep Learning",Bachelor,5,Telecommunications,13/2/2025,6/4/2025,533,6.5,Predictive Systems,,90Ð120k
+AI05641,AI Consultant,61033,USD,EN,FL,Australia,S,Ireland,50,"Tableau, R, Hadoop",Master,1,Media,10/12/2024,12/2/2025,1747,8.1,Cloud AI Solutions,,60Ð90k
+AI05666,AI Research Scientist,84015,USD,MI,PT,Australia,M,Australia,100,"Git, Statistics, Docker",Master,4,Technology,10/12/2024,15/1/2025,2425,5.2,Cloud AI Solutions,,60Ð90k
+AI05692,Data Scientist,126307,USD,MI,PT,Australia,L,Israel,100,"NLP, SQL, Data Visualization, R",Associate,3,Manufacturing,16/5/2024,21/6/2024,1506,8.9,TechCorp Inc,,120Ð160k
+AI05715,Machine Learning Engineer,66015,USD,EN,FT,Australia,S,India,100,"NLP, AWS, Spark, GCP, Statistics",Associate,0,Retail,28/3/2024,10/5/2024,1547,6.4,Machine Intelligence Group,,60Ð90k
+AI05731,Data Scientist,238769,USD,EX,FL,Australia,M,Australia,100,"Kubernetes, Deep Learning, TensorFlow",Bachelor,13,Government,4/10/2024,19/11/2024,1847,8.3,DeepTech Ventures,,200Ð250k
+AI05742,AI Software Engineer,115623,USD,MI,FT,Australia,L,Australia,50,"Azure, AWS, Linux, NLP",Master,3,Education,29/6/2024,30/8/2024,1558,9.2,Quantum Computing Inc,,90Ð120k
+AI05750,Computer Vision Engineer,78962,USD,MI,FL,Australia,S,Australia,0,"Tableau, NLP, Scala, SQL, Java",Master,2,Real Estate,17/9/2024,23/11/2024,1875,6.2,Future Systems,,60Ð90k
+AI05775,AI Consultant,208517,USD,EX,CT,Australia,M,Australia,0,"PyTorch, MLOps, Computer Vision, Statistics, NLP",PhD,17,Government,20/7/2024,8/9/2024,2342,5.9,Machine Intelligence Group,,200Ð250k
+AI05808,Research Scientist,87710,USD,MI,PT,Australia,L,Israel,50,"Mathematics, MLOps, Computer Vision, PyTorch, Scala",Master,2,Government,24/3/2024,27/4/2024,627,7.2,DataVision Ltd,,60Ð90k
+AI05816,Principal Data Scientist,51975,USD,EN,FL,Australia,M,Australia,100,"AWS, Azure, SQL, Spark",Bachelor,1,Energy,20/2/2025,14/3/2025,2477,5.1,Quantum Computing Inc,,30Ð60k
+AI05839,AI Research Scientist,120099,USD,SE,PT,Australia,M,Australia,50,"Kubernetes, MLOps, Spark, Scala, Hadoop",PhD,7,Telecommunications,15/6/2024,5/7/2024,1736,8.8,Future Systems,,120Ð160k
+AI05843,Deep Learning Engineer,57312,USD,EN,FL,Australia,S,Australia,100,"SQL, Python, Git, AWS, Linux",Bachelor,0,Retail,9/10/2024,8/12/2024,713,5.3,Quantum Computing Inc,,30Ð60k
+AI05864,AI Specialist,205134,USD,EX,FT,Australia,L,India,0,"NLP, AWS, Deep Learning, Spark, TensorFlow",Associate,13,Retail,26/6/2024,18/7/2024,830,9.1,DataVision Ltd,,200Ð250k
+AI05883,Autonomous Systems Engineer,78724,USD,MI,FL,Australia,M,Australia,0,"SQL, Mathematics, TensorFlow, Deep Learning, Spark",Bachelor,2,Telecommunications,30/12/2024,7/3/2025,1058,7,AI Innovations,,60Ð90k
+AI05892,Data Analyst,200530,USD,EX,FT,Australia,M,Australia,50,"Python, Azure, MLOps, Tableau",Master,19,Consulting,11/12/2024,10/1/2025,2307,6.8,Advanced Robotics,,200Ð250k
+AI05907,AI Research Scientist,119939,USD,SE,FL,Australia,S,Australia,0,"Scala, Data Visualization, Kubernetes, Git",PhD,9,Healthcare,4/1/2025,11/3/2025,2473,6.1,DeepTech Ventures,,90Ð120k
+AI05910,AI Consultant,76333,USD,EN,FL,Australia,M,Australia,0,"R, Hadoop, Java, Statistics, Azure",Associate,0,Real Estate,24/1/2024,14/3/2024,1438,9.5,Neural Networks Co,,60Ð90k
+AI05912,Data Engineer,156494,USD,EX,FT,Australia,S,Australia,0,"Java, Hadoop, Mathematics, Linux, Statistics",Master,13,Automotive,26/3/2024,11/5/2024,1274,5.1,Machine Intelligence Group,,120Ð160k
+AI05953,AI Research Scientist,146170,USD,SE,FL,Australia,L,Australia,0,"AWS, Python, Tableau",PhD,6,Retail,27/2/2024,7/4/2024,1103,9.2,Predictive Systems,,120Ð160k
+AI05961,AI Architect,110981,USD,SE,FT,Australia,M,Australia,100,"Azure, Spark, MLOps, Hadoop, Data Visualization",Associate,8,Government,23/4/2024,4/6/2024,1518,7.2,Cloud AI Solutions,,90Ð120k
+AI05994,Machine Learning Researcher,102231,USD,SE,FL,Australia,S,Australia,50,"Data Visualization, MLOps, Java, Python, Statistics",Bachelor,9,Education,1/1/2025,4/2/2025,862,7,Cloud AI Solutions,,90Ð120k
+AI06020,AI Product Manager,85179,USD,MI,FT,Australia,M,Australia,0,"Data Visualization, Python, Hadoop, TensorFlow",Master,4,Media,6/12/2024,30/12/2024,1699,5.2,Smart Analytics,,60Ð90k
+AI06021,Data Analyst,199374,USD,EX,PT,Australia,M,India,50,"Kubernetes, Linux, Data Visualization, Scala, SQL",Master,15,Gaming,19/10/2024,24/11/2024,997,5.9,Algorithmic Solutions,,160Ð200k
+AI06032,NLP Engineer,276154,USD,EX,PT,Australia,L,Australia,0,"Git, Linux, Data Visualization, TensorFlow, Scala",PhD,12,Manufacturing,24/5/2024,3/8/2024,898,5.3,DataVision Ltd,,250Ð300k
+AI06039,Computer Vision Engineer,249444,USD,EX,FL,Australia,L,Australia,50,"Scala, Docker, NLP",Bachelor,19,Energy,7/5/2024,17/7/2024,2144,8.6,TechCorp Inc,,200Ð250k
+AI06043,Computer Vision Engineer,90670,USD,MI,CT,Australia,S,Australia,50,"Data Visualization, PyTorch, Tableau, Statistics, Java",Associate,4,Energy,27/2/2024,29/3/2024,2331,8.8,DeepTech Ventures,,90Ð120k
+AI06046,ML Ops Engineer,69408,USD,EN,CT,Australia,L,Australia,50,"GCP, Java, Computer Vision, Scala, TensorFlow",Bachelor,0,Technology,14/12/2024,28/12/2024,1382,9.3,Digital Transformation LLC,,60Ð90k
+AI06101,Research Scientist,77542,USD,EN,FT,Australia,M,Australia,0,"Git, NLP, Deep Learning",Master,1,Real Estate,13/6/2024,4/7/2024,808,10,Predictive Systems,,60Ð90k
+AI06106,AI Architect,65352,USD,EN,FT,Australia,S,Australia,0,"Scala, Java, Data Visualization",Bachelor,0,Consulting,19/4/2024,31/5/2024,2494,7.7,DataVision Ltd,,60Ð90k
+AI06124,Data Scientist,60955,USD,EN,PT,Australia,S,France,0,"SQL, Data Visualization, Azure, Linux, Kubernetes",PhD,1,Energy,12/6/2024,20/7/2024,2259,6.3,Algorithmic Solutions,,60Ð90k
+AI06172,ML Ops Engineer,58138,USD,EN,PT,Australia,S,Sweden,100,"Git, Linux, Spark, Python, Computer Vision",PhD,0,Media,4/2/2024,15/3/2024,1212,8.5,DeepTech Ventures,,30Ð60k
+AI06178,Robotics Engineer,66201,USD,EN,CT,Australia,M,Australia,100,"Git, Computer Vision, R",Master,1,Telecommunications,31/1/2024,6/3/2024,1380,7.8,Cognitive Computing,,60Ð90k
+AI06182,Data Analyst,96865,USD,SE,FL,Australia,S,Australia,100,"AWS, TensorFlow, Java, Hadoop",Bachelor,6,Real Estate,1/3/2024,12/4/2024,1486,7.2,Predictive Systems,,90Ð120k
+AI06183,Machine Learning Engineer,128091,USD,SE,FT,Australia,L,Australia,0,"Scala, MLOps, Java",Associate,5,Education,29/1/2024,14/2/2024,951,9.2,Cognitive Computing,,120Ð160k
+AI06186,Research Scientist,102177,USD,MI,CT,Australia,L,Australia,0,"Scala, SQL, Git",Bachelor,4,Retail,19/6/2024,9/8/2024,2162,9.1,Future Systems,,90Ð120k
+AI06237,Principal Data Scientist,88041,USD,MI,CT,Australia,M,Australia,100,"Statistics, Hadoop, Python",Associate,2,Finance,23/11/2024,28/12/2024,1986,8.9,Autonomous Tech,,60Ð90k
+AI06249,NLP Engineer,65713,USD,EN,CT,Australia,L,Australia,0,"Linux, PyTorch, Java",PhD,1,Healthcare,9/12/2024,24/1/2025,1656,8.2,DeepTech Ventures,,60Ð90k
+AI06256,AI Research Scientist,64177,USD,EN,PT,Australia,L,Australia,50,"Azure, Hadoop, NLP, Tableau",PhD,1,Energy,13/11/2024,9/1/2025,1353,8.6,Predictive Systems,,60Ð90k
+AI06273,Head of AI,76981,USD,EN,CT,Australia,M,Finland,100,"PyTorch, Tableau, TensorFlow",Associate,1,Technology,28/9/2024,18/11/2024,1221,8.9,Digital Transformation LLC,,60Ð90k
+AI06293,Autonomous Systems Engineer,160415,USD,EX,CT,Australia,M,Australia,50,"AWS, Git, Kubernetes, Deep Learning",Bachelor,14,Automotive,2/12/2024,25/1/2025,2347,9.7,Quantum Computing Inc,,160Ð200k
+AI06300,Machine Learning Researcher,148650,USD,SE,FL,Australia,L,Australia,0,"Java, Git, PyTorch",PhD,5,Technology,23/4/2024,19/6/2024,1143,9.7,Autonomous Tech,,120Ð160k
+AI06304,Data Scientist,137045,USD,EX,FL,Australia,S,France,0,"Kubernetes, SQL, Deep Learning, Computer Vision",Bachelor,15,Transportation,4/1/2024,18/2/2024,683,9.2,Cloud AI Solutions,,120Ð160k
+AI06312,Autonomous Systems Engineer,204393,USD,EX,FT,Australia,S,Australia,0,"Azure, Linux, Computer Vision, Git, PyTorch",Bachelor,14,Energy,4/4/2024,24/4/2024,1555,9.4,DeepTech Ventures,,200Ð250k
+AI06348,Machine Learning Researcher,69492,USD,EN,FT,Australia,S,Australia,100,"Hadoop, GCP, Linux",Associate,0,Real Estate,8/4/2025,8/5/2025,911,8.9,Smart Analytics,,60Ð90k
+AI06351,Data Analyst,65245,USD,EN,CT,Australia,L,Australia,50,"MLOps, Kubernetes, Azure, Computer Vision",Associate,0,Media,15/9/2024,18/10/2024,860,5.5,Smart Analytics,,60Ð90k
+AI06367,AI Architect,101107,USD,MI,FT,Australia,M,Australia,100,"SQL, Linux, Kubernetes",Associate,3,Education,15/2/2025,21/4/2025,2004,5.1,Neural Networks Co,,90Ð120k
+AI06386,Computer Vision Engineer,240582,USD,EX,PT,Australia,M,Australia,0,"MLOps, Python, TensorFlow",Associate,19,Technology,3/3/2025,1/4/2025,1213,6.5,Digital Transformation LLC,,200Ð250k
+AI06395,AI Research Scientist,115976,USD,SE,FT,Australia,S,Australia,100,"GCP, MLOps, Linux, Java, SQL",Associate,7,Healthcare,24/2/2024,1/5/2024,1463,8.5,Digital Transformation LLC,,90Ð120k
+AI06422,Research Scientist,117988,USD,SE,PT,Australia,S,Australia,100,"R, Spark, Statistics, Hadoop, NLP",Master,7,Real Estate,28/11/2024,1/1/2025,2192,8,TechCorp Inc,,90Ð120k
+AI06424,Head of AI,135648,USD,SE,FT,Australia,M,India,100,"Linux, Data Visualization, AWS",Master,6,Retail,10/4/2024,16/5/2024,2334,8.8,TechCorp Inc,,120Ð160k
+AI06445,Data Engineer,139216,USD,SE,FL,Australia,M,Australia,0,"Deep Learning, Statistics, MLOps, TensorFlow",Bachelor,6,Automotive,1/3/2025,6/4/2025,837,7.5,TechCorp Inc,,120Ð160k
+AI06455,Data Engineer,170767,USD,EX,CT,Australia,M,Australia,100,"Python, Computer Vision, MLOps, Statistics, TensorFlow",Associate,14,Telecommunications,16/3/2024,3/4/2024,2006,8.1,Neural Networks Co,,160Ð200k
+AI06487,Research Scientist,129384,USD,SE,FL,Australia,L,Switzerland,0,"GCP, SQL, NLP, R, Python",Bachelor,6,Automotive,28/12/2024,7/2/2025,1392,6,Quantum Computing Inc,,120Ð160k
+AI06499,Machine Learning Engineer,77841,USD,MI,CT,Australia,M,Ireland,0,"Deep Learning, Azure, Statistics",Bachelor,4,Real Estate,26/11/2024,17/1/2025,659,6.4,Future Systems,,60Ð90k
+AI06510,Deep Learning Engineer,54482,USD,EN,PT,Australia,S,Australia,50,"Python, TensorFlow, PyTorch, Deep Learning, SQL",Master,1,Telecommunications,5/11/2024,1/1/2025,2409,5.6,Machine Intelligence Group,,30Ð60k
+AI06511,Machine Learning Researcher,118538,USD,SE,FL,Australia,M,Austria,50,"R, SQL, Scala, Deep Learning, Hadoop",PhD,8,Consulting,16/3/2025,14/5/2025,2061,5.2,DataVision Ltd,,90Ð120k
+AI06555,ML Ops Engineer,55067,USD,EN,PT,Australia,S,Germany,100,"Docker, Git, Linux, SQL, Python",Bachelor,0,Automotive,18/7/2024,9/8/2024,1523,9.9,Neural Networks Co,,30Ð60k
+AI06600,Computer Vision Engineer,220552,USD,EX,CT,Australia,M,Australia,50,"Hadoop, AWS, Azure, Python",Master,14,Media,26/4/2025,10/6/2025,2021,9.9,DeepTech Ventures,,200Ð250k
+AI06630,AI Software Engineer,230069,USD,EX,CT,Australia,M,Australia,50,"Tableau, Azure, AWS, Computer Vision",PhD,18,Telecommunications,20/10/2024,8/12/2024,2347,9.8,Advanced Robotics,,200Ð250k
+AI06640,Data Scientist,187069,USD,EX,FT,Australia,M,Australia,100,"Python, TensorFlow, SQL",Master,19,Retail,18/11/2024,23/12/2024,836,6.5,Future Systems,,160Ð200k
+AI06642,Machine Learning Engineer,135754,USD,EX,PT,Australia,S,Netherlands,0,"Python, SQL, Tableau, TensorFlow",Master,16,Gaming,29/1/2025,1/4/2025,1291,5.3,Machine Intelligence Group,,120Ð160k
+AI06653,AI Consultant,146048,USD,EX,FT,Australia,S,Australia,100,"GCP, Git, Python",Bachelor,10,Transportation,4/8/2024,18/8/2024,1437,9.8,Predictive Systems,,120Ð160k
+AI06663,Computer Vision Engineer,124710,USD,SE,PT,Australia,S,Australia,50,"Spark, Linux, Azure",PhD,8,Consulting,23/8/2024,26/10/2024,1147,8.3,Cloud AI Solutions,,120Ð160k
+AI06666,Principal Data Scientist,70247,USD,MI,CT,Australia,S,Japan,0,"Mathematics, R, Computer Vision, Linux",Bachelor,3,Telecommunications,1/2/2025,25/3/2025,2283,8.4,DeepTech Ventures,,60Ð90k
+AI06680,AI Consultant,98009,USD,MI,PT,Australia,M,Austria,50,"Python, Tableau, Java",Master,4,Energy,12/9/2024,2/10/2024,2431,8.6,Machine Intelligence Group,,90Ð120k
+AI06704,AI Specialist,274952,USD,EX,PT,Australia,L,Australia,50,"Tableau, Scala, AWS",Master,18,Gaming,3/3/2025,27/3/2025,512,5.3,Advanced Robotics,,250Ð300k
+AI06716,Machine Learning Engineer,87131,USD,MI,PT,Australia,M,Australia,0,"Azure, R, Mathematics",Master,2,Finance,17/1/2025,26/3/2025,1296,7.3,Autonomous Tech,,60Ð90k
+AI06753,AI Consultant,74333,USD,EN,FT,Australia,L,Australia,100,"Docker, AWS, Python, Hadoop",Master,1,Real Estate,25/1/2025,10/3/2025,1803,9.6,DataVision Ltd,,60Ð90k
+AI06798,Machine Learning Researcher,81131,USD,MI,PT,Australia,S,Australia,0,"Scala, Java, SQL",Master,3,Gaming,12/2/2024,16/4/2024,2012,5.3,Cloud AI Solutions,,60Ð90k
+AI06820,NLP Engineer,228761,USD,EX,FL,Australia,L,Australia,50,"SQL, Data Visualization, Computer Vision",Master,11,Government,18/11/2024,25/12/2024,1523,8.6,Future Systems,,200Ð250k
+AI06842,AI Software Engineer,66443,USD,EN,PT,Australia,S,Australia,100,"TensorFlow, AWS, Hadoop",Associate,1,Finance,28/1/2024,21/3/2024,1214,6.1,Smart Analytics,,60Ð90k
+AI06874,Data Engineer,233158,USD,EX,FT,Australia,L,Australia,100,"GCP, SQL, MLOps, Docker",Associate,10,Transportation,25/4/2024,16/6/2024,2124,7.4,Smart Analytics,,200Ð250k
+AI06881,Data Scientist,72272,USD,MI,CT,Australia,S,Austria,50,"Mathematics, MLOps, Deep Learning",Associate,2,Energy,23/9/2024,23/10/2024,1275,7.5,Future Systems,,60Ð90k
+AI06886,NLP Engineer,85261,USD,EN,CT,Australia,L,Australia,50,"NLP, Kubernetes, Data Visualization",Master,0,Technology,11/7/2024,30/8/2024,1409,8.7,DeepTech Ventures,,60Ð90k
+AI06887,Research Scientist,103737,USD,MI,FT,Australia,M,Australia,0,"PyTorch, Git, Python, Kubernetes",Master,2,Finance,2/12/2024,5/2/2025,1098,6.8,TechCorp Inc,,90Ð120k
+AI06889,Autonomous Systems Engineer,105572,USD,SE,FL,Australia,M,Australia,50,"Python, TensorFlow, MLOps",Master,6,Real Estate,19/5/2024,4/7/2024,1511,6.2,AI Innovations,,90Ð120k
+AI06890,Head of AI,98182,USD,MI,FT,Australia,S,Australia,100,"Python, Scala, Tableau",Associate,2,Finance,3/4/2024,20/5/2024,2440,6.7,Quantum Computing Inc,,90Ð120k
+AI06895,NLP Engineer,126342,USD,SE,PT,Australia,L,Australia,0,"SQL, Python, MLOps, TensorFlow",Bachelor,7,Healthcare,9/4/2025,28/4/2025,589,5.1,Autonomous Tech,,120Ð160k
+AI06901,Machine Learning Engineer,95822,USD,MI,FL,Australia,M,Norway,0,"Python, Scala, Data Visualization, TensorFlow",PhD,4,Retail,3/3/2025,24/4/2025,522,6.9,Machine Intelligence Group,,90Ð120k
+AI06922,ML Ops Engineer,47244,USD,EN,FT,Australia,S,Australia,100,"Scala, Spark, Data Visualization",Master,0,Media,29/9/2024,22/11/2024,1269,7.8,Machine Intelligence Group,,30Ð60k
+AI06930,AI Consultant,107230,USD,SE,CT,Australia,S,Australia,50,"Computer Vision, SQL, Tableau",Associate,9,Real Estate,11/12/2024,30/1/2025,1226,5.6,Autonomous Tech,,90Ð120k
+AI06931,Robotics Engineer,200260,USD,EX,PT,Australia,L,Australia,0,"PyTorch, NLP, Docker",Master,10,Retail,31/3/2025,29/4/2025,724,6.3,Neural Networks Co,,200Ð250k
+AI06955,Head of AI,71615,USD,EN,PT,Australia,M,Switzerland,100,"Hadoop, Git, NLP, GCP",Master,0,Real Estate,2/12/2024,5/1/2025,2153,8.3,Autonomous Tech,,60Ð90k
+AI06961,AI Software Engineer,108680,USD,MI,FL,Australia,M,Australia,0,"Spark, Computer Vision, PyTorch",Master,4,Energy,23/10/2024,26/12/2024,627,7.7,Cloud AI Solutions,,90Ð120k
+AI06980,Data Analyst,84655,USD,MI,FL,Australia,L,Israel,0,"Java, Git, R, Computer Vision, SQL",Bachelor,4,Consulting,24/3/2024,12/5/2024,800,5.1,Neural Networks Co,,60Ð90k
+AI06984,AI Consultant,80591,USD,MI,PT,Australia,M,Australia,50,"Tableau, Python, Computer Vision, Java, Scala",Associate,3,Healthcare,4/5/2024,3/6/2024,1771,6.7,Cognitive Computing,,60Ð90k
+AI07022,AI Research Scientist,292604,USD,EX,FL,Australia,L,Australia,50,"Kubernetes, Scala, Java, Docker, Azure",Associate,14,Media,5/4/2025,10/6/2025,632,6.9,Machine Intelligence Group,,250Ð300k
+AI07030,Robotics Engineer,243039,USD,EX,PT,Australia,L,Israel,100,"Java, Python, NLP",Bachelor,15,Healthcare,30/3/2024,3/6/2024,2343,6.5,Cloud AI Solutions,,200Ð250k
+AI07035,AI Consultant,108388,USD,SE,FL,Australia,M,Australia,0,"Docker, Azure, Python",Master,9,Energy,15/2/2024,16/3/2024,1203,8.2,Algorithmic Solutions,,90Ð120k
+AI07091,Head of AI,146613,USD,SE,PT,Australia,M,Australia,50,"SQL, R, NLP",Master,6,Retail,27/5/2024,31/7/2024,2098,8,Smart Analytics,,120Ð160k
+AI07097,Data Engineer,156656,USD,SE,FL,Australia,L,Australia,0,"Java, Scala, Python",Bachelor,8,Government,3/4/2024,3/5/2024,1986,5.3,AI Innovations,,120Ð160k
+AI07108,AI Consultant,206449,USD,EX,FL,Australia,S,Israel,100,"SQL, Spark, Git",Bachelor,18,Transportation,9/1/2025,30/1/2025,2472,6.1,Cognitive Computing,,200Ð250k
+AI07129,NLP Engineer,106527,USD,SE,PT,Australia,S,Australia,0,"TensorFlow, R, Statistics, Azure, Kubernetes",Associate,7,Media,28/2/2025,29/4/2025,2375,9.2,Cognitive Computing,,90Ð120k
+AI07131,Machine Learning Engineer,198923,USD,EX,PT,Australia,M,Australia,0,"TensorFlow, Mathematics, Tableau",Associate,11,Retail,24/1/2025,21/3/2025,843,9.2,Autonomous Tech,,160Ð200k
+AI07137,Head of AI,69973,USD,EN,FL,Australia,M,Australia,0,"TensorFlow, Python, Tableau, Git, Mathematics",Associate,0,Media,24/11/2024,9/12/2024,1523,8.3,Future Systems,,60Ð90k
+AI07149,Autonomous Systems Engineer,87646,USD,MI,FT,Australia,M,Sweden,50,"Python, TensorFlow, NLP, Hadoop, Git",Associate,3,Automotive,4/1/2024,15/2/2024,648,6.6,Algorithmic Solutions,,60Ð90k
+AI07168,Data Scientist,134902,USD,SE,FL,Australia,L,China,100,"Git, Data Visualization, AWS, Python, Deep Learning",Master,5,Education,14/3/2025,27/4/2025,1132,8.6,DeepTech Ventures,,120Ð160k
+AI07172,Robotics Engineer,151986,USD,SE,PT,Australia,L,South Korea,0,"SQL, Statistics, Computer Vision, MLOps",Bachelor,5,Retail,17/4/2024,26/6/2024,2487,6.4,DataVision Ltd,,120Ð160k
+AI07189,AI Software Engineer,127656,USD,SE,FL,Australia,M,Australia,100,"Java, Python, Mathematics",Master,6,Transportation,12/6/2024,16/7/2024,1927,7.7,Cognitive Computing,,120Ð160k
+AI07199,Computer Vision Engineer,98882,USD,MI,CT,Australia,L,Israel,100,"GCP, R, Hadoop, Kubernetes",Bachelor,2,Retail,30/4/2025,25/5/2025,1323,8.9,AI Innovations,,90Ð120k
+AI07209,Data Analyst,120715,USD,SE,CT,Australia,L,Switzerland,0,"Kubernetes, PyTorch, Computer Vision",PhD,9,Real Estate,29/6/2024,10/9/2024,1038,9.8,Neural Networks Co,,120Ð160k
+AI07250,Principal Data Scientist,217078,USD,EX,FT,Australia,M,Australia,100,"Kubernetes, Hadoop, GCP, Deep Learning",Master,13,Healthcare,4/2/2025,8/3/2025,1018,5.1,Cognitive Computing,,200Ð250k
+AI07272,Machine Learning Researcher,62377,USD,EN,PT,Australia,L,Australia,0,"Computer Vision, Hadoop, R, SQL",Associate,1,Retail,18/9/2024,2/11/2024,601,7.9,Cloud AI Solutions,,60Ð90k
+AI07329,Machine Learning Engineer,183381,USD,EX,FL,Australia,M,Australia,50,"GCP, Azure, Hadoop, Scala",Bachelor,11,Real Estate,14/4/2024,21/6/2024,2173,5.6,AI Innovations,,160Ð200k
+AI07348,AI Architect,140931,USD,SE,FT,Australia,M,Australia,100,"PyTorch, Java, Deep Learning",Bachelor,7,Gaming,23/7/2024,18/9/2024,2245,9.9,Smart Analytics,,120Ð160k
+AI07397,AI Specialist,80739,USD,EN,FL,Australia,M,Australia,0,"R, Hadoop, Java, Statistics",Bachelor,0,Healthcare,19/9/2024,4/11/2024,677,9.8,Neural Networks Co,,60Ð90k
+AI07399,AI Software Engineer,126301,USD,SE,FL,Australia,M,Australia,0,"Docker, SQL, Azure, Java, Scala",Bachelor,5,Media,5/6/2024,5/7/2024,1000,7.5,Advanced Robotics,,120Ð160k
+AI07420,Machine Learning Engineer,132424,USD,EX,CT,Australia,S,Australia,50,"Python, SQL, Java, Tableau",Master,16,Retail,29/4/2025,16/6/2025,1776,9.6,DeepTech Ventures,,120Ð160k
+AI07438,Principal Data Scientist,129840,USD,SE,PT,Australia,M,Australia,100,"AWS, R, Azure, GCP",Master,7,Technology,8/3/2025,30/4/2025,1687,6.8,Algorithmic Solutions,,120Ð160k
+AI07448,AI Research Scientist,55162,USD,EN,CT,Australia,M,Germany,100,"PyTorch, Docker, Computer Vision, Statistics",Master,0,Real Estate,13/2/2025,6/3/2025,526,5.5,Cloud AI Solutions,,30Ð60k
+AI07465,Principal Data Scientist,185958,USD,EX,PT,Australia,L,United States,100,"Kubernetes, R, Spark, SQL, Java",PhD,13,Consulting,7/4/2024,23/4/2024,1935,5.8,Cognitive Computing,,160Ð200k
+AI07473,Research Scientist,123598,USD,SE,CT,Australia,M,Netherlands,100,"Tableau, Docker, Python, Computer Vision",Master,8,Healthcare,8/11/2024,18/1/2025,1958,6,Autonomous Tech,,120Ð160k
+AI07477,AI Specialist,220546,USD,EX,CT,Australia,S,Netherlands,50,"Statistics, Computer Vision, Scala",Associate,14,Transportation,10/4/2025,5/6/2025,2070,5.7,Predictive Systems,,200Ð250k
+AI07483,Autonomous Systems Engineer,163314,USD,SE,PT,Australia,L,Netherlands,0,"Mathematics, Hadoop, Deep Learning",PhD,7,Healthcare,12/2/2025,25/3/2025,1966,8.7,Digital Transformation LLC,,160Ð200k
+AI07522,NLP Engineer,205409,USD,EX,FT,Australia,S,Japan,50,"Kubernetes, TensorFlow, Docker, Statistics",Master,15,Government,1/7/2024,27/8/2024,1928,9.5,Algorithmic Solutions,,200Ð250k
+AI07556,Machine Learning Researcher,175539,USD,EX,FL,Australia,S,Australia,0,"R, MLOps, Kubernetes, Docker",PhD,10,Retail,13/9/2024,29/10/2024,943,7.3,TechCorp Inc,,160Ð200k
+AI07571,AI Architect,289480,USD,EX,CT,Australia,L,Australia,100,"R, SQL, Hadoop",PhD,10,Transportation,1/1/2024,20/2/2024,1219,5.5,DeepTech Ventures,,250Ð300k
+AI07580,Computer Vision Engineer,182818,USD,EX,FL,Australia,L,Israel,50,"Python, MLOps, Spark",Bachelor,12,Manufacturing,30/1/2025,1/3/2025,1648,9.1,Future Systems,,160Ð200k
+AI07633,AI Software Engineer,91349,USD,MI,CT,Australia,L,Switzerland,0,"Git, Python, NLP, Kubernetes, Computer Vision",PhD,4,Real Estate,23/8/2024,17/10/2024,1854,5.8,Smart Analytics,,90Ð120k
+AI07647,AI Consultant,147684,USD,EX,CT,Australia,S,Australia,100,"AWS, Python, GCP",Master,18,Automotive,21/2/2024,9/3/2024,844,9.3,DeepTech Ventures,,120Ð160k
+AI07649,AI Research Scientist,122933,USD,SE,FT,Australia,L,Australia,50,"Python, TensorFlow, PyTorch, AWS, Tableau",Associate,8,Telecommunications,8/10/2024,20/12/2024,1898,5.4,Smart Analytics,,120Ð160k
+AI07659,Deep Learning Engineer,124969,USD,EX,PT,Australia,S,Australia,100,"MLOps, Docker, Git, R",PhD,10,Telecommunications,13/6/2024,24/8/2024,1736,8.1,Cognitive Computing,,120Ð160k
+AI07663,Machine Learning Researcher,56018,USD,EN,PT,Australia,M,Australia,0,"Docker, Computer Vision, Deep Learning, Python",Associate,1,Technology,5/7/2024,21/8/2024,2114,6.1,TechCorp Inc,,30Ð60k
+AI07666,AI Software Engineer,256742,USD,EX,PT,Australia,L,Australia,100,"R, Hadoop, Computer Vision, Git, Deep Learning",Master,16,Media,13/7/2024,4/8/2024,1212,9.5,Neural Networks Co,,250Ð300k
+AI07686,Principal Data Scientist,59751,USD,EN,CT,Australia,S,Australia,50,"Computer Vision, Python, AWS, Statistics, Tableau",Bachelor,0,Retail,3/9/2024,2/11/2024,630,6.3,Cognitive Computing,,30Ð60k
+AI07702,ML Ops Engineer,59534,USD,EN,FT,Australia,L,Australia,50,"Scala, SQL, NLP",Master,0,Transportation,20/12/2024,29/1/2025,1673,6.4,DataVision Ltd,,30Ð60k
+AI07745,Head of AI,165406,USD,EX,FL,Australia,M,Netherlands,0,"Hadoop, Docker, Spark, Deep Learning",PhD,13,Gaming,5/3/2024,16/5/2024,2387,6,DataVision Ltd,,160Ð200k
+AI07766,ML Ops Engineer,277034,USD,EX,CT,Australia,L,Australia,100,"Kubernetes, Computer Vision, MLOps, SQL",Bachelor,12,Technology,7/3/2024,13/5/2024,2070,9.9,Advanced Robotics,,250Ð300k
+AI07816,AI Consultant,247644,USD,EX,PT,Australia,L,Australia,50,"Scala, GCP, Python",Associate,12,Retail,11/3/2024,26/4/2024,2197,6.6,Predictive Systems,,200Ð250k
+AI07881,Head of AI,74833,USD,EN,PT,Australia,L,Australia,50,"Python, Scala, Java, TensorFlow, Spark",PhD,0,Healthcare,13/4/2024,14/5/2024,726,8.1,DeepTech Ventures,,60Ð90k
+AI07885,Data Engineer,110512,USD,SE,PT,Australia,S,Austria,50,"PyTorch, MLOps, SQL",Master,6,Transportation,26/2/2024,1/4/2024,1305,5.6,Future Systems,,90Ð120k
+AI07888,AI Product Manager,237987,USD,EX,FT,Australia,M,Australia,100,"Computer Vision, GCP, Statistics",PhD,15,Manufacturing,27/4/2025,27/5/2025,1761,7.7,Advanced Robotics,,200Ð250k
+AI07901,Data Engineer,134512,USD,SE,CT,Australia,L,Australia,50,"NLP, R, Linux, Docker",Associate,9,Technology,16/1/2025,19/2/2025,2141,8.2,TechCorp Inc,,120Ð160k
+AI07908,Deep Learning Engineer,153523,USD,EX,FT,Australia,M,Australia,100,"Spark, Python, Kubernetes",Master,19,Healthcare,16/7/2024,23/9/2024,2353,8.6,Future Systems,,120Ð160k
+AI07909,Research Scientist,146036,USD,SE,CT,Australia,L,Australia,0,"Python, AWS, Deep Learning, Hadoop, Azure",PhD,8,Technology,22/4/2024,11/6/2024,762,5.7,Digital Transformation LLC,,120Ð160k
+AI07911,Data Analyst,186956,USD,EX,FL,Australia,M,Australia,100,"PyTorch, TensorFlow, MLOps, GCP",Associate,16,Transportation,15/2/2024,19/4/2024,2328,8.1,Predictive Systems,,160Ð200k
+AI07913,ML Ops Engineer,70587,USD,EN,FT,Australia,M,Australia,0,"TensorFlow, NLP, Tableau, Computer Vision, Data Visualization",PhD,1,Technology,27/8/2024,17/10/2024,938,9.9,Autonomous Tech,,60Ð90k
+AI07915,NLP Engineer,74285,USD,MI,FT,Australia,M,Australia,100,"PyTorch, Computer Vision, TensorFlow, Azure",Master,2,Government,3/12/2024,30/1/2025,1653,9.7,Predictive Systems,,60Ð90k
+AI07938,Data Analyst,72171,USD,MI,CT,Australia,S,Australia,50,"PyTorch, TensorFlow, Computer Vision, Data Visualization, GCP",Associate,2,Transportation,17/8/2024,25/10/2024,1840,9.4,DataVision Ltd,,60Ð90k
+AI07950,Robotics Engineer,61777,USD,EN,CT,Australia,M,Australia,0,"Statistics, Java, MLOps, Tableau, SQL",Bachelor,0,Retail,16/8/2024,10/9/2024,1348,6.8,Autonomous Tech,,60Ð90k
+AI07966,Robotics Engineer,133631,USD,SE,FT,Australia,L,Australia,0,"MLOps, Java, Hadoop, Statistics",Master,6,Technology,8/6/2024,6/8/2024,2056,9.3,Algorithmic Solutions,,120Ð160k
+AI07973,Principal Data Scientist,84851,USD,MI,FT,Australia,S,Australia,100,"Hadoop, Python, Linux, Git, Kubernetes",Master,2,Gaming,14/2/2025,15/3/2025,694,8.5,DataVision Ltd,,60Ð90k
+AI07979,NLP Engineer,119425,USD,SE,FL,Australia,M,Sweden,100,"PyTorch, SQL, Tableau, Hadoop, NLP",Bachelor,6,Real Estate,9/10/2024,2/12/2024,850,8.7,AI Innovations,,90Ð120k
+AI08070,Data Scientist,86738,USD,EN,FT,Australia,L,United States,100,"Python, Java, R, Spark",Associate,0,Gaming,29/4/2025,24/5/2025,2455,5.5,Machine Intelligence Group,,60Ð90k
+AI08082,ML Ops Engineer,90201,USD,EN,CT,Australia,L,South Korea,0,"PyTorch, Deep Learning, MLOps",Associate,1,Gaming,13/3/2025,2/4/2025,1961,9.5,Cloud AI Solutions,,90Ð120k
+AI08090,ML Ops Engineer,189488,USD,EX,CT,Australia,M,Australia,100,"GCP, PyTorch, TensorFlow, MLOps",PhD,16,Automotive,14/11/2024,8/1/2025,809,6,AI Innovations,,160Ð200k
+AI08119,AI Software Engineer,90988,USD,MI,PT,Australia,L,Australia,50,"SQL, Kubernetes, TensorFlow, Hadoop, Java",PhD,4,Manufacturing,4/8/2024,5/9/2024,1074,7.8,Predictive Systems,,90Ð120k
+AI08127,Principal Data Scientist,114466,USD,MI,FL,Australia,L,Australia,0,"MLOps, R, SQL, Java, Linux",Bachelor,2,Finance,22/12/2024,14/1/2025,2424,5.6,Predictive Systems,,90Ð120k
+AI08137,Data Engineer,47095,USD,EN,FL,Australia,S,Australia,50,"Spark, Linux, Statistics, Scala, PyTorch",PhD,1,Real Estate,6/9/2024,28/10/2024,2446,7.5,Digital Transformation LLC,,30Ð60k
+AI08184,Principal Data Scientist,49748,USD,EN,PT,Australia,S,Australia,0,"R, Deep Learning, Hadoop, Kubernetes",Master,0,Gaming,3/6/2024,10/8/2024,2487,7.1,Neural Networks Co,,30Ð60k
+AI08246,AI Product Manager,70025,USD,EN,FL,Australia,L,Denmark,0,"Data Visualization, Computer Vision, Docker, NLP",Associate,1,Telecommunications,27/3/2024,27/5/2024,531,7.9,Advanced Robotics,,60Ð90k
+AI08305,Data Analyst,47052,USD,EN,CT,Australia,S,Australia,0,"PyTorch, Mathematics, Deep Learning, Git",PhD,0,Gaming,20/12/2024,20/1/2025,1773,5.8,Quantum Computing Inc,,30Ð60k
+AI08306,Robotics Engineer,111198,USD,SE,FT,Australia,M,Australia,50,"SQL, Data Visualization, TensorFlow",PhD,7,Technology,18/4/2025,18/6/2025,510,5.1,Machine Intelligence Group,,90Ð120k
+AI08396,AI Consultant,71217,USD,EN,PT,Australia,L,Australia,100,"Statistics, Scala, MLOps, Spark",PhD,1,Telecommunications,14/11/2024,17/12/2024,1479,10,Algorithmic Solutions,,60Ð90k
+AI08444,NLP Engineer,140277,USD,EX,PT,Australia,M,Japan,50,"Java, SQL, Git, Mathematics",Bachelor,14,Automotive,5/6/2024,28/7/2024,2072,8.5,DeepTech Ventures,,120Ð160k
+AI08507,Autonomous Systems Engineer,50658,USD,EN,FT,Australia,S,Singapore,100,"Computer Vision, SQL, R",Master,0,Manufacturing,27/2/2025,22/4/2025,1518,7.7,Advanced Robotics,,30Ð60k
+AI08527,ML Ops Engineer,102204,USD,MI,FL,Australia,M,Australia,100,"R, Python, Mathematics",Bachelor,3,Manufacturing,20/1/2025,30/3/2025,2384,8.3,Cloud AI Solutions,,90Ð120k
+AI08581,AI Architect,108405,USD,MI,PT,Australia,M,Finland,50,"Tableau, Docker, Kubernetes, Statistics",Associate,2,Healthcare,30/6/2024,28/7/2024,1423,5.6,Quantum Computing Inc,,90Ð120k
+AI08600,Computer Vision Engineer,50098,USD,EN,PT,Australia,S,Australia,50,"Python, SQL, Kubernetes, NLP",Associate,0,Retail,24/5/2024,4/8/2024,1460,9.4,Advanced Robotics,,30Ð60k
+AI08638,AI Research Scientist,81711,USD,MI,FL,Australia,S,Australia,100,"R, SQL, Tableau, NLP",PhD,4,Technology,29/4/2025,4/7/2025,2264,7.9,Cognitive Computing,,60Ð90k
+AI08639,AI Product Manager,185293,USD,EX,CT,Australia,L,Australia,50,"SQL, Tableau, Git",Master,11,Technology,18/11/2024,23/12/2024,1808,5.2,Autonomous Tech,,160Ð200k
+AI08642,Deep Learning Engineer,74353,USD,EN,CT,Australia,M,South Korea,50,"SQL, Linux, Computer Vision, Scala",Bachelor,1,Retail,2/1/2025,9/2/2025,1699,9.4,Advanced Robotics,,60Ð90k
+AI08655,Machine Learning Researcher,82719,USD,EN,CT,Australia,L,Australia,0,"PyTorch, Statistics, Scala, MLOps",Master,0,Real Estate,21/1/2025,29/3/2025,1929,7.6,Quantum Computing Inc,,60Ð90k
+AI08662,Principal Data Scientist,214876,USD,EX,FL,Australia,M,Australia,0,"R, Scala, Azure, Tableau",Bachelor,16,Energy,27/11/2024,11/12/2024,1284,8.9,Cognitive Computing,,200Ð250k
+AI08674,Computer Vision Engineer,175720,USD,SE,FT,Australia,L,Australia,0,"Mathematics, Python, Spark",Associate,7,Technology,13/7/2024,16/8/2024,1160,6.3,Machine Intelligence Group,,160Ð200k
+AI08680,AI Consultant,155124,USD,EX,PT,Australia,M,Australia,50,"TensorFlow, PyTorch, Kubernetes",Associate,18,Energy,22/9/2024,20/11/2024,691,8.4,TechCorp Inc,,120Ð160k
+AI08726,Data Analyst,189575,USD,EX,FT,Australia,L,Australia,0,"AWS, Data Visualization, Deep Learning",Master,19,Real Estate,30/4/2024,30/5/2024,1959,8.4,Cognitive Computing,,160Ð200k
+AI08784,Machine Learning Researcher,93797,USD,MI,FT,Australia,M,Australia,100,"Git, SQL, Scala, GCP",Associate,4,Retail,24/1/2024,20/2/2024,796,7.5,DataVision Ltd,,90Ð120k
+AI08792,Data Engineer,75147,USD,EN,PT,Australia,M,Austria,50,"Hadoop, Linux, NLP, SQL, TensorFlow",PhD,1,Government,9/10/2024,26/11/2024,1545,6.8,AI Innovations,,60Ð90k
+AI08822,AI Specialist,130625,USD,SE,FL,Australia,L,Australia,50,"GCP, Kubernetes, Azure, Hadoop",PhD,6,Gaming,11/9/2024,23/10/2024,595,9,Quantum Computing Inc,,120Ð160k
+AI08867,Robotics Engineer,87302,USD,MI,CT,Australia,M,United States,0,"SQL, Tableau, R",PhD,4,Real Estate,7/2/2024,10/3/2024,1185,8.9,Quantum Computing Inc,,60Ð90k
+AI08912,AI Research Scientist,75646,USD,EN,PT,Australia,L,Australia,100,"TensorFlow, Mathematics, NLP, PyTorch, Python",Bachelor,0,Real Estate,13/4/2024,5/5/2024,824,7.6,Advanced Robotics,,60Ð90k
+AI08924,Research Scientist,104005,USD,MI,CT,Australia,M,Switzerland,100,"Python, Scala, Spark",Bachelor,2,Transportation,28/1/2024,9/3/2024,2179,5.8,Cloud AI Solutions,,90Ð120k
+AI08964,Machine Learning Researcher,79049,USD,MI,FL,Australia,S,Australia,100,"NLP, Kubernetes, Azure",Bachelor,2,Gaming,26/1/2025,29/3/2025,977,9.7,Advanced Robotics,,60Ð90k
+AI08977,Principal Data Scientist,66942,USD,MI,PT,Australia,S,Australia,50,"SQL, NLP, PyTorch, Linux",Master,4,Retail,25/9/2024,25/11/2024,1188,9.3,Future Systems,,60Ð90k
+AI08981,AI Consultant,144793,USD,EX,CT,Australia,M,Japan,100,"Computer Vision, GCP, Statistics",Associate,12,Technology,19/7/2024,1/9/2024,1836,8,DeepTech Ventures,,120Ð160k
+AI09005,Machine Learning Researcher,166619,USD,EX,FL,Australia,M,Australia,50,"Linux, MLOps, AWS, Spark, Statistics",Bachelor,14,Finance,1/1/2025,28/1/2025,2272,9.9,DataVision Ltd,,160Ð200k
+AI09018,NLP Engineer,62850,USD,EN,FT,Australia,M,Germany,100,"TensorFlow, Kubernetes, Computer Vision",Associate,0,Technology,26/1/2025,18/2/2025,2266,8.6,TechCorp Inc,,60Ð90k
+AI09022,Robotics Engineer,62909,USD,EN,FL,Australia,M,Australia,50,"Azure, Kubernetes, Docker, Tableau, Linux",Associate,1,Energy,7/12/2024,9/2/2025,1334,10,Smart Analytics,,60Ð90k
+AI09031,Machine Learning Researcher,79436,USD,MI,FT,Australia,M,Australia,100,"Hadoop, Linux, PyTorch",Associate,4,Technology,4/12/2024,3/1/2025,892,8,Algorithmic Solutions,,60Ð90k
+AI09048,AI Architect,202498,USD,EX,FL,Australia,S,Australia,100,"R, Data Visualization, Git, Deep Learning, GCP",Associate,16,Media,2/12/2024,10/1/2025,1957,7.5,Cloud AI Solutions,,200Ð250k
+AI09053,Data Engineer,110055,USD,MI,CT,Australia,L,United Kingdom,100,"Azure, Git, Data Visualization",PhD,4,Technology,8/2/2024,12/4/2024,880,8.3,Autonomous Tech,,90Ð120k
+AI09072,Principal Data Scientist,121675,USD,SE,PT,Australia,S,Netherlands,0,"Mathematics, Azure, Deep Learning",Bachelor,6,Energy,10/5/2024,28/5/2024,544,9.1,TechCorp Inc,,120Ð160k
+AI09091,Robotics Engineer,88809,USD,MI,FT,Australia,L,Australia,0,"R, Java, Python, Deep Learning, TensorFlow",Bachelor,4,Telecommunications,2/7/2024,20/8/2024,1811,5.2,Neural Networks Co,,60Ð90k
+AI09161,Principal Data Scientist,137826,USD,SE,PT,Australia,M,Sweden,0,"R, Scala, Java, Data Visualization",Bachelor,9,Consulting,20/3/2025,27/4/2025,565,6.3,Cloud AI Solutions,,120Ð160k
+AI09215,NLP Engineer,88157,USD,MI,PT,Australia,S,Australia,100,"Hadoop, Deep Learning, MLOps",PhD,4,Gaming,10/12/2024,21/1/2025,1783,7.6,Machine Intelligence Group,,60Ð90k
+AI09242,ML Ops Engineer,139052,USD,EX,PT,Australia,S,Australia,50,"Hadoop, Python, Scala",Bachelor,12,Finance,10/1/2025,28/2/2025,1528,6.5,Machine Intelligence Group,,120Ð160k
+AI09267,Robotics Engineer,214441,USD,EX,CT,Australia,S,Australia,50,"Python, TensorFlow, Docker, Deep Learning",Bachelor,12,Transportation,14/2/2025,18/3/2025,515,8.9,Predictive Systems,,200Ð250k
+AI09296,Computer Vision Engineer,67305,USD,EN,PT,Australia,M,Australia,100,"Git, Tableau, R",PhD,1,Technology,18/8/2024,30/9/2024,1686,5.6,Smart Analytics,,60Ð90k
+AI09313,Autonomous Systems Engineer,92151,USD,MI,CT,Australia,S,Singapore,100,"Linux, PyTorch, Spark, TensorFlow, Mathematics",PhD,2,Media,17/12/2024,9/2/2025,2357,5.8,Algorithmic Solutions,,90Ð120k
+AI09330,Machine Learning Engineer,74060,USD,MI,FL,Australia,S,Australia,0,"SQL, Linux, Docker",Bachelor,2,Retail,4/9/2024,9/11/2024,896,9.8,Neural Networks Co,,60Ð90k
+AI09340,Head of AI,75264,USD,EN,FL,Australia,M,Canada,50,"GCP, Python, Tableau, MLOps, Deep Learning",PhD,1,Healthcare,24/1/2025,13/2/2025,762,5.8,Predictive Systems,,60Ð90k
+AI09344,AI Architect,61033,USD,EN,CT,Australia,M,Australia,100,"R, GCP, Kubernetes",Bachelor,1,Media,22/10/2024,26/12/2024,1694,7.2,Autonomous Tech,,60Ð90k
+AI09346,AI Product Manager,87954,USD,MI,CT,Australia,L,Australia,50,"Linux, Deep Learning, Tableau, PyTorch",Master,3,Telecommunications,24/2/2025,15/3/2025,2317,5.7,Predictive Systems,,60Ð90k
+AI09348,Autonomous Systems Engineer,62759,USD,EN,CT,Australia,L,India,100,"Python, AWS, Azure, NLP",Associate,1,Automotive,4/1/2025,16/3/2025,1079,8.2,Neural Networks Co,,60Ð90k
+AI09359,Robotics Engineer,226814,USD,EX,CT,Australia,L,Australia,100,"Data Visualization, Computer Vision, Java, Hadoop, Spark",Associate,14,Telecommunications,23/1/2024,17/3/2024,558,9.9,Future Systems,,200Ð250k
+AI09366,AI Architect,231943,USD,EX,PT,Australia,L,Australia,50,"Git, SQL, MLOps",PhD,15,Technology,5/2/2025,15/3/2025,1675,6,Algorithmic Solutions,,200Ð250k
+AI09377,Data Engineer,115632,USD,SE,FL,Australia,M,Australia,0,"Kubernetes, PyTorch, Tableau, Java, Computer Vision",Master,6,Healthcare,13/7/2024,21/8/2024,735,6.7,Cognitive Computing,,90Ð120k
+AI09381,Robotics Engineer,70979,USD,MI,FL,Australia,S,Switzerland,50,"R, TensorFlow, Azure, AWS",Associate,3,Retail,6/11/2024,7/1/2025,1572,8.3,Advanced Robotics,,60Ð90k
+AI09433,Data Scientist,131039,USD,EX,PT,Australia,S,Australia,50,"Git, Java, Python, TensorFlow, Deep Learning",Master,16,Telecommunications,18/1/2025,1/3/2025,1716,9.9,Quantum Computing Inc,,120Ð160k
+AI09435,NLP Engineer,73729,USD,EN,FL,Australia,L,United States,100,"Docker, Kubernetes, Hadoop, Linux",Master,1,Retail,5/4/2024,12/5/2024,1864,6,Predictive Systems,,60Ð90k
+AI09436,AI Research Scientist,122975,USD,EX,PT,Australia,S,United Kingdom,0,"Hadoop, Spark, Python, Docker, Statistics",PhD,16,Energy,4/1/2025,26/1/2025,1631,7.3,AI Innovations,,120Ð160k
+AI09476,Research Scientist,186704,USD,EX,FL,Australia,M,Australia,50,"Mathematics, Scala, Docker, MLOps",PhD,18,Automotive,13/9/2024,15/11/2024,2285,6.8,Advanced Robotics,,160Ð200k
+AI09496,AI Software Engineer,116787,USD,MI,FT,Australia,L,Australia,50,"Deep Learning, Java, Scala, Statistics",Master,2,Transportation,28/8/2024,5/11/2024,2181,7.6,Neural Networks Co,,90Ð120k
+AI09513,Principal Data Scientist,74053,USD,EN,FT,Australia,M,China,0,"Spark, Statistics, Scala",Master,0,Gaming,17/2/2024,19/4/2024,1637,8.9,Quantum Computing Inc,,60Ð90k
+AI09539,Data Analyst,101088,USD,MI,CT,Australia,M,Australia,0,"Python, Scala, Azure",PhD,4,Education,26/9/2024,30/10/2024,807,5.8,Quantum Computing Inc,,90Ð120k
+AI09560,Machine Learning Researcher,165271,USD,EX,FL,Australia,M,Australia,100,"PyTorch, Git, Azure, Spark, Computer Vision",Master,13,Transportation,4/1/2025,2/2/2025,1358,7.5,Machine Intelligence Group,,160Ð200k
+AI09578,NLP Engineer,252153,USD,EX,CT,Australia,L,Australia,50,"Java, Git, Tableau, Data Visualization, TensorFlow",Associate,19,Government,17/10/2024,5/11/2024,1855,9,Advanced Robotics,,250Ð300k
+AI09588,Data Scientist,123217,USD,EX,FT,Australia,S,Australia,0,"Scala, PyTorch, Kubernetes, Data Visualization, Hadoop",Master,18,Consulting,20/1/2025,16/3/2025,1870,8.4,Future Systems,,120Ð160k
+AI09590,Research Scientist,96927,USD,SE,FT,Australia,S,Australia,100,"Statistics, SQL, Azure, AWS",Bachelor,6,Government,24/10/2024,29/11/2024,1591,9.8,Smart Analytics,,90Ð120k
+AI09616,NLP Engineer,151915,USD,SE,FL,Australia,M,Australia,100,"NLP, GCP, Hadoop",Master,9,Gaming,4/12/2024,20/12/2024,532,9.4,TechCorp Inc,,120Ð160k
+AI09657,NLP Engineer,126699,USD,SE,CT,Australia,L,Australia,0,"Mathematics, Scala, Hadoop, Kubernetes",Bachelor,7,Education,11/9/2024,15/10/2024,1548,6,DeepTech Ventures,,120Ð160k
+AI09695,Data Engineer,87133,USD,MI,FL,Australia,L,Australia,50,"Spark, Azure, Hadoop, Kubernetes, Statistics",Associate,2,Technology,15/1/2025,12/3/2025,1893,6.7,AI Innovations,,60Ð90k
+AI09706,AI Product Manager,79465,USD,EN,PT,Australia,M,Australia,0,"Java, Computer Vision, Data Visualization",Master,1,Healthcare,9/3/2024,28/4/2024,1990,6.1,Cloud AI Solutions,,60Ð90k
+AI09711,Machine Learning Researcher,91909,USD,EN,CT,Australia,L,Australia,0,"Statistics, GCP, AWS, Kubernetes, SQL",Associate,1,Consulting,13/8/2024,15/10/2024,1040,8.1,Machine Intelligence Group,,90Ð120k
+AI09729,Deep Learning Engineer,100117,USD,SE,CT,Australia,S,Australia,100,"Data Visualization, Computer Vision, Spark",Associate,7,Government,31/5/2024,11/7/2024,960,5.4,DeepTech Ventures,,90Ð120k
+AI09743,AI Specialist,115922,USD,SE,FL,Australia,M,Australia,50,"AWS, Linux, Git, Scala, MLOps",PhD,5,Healthcare,11/5/2024,16/6/2024,1505,7.2,Cloud AI Solutions,,90Ð120k
+AI09758,Robotics Engineer,66442,USD,EN,FT,Australia,L,Australia,50,"Kubernetes, Mathematics, Java",PhD,0,Finance,8/2/2025,26/3/2025,513,5,Future Systems,,60Ð90k
+AI09760,Deep Learning Engineer,54078,USD,EN,CT,Australia,M,Australia,100,"Python, GCP, R, Kubernetes, AWS",Master,1,Manufacturing,12/7/2024,19/9/2024,1341,8.1,Cognitive Computing,,30Ð60k
+AI09761,AI Product Manager,127930,USD,SE,PT,Australia,S,Australia,0,"Python, TensorFlow, Scala, Docker",Associate,5,Gaming,8/2/2024,8/4/2024,1446,8.7,Digital Transformation LLC,,120Ð160k
+AI09762,Data Scientist,107172,USD,MI,PT,Australia,M,Australia,50,"Python, Java, SQL, GCP",Master,3,Gaming,16/4/2025,6/5/2025,818,5.5,Smart Analytics,,90Ð120k
+AI09784,AI Specialist,73118,USD,MI,FL,Australia,S,Australia,50,"Kubernetes, NLP, Java, Data Visualization, Computer Vision",Master,2,Retail,7/9/2024,24/9/2024,964,7.7,AI Innovations,,60Ð90k
+AI09817,Machine Learning Researcher,179329,USD,EX,PT,Australia,M,Australia,100,"Python, TensorFlow, MLOps",Master,15,Telecommunications,9/6/2024,25/6/2024,1194,5.6,AI Innovations,,160Ð200k
+AI09821,Data Engineer,154703,USD,SE,FL,Australia,L,Australia,50,"Kubernetes, Azure, Git",Bachelor,8,Media,30/1/2025,19/3/2025,1122,5.7,Future Systems,,120Ð160k
+AI09829,Deep Learning Engineer,72094,USD,MI,FL,Australia,S,Australia,100,"Git, Hadoop, Data Visualization, R, Computer Vision",PhD,2,Government,13/9/2024,25/10/2024,1345,7,DataVision Ltd,,60Ð90k
+AI09836,Data Analyst,82065,USD,MI,FL,Australia,S,Australia,0,"Statistics, NLP, R, Git",Bachelor,4,Government,27/10/2024,7/1/2025,1894,7.2,TechCorp Inc,,60Ð90k
+AI09838,AI Architect,164443,USD,SE,CT,Australia,L,Australia,100,"Kubernetes, Deep Learning, Git, Data Visualization",PhD,7,Energy,7/5/2024,3/7/2024,592,9,Autonomous Tech,,160Ð200k
+AI09855,Robotics Engineer,145802,USD,EX,CT,Australia,S,Australia,100,"PyTorch, Tableau, Data Visualization",Master,11,Energy,4/1/2025,7/3/2025,626,8.4,Cloud AI Solutions,,120Ð160k
+AI09859,Data Engineer,91813,USD,SE,PT,Australia,S,Australia,0,"PyTorch, Data Visualization, Git, Statistics, TensorFlow",Master,6,Media,14/6/2024,23/7/2024,966,8.7,DeepTech Ventures,,90Ð120k
+AI09872,AI Specialist,143043,USD,SE,FL,Australia,M,Australia,0,"Azure, Java, NLP, Git, PyTorch",Associate,8,Technology,8/10/2024,28/11/2024,1330,7.9,AI Innovations,,120Ð160k
+AI09909,Deep Learning Engineer,138972,USD,SE,CT,Australia,L,Australia,50,"Computer Vision, GCP, Azure",PhD,9,Transportation,1/6/2024,10/8/2024,2315,5.4,Machine Intelligence Group,,120Ð160k
+AI09955,Machine Learning Researcher,85163,USD,MI,FL,Australia,M,Australia,100,"Scala, SQL, Docker, PyTorch, TensorFlow",Associate,2,Real Estate,15/12/2024,25/2/2025,1560,8.7,DeepTech Ventures,,60Ð90k
+AI09982,AI Research Scientist,94606,USD,MI,CT,Australia,S,Australia,0,"Data Visualization, R, Java",Master,3,Finance,31/3/2025,14/5/2025,2267,6.1,Autonomous Tech,,90Ð120k
+AI09985,AI Research Scientist,93109,USD,MI,FL,Australia,M,Australia,0,"TensorFlow, Spark, Azure, Scala, NLP",PhD,4,Automotive,14/1/2025,6/2/2025,613,9,AI Innovations,,90Ð120k
+AI10054,Data Scientist,87537,USD,MI,FT,Australia,M,United States,0,"Git, Computer Vision, Tableau",Master,2,Technology,17/2/2025,15/4/2025,1067,9.5,Advanced Robotics,,60Ð90k
+AI10083,AI Research Scientist,222511,USD,EX,FL,Australia,S,Denmark,50,"Tableau, Scala, Python",PhD,10,Automotive,10/1/2024,1/2/2024,1141,6.5,Digital Transformation LLC,,200Ð250k
+AI10094,Machine Learning Researcher,167215,USD,SE,CT,Australia,L,United States,100,"Python, GCP, Deep Learning, TensorFlow",Associate,9,Technology,22/7/2024,4/9/2024,2282,9.3,Smart Analytics,,160Ð200k
+AI10107,Head of AI,107870,USD,MI,PT,Australia,M,Australia,0,"Azure, NLP, Docker",PhD,2,Transportation,1/10/2024,30/10/2024,2381,6.9,Autonomous Tech,,90Ð120k
+AI10116,AI Specialist,56424,USD,EN,CT,Australia,S,Australia,100,"Python, Data Visualization, Linux",PhD,1,Real Estate,19/6/2024,16/8/2024,972,6.2,Advanced Robotics,,30Ð60k
+AI10164,Machine Learning Engineer,143136,USD,SE,PT,Australia,L,Australia,0,"Linux, SQL, Statistics",Associate,8,Healthcare,15/8/2024,4/10/2024,512,6.7,Advanced Robotics,,120Ð160k
+AI10167,Autonomous Systems Engineer,67260,USD,MI,FT,Australia,S,Australia,100,"SQL, AWS, R, Java",Bachelor,2,Energy,10/3/2024,6/5/2024,1521,9.5,Quantum Computing Inc,,60Ð90k
+AI10176,Machine Learning Researcher,78409,USD,EN,PT,Australia,L,Australia,100,"Azure, Python, TensorFlow",Master,1,Manufacturing,30/4/2025,7/6/2025,1376,5.6,Predictive Systems,,60Ð90k
+AI10177,AI Architect,239663,USD,EX,CT,Australia,L,Singapore,0,"Python, TensorFlow, GCP, Kubernetes, MLOps",PhD,10,Healthcare,18/11/2024,26/12/2024,1081,9.3,DeepTech Ventures,,200Ð250k
+AI10181,Deep Learning Engineer,161682,USD,SE,FL,Australia,L,Australia,100,"Tableau, SQL, PyTorch, Statistics",Associate,7,Retail,19/11/2024,9/1/2025,1513,5.6,Future Systems,,160Ð200k
+AI10194,Data Engineer,105801,USD,MI,CT,Australia,M,Australia,0,"Python, Data Visualization, Git, Hadoop",Bachelor,3,Telecommunications,31/12/2024,3/3/2025,1282,5.8,Cognitive Computing,,90Ð120k
+AI10245,Data Analyst,182337,USD,EX,CT,Australia,L,Australia,50,"AWS, Azure, Spark, Git",Master,14,Media,15/5/2024,11/6/2024,640,5.8,Neural Networks Co,,160Ð200k
+AI10261,AI Product Manager,92044,USD,MI,FL,Australia,L,Australia,100,"Java, R, NLP, Hadoop, Computer Vision",Bachelor,4,Healthcare,18/9/2024,30/10/2024,1903,6.6,TechCorp Inc,,90Ð120k
+AI10315,Computer Vision Engineer,108651,USD,MI,CT,Australia,M,Ireland,0,"Git, Docker, Tableau, Kubernetes, Mathematics",Bachelor,2,Transportation,15/1/2025,6/2/2025,1284,6.7,DataVision Ltd,,90Ð120k
+AI10328,Robotics Engineer,180558,USD,EX,FL,Australia,M,Finland,0,"GCP, TensorFlow, Scala",Associate,15,Real Estate,31/1/2025,24/2/2025,2050,9,AI Innovations,,160Ð200k
+AI10340,ML Ops Engineer,52101,USD,EN,FT,Australia,M,Australia,0,"Python, Docker, Scala, Data Visualization",Bachelor,0,Technology,18/1/2024,6/3/2024,959,9.5,Machine Intelligence Group,,30Ð60k
+AI10403,Data Engineer,105525,USD,SE,FT,Australia,S,Australia,0,"PyTorch, Git, Computer Vision",Associate,5,Automotive,17/11/2024,11/12/2024,1687,6.5,Predictive Systems,,90Ð120k
+AI10411,Autonomous Systems Engineer,77503,USD,MI,CT,Australia,S,United Kingdom,100,"MLOps, PyTorch, Python",Bachelor,2,Media,12/6/2024,12/8/2024,1659,7.1,Predictive Systems,,60Ð90k
+AI10436,ML Ops Engineer,145042,USD,SE,PT,Australia,M,Australia,0,"R, PyTorch, Java",Associate,9,Automotive,3/5/2024,28/6/2024,566,8,TechCorp Inc,,120Ð160k
+AI10448,Head of AI,85239,USD,EN,PT,Australia,L,Switzerland,50,"Mathematics, Python, Data Visualization, Kubernetes",Bachelor,1,Finance,2/2/2024,14/4/2024,1465,6.1,TechCorp Inc,,60Ð90k
+AI10477,ML Ops Engineer,167018,USD,EX,CT,Australia,M,France,0,"Kubernetes, Statistics, Python",Associate,11,Media,21/11/2024,6/12/2024,1548,6.7,Autonomous Tech,,160Ð200k
+AI10496,Machine Learning Engineer,156804,USD,SE,PT,Australia,L,Australia,0,"PyTorch, SQL, Git",PhD,9,Automotive,3/9/2024,4/11/2024,1917,9.4,Cognitive Computing,,120Ð160k
+AI10516,Data Analyst,63958,USD,EN,FT,Australia,S,Australia,0,"PyTorch, Docker, MLOps, Data Visualization, Scala",Associate,1,Technology,30/7/2024,17/9/2024,608,9.6,Neural Networks Co,,60Ð90k
+AI10531,Head of AI,163636,USD,SE,PT,Australia,L,Norway,0,"SQL, Spark, Mathematics",PhD,5,Education,19/4/2024,6/6/2024,693,5.6,Machine Intelligence Group,,160Ð200k
+AI10549,Principal Data Scientist,124800,USD,SE,PT,Australia,L,Australia,100,"Scala, PyTorch, AWS, Git",Master,9,Automotive,27/9/2024,21/10/2024,1780,5.5,DeepTech Ventures,,120Ð160k
+AI10560,Data Analyst,97335,USD,MI,FL,Australia,S,Australia,0,"AWS, Kubernetes, MLOps, Git",Associate,3,Consulting,26/3/2025,23/5/2025,1246,6.6,Quantum Computing Inc,,90Ð120k
+AI10568,Computer Vision Engineer,144875,USD,SE,FT,Australia,L,Switzerland,50,"Kubernetes, PyTorch, AWS, Deep Learning",PhD,9,Automotive,16/6/2024,8/8/2024,1106,6.9,Quantum Computing Inc,,120Ð160k
+AI10599,Data Engineer,101402,USD,MI,FT,Australia,M,Australia,0,"R, Java, Python, NLP",Master,3,Healthcare,13/4/2024,12/6/2024,995,9.6,Predictive Systems,,90Ð120k
+AI10624,ML Ops Engineer,140653,USD,SE,PT,Australia,L,Australia,50,"SQL, Git, Spark",Master,8,Consulting,28/7/2024,19/9/2024,1007,7,Algorithmic Solutions,,120Ð160k
+AI10635,AI Product Manager,121140,USD,SE,PT,Australia,L,Japan,50,"Linux, SQL, Hadoop, Mathematics",PhD,5,Consulting,29/7/2024,10/9/2024,1999,8.5,Advanced Robotics,,120Ð160k
+AI10649,ML Ops Engineer,62976,USD,EN,FT,Australia,M,Australia,0,"Python, Statistics, Data Visualization, SQL, R",Bachelor,1,Retail,15/10/2024,30/11/2024,804,8.5,Quantum Computing Inc,,60Ð90k
+AI10676,Data Analyst,104903,USD,MI,FL,Australia,M,Australia,0,"Tableau, Java, PyTorch",PhD,3,Government,13/4/2024,19/5/2024,1309,10,Algorithmic Solutions,,90Ð120k
+AI10730,Machine Learning Researcher,61740,USD,EN,CT,Australia,S,Australia,0,"Azure, AWS, Kubernetes, Python, TensorFlow",Associate,0,Education,11/9/2024,5/11/2024,1912,7.1,Autonomous Tech,,60Ð90k
+AI10752,Robotics Engineer,59896,USD,EN,FL,Australia,L,Sweden,0,"Python, TensorFlow, Linux, PyTorch, Git",PhD,0,Government,27/2/2024,27/3/2024,1894,9.6,Cognitive Computing,,30Ð60k
+AI10760,Head of AI,138286,USD,SE,PT,Australia,L,Australia,0,"Java, SQL, Hadoop, Docker, Python",PhD,5,Automotive,8/6/2024,17/7/2024,1348,5.5,Cognitive Computing,,120Ð160k
+AI10798,Data Engineer,61454,USD,EN,PT,Australia,M,Denmark,0,"Tableau, Deep Learning, Docker",PhD,0,Education,31/3/2025,5/6/2025,1427,6,Future Systems,,60Ð90k
+AI10838,AI Software Engineer,73972,USD,MI,PT,Australia,M,Australia,50,"SQL, Kubernetes, Docker",Associate,4,Transportation,11/2/2025,23/4/2025,1743,7.8,Predictive Systems,,60Ð90k
+AI10839,Principal Data Scientist,77077,USD,MI,PT,Australia,M,Germany,0,"Spark, Git, Tableau, Python, TensorFlow",Bachelor,4,Manufacturing,27/10/2024,10/11/2024,1250,7.9,Predictive Systems,,60Ð90k
+AI10877,NLP Engineer,174543,USD,EX,PT,Australia,L,Australia,50,"Data Visualization, Spark, Java, Computer Vision, SQL",Master,18,Healthcare,9/7/2024,27/7/2024,2480,5.2,Machine Intelligence Group,,160Ð200k
+AI10878,AI Specialist,94173,USD,SE,CT,Australia,S,Australia,50,"Kubernetes, NLP, MLOps, SQL",Bachelor,5,Media,8/3/2024,14/5/2024,2268,5.5,AI Innovations,,90Ð120k
+AI10890,AI Specialist,102674,USD,SE,FL,Australia,S,Japan,100,"Deep Learning, Kubernetes, Python",Bachelor,8,Healthcare,16/2/2024,15/3/2024,1355,9.2,Predictive Systems,,90Ð120k
+AI10946,Data Scientist,228453,USD,EX,FT,Australia,M,Singapore,100,"Hadoop, Python, Spark, R",Master,19,Manufacturing,28/12/2024,26/1/2025,1846,9.7,Machine Intelligence Group,,200Ð250k
+AI10981,AI Specialist,114519,USD,MI,FT,Australia,L,Australia,100,"Kubernetes, Linux, Python, Git, Azure",Master,3,Technology,14/10/2024,15/12/2024,2075,8.9,Predictive Systems,,90Ð120k
+AI11030,AI Software Engineer,165771,USD,EX,FL,Australia,L,Austria,0,"Hadoop, Statistics, Data Visualization",Master,19,Automotive,20/1/2025,17/3/2025,1183,9.8,Advanced Robotics,,160Ð200k
+AI11059,AI Product Manager,57306,USD,EN,CT,Australia,S,Australia,0,"R, Linux, Kubernetes",Bachelor,1,Manufacturing,11/6/2024,16/7/2024,1147,9.8,AI Innovations,,30Ð60k
+AI11077,AI Research Scientist,59211,USD,EN,CT,Australia,S,Australia,50,"Kubernetes, NLP, Linux",Bachelor,1,Technology,7/3/2024,29/4/2024,1504,8.3,Smart Analytics,,30Ð60k
+AI11126,Research Scientist,88792,USD,MI,CT,Australia,S,Netherlands,50,"Kubernetes, Mathematics, Computer Vision, GCP, Linux",PhD,2,Transportation,9/12/2024,23/1/2025,1474,8.7,TechCorp Inc,,60Ð90k
+AI11169,AI Consultant,189838,USD,EX,CT,Australia,L,Sweden,50,"Deep Learning, Java, Kubernetes",Master,11,Gaming,26/12/2024,5/2/2025,1094,6.5,Advanced Robotics,,160Ð200k
+AI11182,Research Scientist,82605,USD,EN,FT,Australia,L,Japan,0,"Azure, Kubernetes, Tableau",Bachelor,1,Finance,5/9/2024,6/11/2024,551,8.1,Quantum Computing Inc,,60Ð90k
+AI11235,Machine Learning Researcher,170112,USD,SE,PT,Australia,L,Australia,50,"Computer Vision, PyTorch, Mathematics",Associate,6,Technology,16/9/2024,4/11/2024,826,9.4,Neural Networks Co,,160Ð200k
+AI11260,AI Consultant,129617,USD,SE,CT,Australia,M,Australia,100,"Computer Vision, MLOps, Git, Hadoop, Python",Bachelor,5,Retail,12/4/2024,11/5/2024,592,8.9,Cloud AI Solutions,,120Ð160k
+AI11274,AI Product Manager,131108,USD,EX,FT,Australia,S,Australia,100,"Data Visualization, Mathematics, TensorFlow, Scala",Master,16,Consulting,22/12/2024,9/1/2025,1197,6.5,Machine Intelligence Group,,120Ð160k
+AI11314,AI Product Manager,54356,USD,EN,FT,Australia,S,Australia,50,"R, Python, Kubernetes, Tableau, Mathematics",Bachelor,0,Retail,22/2/2024,30/3/2024,1481,9.6,Advanced Robotics,,30Ð60k
+AI11344,Deep Learning Engineer,137623,USD,SE,PT,Australia,S,Norway,100,"Scala, Tableau, PyTorch, SQL",Associate,7,Energy,13/4/2024,25/5/2024,2264,6.1,Quantum Computing Inc,,120Ð160k
+AI11376,Deep Learning Engineer,103759,USD,MI,PT,Australia,L,Australia,0,"Git, Docker, PyTorch, AWS, Kubernetes",Master,3,Energy,28/3/2024,24/4/2024,1923,8.7,TechCorp Inc,,90Ð120k
+AI11383,Head of AI,87567,USD,MI,PT,Australia,S,Australia,100,"Spark, SQL, TensorFlow, Hadoop",PhD,2,Finance,24/2/2025,16/3/2025,1499,7.3,DeepTech Ventures,,60Ð90k
+AI11403,Machine Learning Engineer,151341,USD,SE,FL,Australia,L,Australia,50,"TensorFlow, Python, Mathematics",PhD,9,Media,6/5/2024,18/6/2024,1952,7,Cloud AI Solutions,,120Ð160k
+AI11422,Machine Learning Engineer,105429,USD,SE,PT,Australia,M,Sweden,50,"PyTorch, Docker, Tableau, Git",Bachelor,5,Telecommunications,8/1/2024,24/1/2024,2199,9.4,DeepTech Ventures,,90Ð120k
+AI11430,Computer Vision Engineer,184142,USD,EX,FL,Australia,S,Australia,50,"Kubernetes, TensorFlow, Git",Bachelor,13,Automotive,3/3/2025,27/4/2025,1388,8.2,Digital Transformation LLC,,160Ð200k
+AI11433,AI Architect,49309,USD,EN,FT,Australia,S,Australia,0,"Computer Vision, MLOps, Java, SQL, GCP",Associate,1,Transportation,2/6/2024,13/8/2024,1672,7.6,Advanced Robotics,,30Ð60k
+AI11448,Principal Data Scientist,81151,USD,EN,FT,Australia,L,Australia,0,"Python, Java, NLP, Docker",Bachelor,1,Retail,28/3/2024,5/6/2024,1384,5.3,Smart Analytics,,60Ð90k
+AI11533,Data Scientist,180642,USD,EX,FL,Australia,L,Sweden,50,"Python, GCP, Linux, TensorFlow, Docker",PhD,15,Gaming,12/10/2024,14/12/2024,2018,10,Predictive Systems,,160Ð200k
+AI11542,Head of AI,86828,USD,MI,PT,Australia,M,France,0,"Scala, Hadoop, TensorFlow, Statistics",Bachelor,2,Technology,12/8/2024,20/10/2024,2298,9.7,DeepTech Ventures,,60Ð90k
+AI11622,AI Specialist,250620,USD,EX,FT,Australia,M,Australia,0,"Linux, NLP, Hadoop, Spark, Git",PhD,12,Media,28/4/2024,10/7/2024,2145,9.7,Predictive Systems,,250Ð300k
+AI11651,AI Consultant,121289,USD,SE,FL,Australia,L,Australia,0,"Deep Learning, SQL, Git",PhD,7,Education,13/6/2024,30/7/2024,1682,6.8,Cloud AI Solutions,,120Ð160k
+AI11678,Data Analyst,102652,USD,MI,PT,Australia,M,Australia,0,"SQL, Spark, NLP, Data Visualization",Bachelor,4,Healthcare,3/2/2025,29/3/2025,957,8.1,Cloud AI Solutions,,90Ð120k
+AI11728,Computer Vision Engineer,72033,USD,EN,CT,Australia,L,Australia,50,"Tableau, SQL, Python, Azure, NLP",PhD,0,Healthcare,21/9/2024,26/11/2024,1214,7.1,Advanced Robotics,,60Ð90k
+AI11766,Head of AI,133780,USD,SE,FL,Australia,L,Australia,100,"R, Mathematics, Computer Vision, Azure, Python",Associate,8,Gaming,30/12/2024,21/1/2025,2094,5.4,Quantum Computing Inc,,120Ð160k
+AI11803,AI Software Engineer,71085,USD,EN,CT,Australia,S,Australia,100,"Tableau, Deep Learning, SQL, Git",Bachelor,0,Education,4/12/2024,2/2/2025,2223,9.1,Smart Analytics,,60Ð90k
+AI11805,Machine Learning Researcher,73944,USD,MI,FL,Australia,M,Australia,0,"Docker, Python, SQL, NLP",Bachelor,2,Healthcare,10/2/2025,24/3/2025,2331,5.4,Cognitive Computing,,60Ð90k
+AI11833,AI Consultant,117926,USD,SE,CT,Australia,L,Australia,50,"MLOps, Tableau, SQL",Associate,7,Technology,7/3/2024,27/3/2024,697,5.3,AI Innovations,,90Ð120k
+AI11849,Data Engineer,177977,USD,EX,FT,Australia,S,Australia,50,"SQL, Scala, Kubernetes",PhD,19,Manufacturing,12/3/2024,31/3/2024,1036,5.9,Smart Analytics,,160Ð200k
+AI11859,AI Product Manager,77417,USD,EN,FT,Australia,L,Australia,0,"Computer Vision, PyTorch, Scala",PhD,0,Real Estate,19/8/2024,10/10/2024,1046,8.9,Cloud AI Solutions,,60Ð90k
+AI11863,Deep Learning Engineer,205514,USD,EX,PT,Australia,L,Australia,100,"AWS, Data Visualization, Hadoop",Associate,15,Consulting,6/4/2025,28/4/2025,1522,8.1,TechCorp Inc,,200Ð250k
+AI11895,AI Specialist,175367,USD,SE,FL,Australia,L,France,50,"Spark, Kubernetes, PyTorch, Computer Vision, GCP",Bachelor,5,Education,25/8/2024,12/9/2024,1043,5.3,TechCorp Inc,,160Ð200k
+AI11965,Data Scientist,144527,USD,EX,PT,Australia,M,Australia,100,"Git, TensorFlow, Tableau, PyTorch",Bachelor,18,Consulting,11/11/2024,6/1/2025,793,8.4,Digital Transformation LLC,,120Ð160k
+AI11967,AI Consultant,78387,USD,EN,FL,Australia,L,Australia,50,"SQL, Python, Mathematics, Tableau",PhD,1,Technology,17/5/2024,5/7/2024,1930,7.1,AI Innovations,,60Ð90k
+AI11978,Data Scientist,64158,USD,EN,PT,Australia,M,Australia,50,"SQL, Kubernetes, Computer Vision, Azure",Associate,0,Finance,30/11/2024,16/12/2024,1070,9.8,DataVision Ltd,,60Ð90k
+AI11991,Autonomous Systems Engineer,77633,USD,EN,PT,Australia,M,Australia,100,"Kubernetes, Azure, Tableau, NLP, Spark",Associate,0,Real Estate,14/5/2024,18/6/2024,1452,6.5,Autonomous Tech,,60Ð90k
+AI11993,Computer Vision Engineer,114502,USD,SE,PT,Australia,S,Japan,100,"PyTorch, Deep Learning, NLP",Bachelor,6,Energy,30/8/2024,25/10/2024,1304,5.7,Cognitive Computing,,90Ð120k
+AI12011,Machine Learning Engineer,70180,USD,EN,FT,Australia,M,Australia,100,"Statistics, TensorFlow, Java, Mathematics",Master,1,Media,28/2/2024,10/4/2024,1598,6.5,Neural Networks Co,,60Ð90k
+AI12026,AI Research Scientist,158027,USD,SE,FL,Australia,L,Australia,100,"Data Visualization, MLOps, GCP, PyTorch, Azure",Master,8,Gaming,3/4/2024,31/5/2024,2148,6.2,Neural Networks Co,,120Ð160k
+AI12038,AI Software Engineer,67319,USD,EN,FL,Australia,M,Norway,100,"SQL, Kubernetes, Computer Vision",PhD,0,Healthcare,12/4/2024,13/6/2024,864,9.9,Cognitive Computing,,60Ð90k
+AI12051,AI Research Scientist,142532,USD,SE,CT,Australia,L,Australia,0,"Kubernetes, SQL, Tableau, Spark",Master,8,Automotive,22/1/2024,10/2/2024,1388,5.1,Predictive Systems,,120Ð160k
+AI12064,Principal Data Scientist,56155,USD,EN,FL,Australia,M,Australia,100,"TensorFlow, Tableau, Linux, PyTorch, Java",Bachelor,1,Gaming,13/3/2025,12/5/2025,1146,8.9,DataVision Ltd,,30Ð60k
+AI12069,Research Scientist,56616,USD,EN,CT,Australia,S,Australia,0,"SQL, PyTorch, Azure, Docker, MLOps",PhD,0,Technology,28/7/2024,16/8/2024,2456,5.9,Smart Analytics,,30Ð60k
+AI12099,AI Research Scientist,136824,USD,EX,FL,Australia,S,Australia,50,"Python, Docker, Mathematics",PhD,16,Healthcare,13/12/2024,7/2/2025,787,7.7,Predictive Systems,,120Ð160k
+AI12102,ML Ops Engineer,168199,USD,SE,FL,Australia,L,India,0,"Python, Docker, Spark",Associate,5,Transportation,6/2/2024,31/3/2024,1455,6.7,Cognitive Computing,,160Ð200k
+AI12120,Deep Learning Engineer,95130,USD,SE,PT,Australia,S,Australia,100,"Azure, Data Visualization, TensorFlow, Mathematics, Python",Associate,7,Transportation,16/4/2025,30/4/2025,2101,5.2,TechCorp Inc,,90Ð120k
+AI12151,Robotics Engineer,74597,USD,EN,FL,Australia,L,Australia,100,"Scala, Tableau, Kubernetes, Deep Learning, TensorFlow",Associate,1,Automotive,15/8/2024,7/9/2024,1984,8.5,AI Innovations,,60Ð90k
+AI12159,Research Scientist,78172,USD,EN,FT,Australia,M,Australia,50,"TensorFlow, R, GCP",Master,0,Retail,1/11/2024,30/12/2024,1509,9.6,AI Innovations,,60Ð90k
+AI12160,Robotics Engineer,79828,USD,MI,FL,Australia,M,Australia,50,"Azure, Linux, Spark, NLP",PhD,2,Gaming,28/4/2025,27/5/2025,1610,5.1,Predictive Systems,,60Ð90k
+AI12175,Head of AI,88812,USD,MI,FL,Australia,L,Australia,0,"Deep Learning, Java, Git, Linux",Bachelor,3,Manufacturing,5/2/2024,4/3/2024,2389,9.8,Predictive Systems,,60Ð90k
+AI12191,Machine Learning Engineer,144299,USD,SE,FT,Australia,L,Australia,50,"Python, Linux, TensorFlow, Scala, Git",PhD,9,Media,29/11/2024,4/1/2025,2379,8.5,Predictive Systems,,120Ð160k
+AI12224,Computer Vision Engineer,111601,USD,SE,CT,Australia,M,Canada,100,"Scala, Hadoop, Tableau, Python",Associate,8,Finance,5/4/2024,16/6/2024,611,8,AI Innovations,,90Ð120k
+AI12227,AI Architect,147307,USD,SE,FT,Australia,M,Australia,100,"Git, Kubernetes, Python",Bachelor,7,Manufacturing,24/11/2024,20/1/2025,1056,8.9,Digital Transformation LLC,,120Ð160k
+AI12231,Autonomous Systems Engineer,94205,USD,MI,FT,Australia,M,Australia,50,"Python, Tableau, Git, AWS",Bachelor,4,Energy,19/6/2024,12/8/2024,2344,6.5,DataVision Ltd,,90Ð120k
+AI12258,Research Scientist,186736,USD,EX,PT,Australia,S,Australia,50,"SQL, Data Visualization, Python",PhD,19,Retail,28/8/2024,29/10/2024,2334,5.8,Cognitive Computing,,160Ð200k
+AI12401,AI Software Engineer,181109,USD,EX,FL,Australia,S,Australia,50,"Kubernetes, Java, Git, NLP, Data Visualization",Associate,14,Automotive,22/4/2025,17/5/2025,2085,9.8,Advanced Robotics,,160Ð200k
+AI12434,AI Research Scientist,191959,USD,EX,CT,Australia,S,Australia,100,"Java, Hadoop, Python",Master,13,Education,29/6/2024,4/9/2024,765,5.2,Quantum Computing Inc,,160Ð200k
+AI12446,Data Scientist,107009,USD,MI,PT,Australia,L,Australia,100,"Git, Azure, PyTorch",Associate,2,Real Estate,15/2/2024,14/4/2024,2083,6.5,Smart Analytics,,90Ð120k
+AI12447,Research Scientist,213995,USD,EX,FT,Australia,M,South Korea,50,"Deep Learning, Azure, GCP, Data Visualization, Docker",PhD,11,Transportation,21/4/2024,29/5/2024,809,7.7,DataVision Ltd,,200Ð250k
+AI12451,AI Research Scientist,137971,USD,SE,CT,Australia,L,Australia,100,"Python, Mathematics, Linux, Deep Learning, TensorFlow",Associate,6,Finance,3/6/2024,7/7/2024,2249,8.6,Autonomous Tech,,120Ð160k
+AI12452,AI Research Scientist,75564,USD,EN,PT,Australia,M,Australia,50,"Git, Computer Vision, AWS, Docker, Kubernetes",Master,1,Media,1/3/2025,4/5/2025,1532,8.4,Neural Networks Co,,60Ð90k
+AI12468,AI Specialist,173786,USD,SE,PT,Australia,L,Australia,50,"Hadoop, R, AWS, Mathematics, GCP",Bachelor,9,Technology,27/2/2024,30/3/2024,1370,7.4,Autonomous Tech,,160Ð200k
+AI12491,AI Product Manager,158112,USD,SE,CT,Australia,L,Australia,100,"Python, Azure, NLP, SQL",PhD,6,Consulting,27/3/2025,5/5/2025,1176,6.8,Cloud AI Solutions,,120Ð160k
+AI12504,AI Software Engineer,53833,USD,EN,FL,Australia,M,Australia,50,"Spark, Mathematics, Tableau, Git, Computer Vision",Master,0,Finance,21/11/2024,26/1/2025,1236,9.3,AI Innovations,,30Ð60k
+AI12532,Data Analyst,76004,USD,EN,PT,Australia,L,Australia,100,"Statistics, Linux, Docker, Mathematics, Scala",Master,1,Education,1/5/2024,1/6/2024,830,7.2,Cognitive Computing,,60Ð90k
+AI12570,Research Scientist,93919,USD,SE,CT,Australia,S,Denmark,0,"Azure, PyTorch, SQL, Computer Vision, Git",PhD,5,Media,6/3/2024,22/4/2024,2297,5.3,Quantum Computing Inc,,90Ð120k
+AI12585,AI Architect,136175,USD,SE,PT,Australia,S,United Kingdom,100,"AWS, SQL, NLP, Data Visualization",PhD,8,Real Estate,16/11/2024,4/12/2024,521,6.8,Machine Intelligence Group,,120Ð160k
+AI12595,AI Software Engineer,64209,USD,EN,PT,Australia,S,France,100,"Azure, Git, TensorFlow, Python, Data Visualization",Associate,0,Retail,23/3/2024,16/4/2024,2474,5.8,DeepTech Ventures,,60Ð90k
+AI12627,Research Scientist,225751,USD,EX,FT,Australia,M,Australia,100,"Data Visualization, Deep Learning, Kubernetes",Associate,10,Real Estate,19/3/2025,21/5/2025,2366,7,Cloud AI Solutions,,200Ð250k
+AI12654,Data Scientist,243811,USD,EX,FL,Australia,L,Australia,50,"TensorFlow, Kubernetes, AWS, Spark",Associate,10,Automotive,16/10/2024,22/11/2024,913,5.4,AI Innovations,,200Ð250k
+AI12662,Data Engineer,198592,USD,EX,FL,Australia,S,Australia,100,"Docker, Hadoop, Java",Bachelor,16,Manufacturing,7/8/2024,28/8/2024,1617,8.7,Algorithmic Solutions,,160Ð200k
+AI12673,AI Software Engineer,210284,USD,EX,FL,Australia,L,Australia,0,"Scala, PyTorch, Tableau, Data Visualization, Deep Learning",Bachelor,11,Government,23/12/2024,11/1/2025,1728,9.2,Smart Analytics,,200Ð250k
+AI12713,Data Engineer,69628,USD,EN,FT,Australia,S,India,100,"Spark, PyTorch, Mathematics, TensorFlow",PhD,1,Finance,23/12/2024,20/2/2025,2344,7.7,Cognitive Computing,,60Ð90k
+AI12771,Research Scientist,77777,USD,EN,CT,Australia,M,Israel,100,"Tableau, TensorFlow, GCP",PhD,1,Automotive,29/12/2024,20/1/2025,967,8.2,Quantum Computing Inc,,60Ð90k
+AI12773,NLP Engineer,167758,USD,EX,PT,Australia,M,Australia,0,"AWS, Kubernetes, NLP, SQL, Mathematics",Bachelor,10,Telecommunications,12/8/2024,23/9/2024,2472,7.9,AI Innovations,,160Ð200k
+AI12777,Principal Data Scientist,86893,USD,EN,FL,Australia,L,Australia,50,"Statistics, Kubernetes, NLP, Python",PhD,0,Retail,3/5/2024,8/7/2024,1223,7.2,Autonomous Tech,,60Ð90k
+AI12786,Head of AI,79800,USD,MI,FT,Australia,M,Australia,0,"Kubernetes, Scala, Docker",PhD,4,Gaming,24/3/2025,12/4/2025,1001,7,Cloud AI Solutions,,60Ð90k
+AI12809,AI Specialist,224774,USD,EX,FT,Australia,S,Australia,100,"Python, TensorFlow, Deep Learning",Master,15,Energy,30/1/2024,27/2/2024,2422,7.6,DataVision Ltd,,200Ð250k
+AI12887,Machine Learning Researcher,68677,USD,MI,PT,Australia,S,Australia,0,"GCP, Kubernetes, Tableau",Master,3,Education,12/1/2025,26/2/2025,2328,9,DataVision Ltd,,60Ð90k
+AI12918,Computer Vision Engineer,66838,USD,MI,CT,Australia,S,Australia,100,"PyTorch, Java, GCP",Master,4,Consulting,16/7/2024,6/8/2024,1348,8.8,Predictive Systems,,60Ð90k
+AI12933,Autonomous Systems Engineer,70773,USD,MI,PT,Australia,S,United Kingdom,50,"Mathematics, Data Visualization, Spark, SQL, PyTorch",Associate,4,Retail,22/2/2025,26/3/2025,1294,7,Future Systems,,60Ð90k
+AI12940,ML Ops Engineer,128104,USD,EX,CT,Australia,S,Australia,50,"Tableau, Computer Vision, Mathematics, AWS",PhD,17,Healthcare,12/4/2024,29/5/2024,935,6.9,TechCorp Inc,,120Ð160k
+AI12941,Head of AI,72485,USD,EN,PT,Australia,M,Australia,100,"Linux, Scala, Mathematics, Azure",Associate,1,Government,28/4/2024,22/5/2024,2399,5.4,Machine Intelligence Group,,60Ð90k
+AI12970,Machine Learning Researcher,191575,USD,EX,FL,Australia,M,Australia,0,"Statistics, Git, AWS",Bachelor,10,Automotive,2/9/2024,7/11/2024,1197,8.2,Machine Intelligence Group,,160Ð200k
+AI12998,Data Engineer,151251,USD,EX,FL,Australia,M,Australia,100,"R, TensorFlow, Deep Learning, Docker",Master,15,Automotive,1/3/2025,23/4/2025,1030,9.6,DeepTech Ventures,,120Ð160k
+AI13004,Principal Data Scientist,85950,USD,EN,FL,Australia,L,Australia,100,"Scala, Hadoop, R, Kubernetes",Associate,0,Education,26/4/2025,27/6/2025,1922,6.3,Cloud AI Solutions,,60Ð90k
+AI13006,Research Scientist,51215,USD,EN,CT,Australia,S,Australia,50,"Java, Hadoop, Mathematics, Kubernetes",Bachelor,1,Automotive,16/3/2025,27/5/2025,1235,5,TechCorp Inc,,30Ð60k
+AI13025,AI Architect,89079,USD,MI,FL,Australia,L,Sweden,50,"Java, PyTorch, TensorFlow",Master,2,Telecommunications,2/12/2024,10/1/2025,544,8.3,Future Systems,,60Ð90k
+AI13028,AI Architect,127796,USD,SE,FT,Australia,L,Australia,50,"Docker, NLP, Python, Azure, AWS",Associate,6,Automotive,15/7/2024,1/9/2024,1892,5.8,Autonomous Tech,,120Ð160k
+AI13040,AI Architect,137501,USD,EX,FL,Australia,S,Australia,0,"Computer Vision, Tableau, GCP, NLP, PyTorch",Master,13,Education,18/1/2024,11/3/2024,2341,8.3,Neural Networks Co,,120Ð160k
+AI13044,Deep Learning Engineer,85754,USD,EN,FL,Australia,L,Australia,100,"TensorFlow, SQL, Deep Learning, NLP",Bachelor,1,Healthcare,1/1/2024,19/1/2024,1749,7.2,Smart Analytics,,60Ð90k
+AI13096,Principal Data Scientist,55879,USD,EN,PT,Australia,S,Australia,50,"Hadoop, Python, TensorFlow, Computer Vision",Master,0,Consulting,28/3/2025,19/5/2025,1119,6.7,Quantum Computing Inc,,30Ð60k
+AI13148,Autonomous Systems Engineer,81362,USD,EN,FL,Australia,L,Australia,0,"AWS, SQL, Tableau, NLP",PhD,0,Government,2/3/2024,4/4/2024,1362,9.3,AI Innovations,,60Ð90k
+AI13165,ML Ops Engineer,187010,USD,EX,CT,Australia,L,Australia,50,"Docker, Git, Data Visualization, Linux, Python",Associate,18,Finance,17/8/2024,22/9/2024,1655,8.1,Future Systems,,160Ð200k
+AI13169,Head of AI,199670,USD,EX,PT,Australia,M,United States,0,"Spark, GCP, Azure, Deep Learning",PhD,16,Healthcare,24/8/2024,6/10/2024,1264,9.1,AI Innovations,,160Ð200k
+AI13175,Head of AI,76930,USD,MI,PT,Australia,M,Norway,0,"SQL, Data Visualization, Java",Associate,2,Media,1/2/2024,14/3/2024,517,9.5,TechCorp Inc,,60Ð90k
+AI13182,Autonomous Systems Engineer,135888,USD,SE,FL,Australia,M,Australia,0,"NLP, Java, PyTorch",PhD,6,Healthcare,12/9/2024,26/10/2024,721,6.5,Machine Intelligence Group,,120Ð160k
+AI13195,AI Consultant,79079,USD,EN,FL,Australia,L,Ireland,50,"Data Visualization, AWS, Tableau",Associate,1,Energy,27/5/2024,4/7/2024,1317,6.6,Machine Intelligence Group,,60Ð90k
+AI13241,Machine Learning Researcher,92834,USD,EN,FL,Australia,L,Australia,50,"AWS, SQL, Spark",Master,1,Finance,14/4/2025,26/5/2025,2089,8.2,Cognitive Computing,,90Ð120k
+AI13261,AI Architect,129421,USD,SE,FT,Australia,L,Australia,50,"Hadoop, Data Visualization, MLOps, PyTorch, Kubernetes",Master,8,Healthcare,15/12/2024,22/2/2025,1386,6.1,Neural Networks Co,,120Ð160k
+AI13279,ML Ops Engineer,59528,USD,EN,FL,Australia,M,Australia,50,"PyTorch, Tableau, TensorFlow, Deep Learning, Git",Bachelor,1,Manufacturing,24/3/2025,9/5/2025,915,8.4,Advanced Robotics,,30Ð60k
+AI13305,AI Research Scientist,240667,USD,EX,CT,Australia,L,Australia,0,"Deep Learning, AWS, Data Visualization",Master,18,Transportation,28/10/2024,3/12/2024,644,5.8,Cognitive Computing,,200Ð250k
+AI13327,AI Consultant,161568,USD,EX,FT,Australia,S,Australia,50,"AWS, SQL, Azure, Git",PhD,15,Telecommunications,6/6/2024,27/6/2024,1682,6.6,Advanced Robotics,,160Ð200k
+AI13357,Deep Learning Engineer,233292,USD,EX,FT,Australia,L,Australia,0,"Kubernetes, SQL, NLP, Java, TensorFlow",PhD,13,Finance,6/2/2024,7/4/2024,843,6.6,Smart Analytics,,200Ð250k
+AI13409,Computer Vision Engineer,82206,USD,MI,FT,Australia,S,Australia,100,"Scala, Git, Deep Learning",Bachelor,3,Automotive,28/2/2025,25/4/2025,1370,5.3,Predictive Systems,,60Ð90k
+AI13415,AI Consultant,114581,USD,SE,FT,Australia,S,Sweden,50,"Git, R, Statistics",Associate,7,Manufacturing,12/2/2025,12/3/2025,1584,7.5,Quantum Computing Inc,,90Ð120k
+AI13442,Data Analyst,66011,USD,EN,PT,Australia,S,Norway,50,"MLOps, SQL, Kubernetes, NLP",Master,1,Energy,29/8/2024,28/9/2024,2411,5.9,AI Innovations,,60Ð90k
+AI13458,Data Analyst,63136,USD,EN,FT,Australia,L,Australia,100,"Tableau, Scala, Hadoop, Docker",PhD,1,Gaming,8/4/2025,30/4/2025,2454,9.4,AI Innovations,,60Ð90k
+AI13488,Data Engineer,158554,USD,EX,FL,Australia,L,Australia,100,"NLP, Linux, Computer Vision, Scala, Java",Master,17,Manufacturing,14/2/2025,13/3/2025,1241,5.1,Quantum Computing Inc,,120Ð160k
+AI13492,Data Scientist,80632,USD,MI,FT,Australia,M,Australia,100,"Scala, Git, Java",Associate,3,Media,12/5/2024,16/6/2024,666,9.2,Smart Analytics,,60Ð90k
+AI13509,Head of AI,63988,USD,EN,CT,Australia,S,Sweden,100,"PyTorch, SQL, Azure, Tableau",PhD,1,Finance,29/10/2024,22/11/2024,1168,7.3,Cloud AI Solutions,,60Ð90k
+AI13511,Data Engineer,74400,USD,EN,PT,Australia,M,United Kingdom,0,"Python, TensorFlow, Data Visualization, PyTorch, Tableau",PhD,1,Government,26/9/2024,30/11/2024,1661,8.3,Digital Transformation LLC,,60Ð90k
+AI13519,AI Product Manager,203237,USD,EX,CT,Australia,M,Sweden,100,"Java, R, Azure, NLP",PhD,14,Manufacturing,21/7/2024,26/9/2024,681,7.7,Cloud AI Solutions,,200Ð250k
+AI13539,AI Architect,130479,USD,SE,FL,Australia,M,Australia,0,"Git, Python, Hadoop, Mathematics, Computer Vision",Master,6,Media,10/4/2025,9/6/2025,2312,7.2,Smart Analytics,,120Ð160k
+AI13557,Data Analyst,76697,USD,MI,FT,Australia,M,Australia,0,"Python, AWS, SQL",Master,4,Technology,2/3/2025,8/4/2025,1325,9.7,TechCorp Inc,,60Ð90k
+AI13563,AI Architect,54532,USD,EN,PT,Australia,M,Australia,0,"Statistics, TensorFlow, PyTorch, Kubernetes",Associate,1,Consulting,23/4/2024,21/5/2024,2236,6.4,Neural Networks Co,,30Ð60k
+AI13576,AI Specialist,91649,USD,MI,PT,Australia,S,Australia,0,"Computer Vision, Docker, NLP, Deep Learning",PhD,4,Real Estate,25/2/2024,2/5/2024,2206,9.7,Cloud AI Solutions,,90Ð120k
+AI13619,Head of AI,136129,USD,EX,PT,Australia,S,Australia,50,"SQL, Python, Docker, Computer Vision, R",Bachelor,18,Healthcare,1/2/2025,5/3/2025,1502,7.9,Predictive Systems,,120Ð160k
+AI13630,Robotics Engineer,71048,USD,EN,FL,Australia,S,Austria,0,"TensorFlow, Data Visualization, AWS",Master,0,Education,17/3/2025,17/5/2025,1873,7.6,Quantum Computing Inc,,60Ð90k
+AI13671,AI Software Engineer,60400,USD,EN,PT,Australia,M,Australia,0,"R, Kubernetes, MLOps, Computer Vision, Statistics",Bachelor,1,Education,8/12/2024,6/2/2025,1903,8.4,TechCorp Inc,,60Ð90k
+AI13678,Data Engineer,119296,USD,MI,PT,Australia,L,Australia,100,"Azure, AWS, Tableau, GCP, Mathematics",Master,3,Government,12/5/2024,23/6/2024,528,8.3,DeepTech Ventures,,90Ð120k
+AI13681,AI Specialist,66326,USD,EN,CT,Australia,L,Australia,0,"Azure, Linux, Tableau",Master,0,Media,13/10/2024,3/11/2024,2240,7.7,Digital Transformation LLC,,60Ð90k
+AI13703,Machine Learning Researcher,61963,USD,EN,CT,Australia,L,Sweden,50,"TensorFlow, Deep Learning, Python",Associate,0,Retail,17/11/2024,19/1/2025,1254,8.2,TechCorp Inc,,60Ð90k
+AI13714,Robotics Engineer,82028,USD,MI,FT,Australia,S,Australia,50,"Python, Statistics, Git, Scala",PhD,3,Consulting,11/6/2024,1/7/2024,2134,5.8,TechCorp Inc,,60Ð90k
+AI13728,Head of AI,245484,USD,EX,FT,Australia,M,Australia,50,"GCP, Scala, MLOps, PyTorch, Docker",Bachelor,17,Energy,28/12/2024,24/1/2025,2187,8,DeepTech Ventures,,200Ð250k
+AI13759,AI Architect,92437,USD,SE,FT,Australia,S,Australia,0,"Tableau, AWS, Kubernetes, PyTorch",Associate,7,Manufacturing,5/10/2024,27/11/2024,1182,8.6,AI Innovations,,90Ð120k
+AI13770,AI Research Scientist,69049,USD,EN,FL,Australia,M,Australia,100,"GCP, NLP, Computer Vision, Azure",Bachelor,1,Government,1/4/2025,4/6/2025,1068,8.8,AI Innovations,,60Ð90k
+AI13790,AI Specialist,129496,USD,SE,FT,Australia,L,United Kingdom,100,"PyTorch, MLOps, GCP, Spark",PhD,7,Transportation,18/10/2024,3/11/2024,2181,9.3,Cloud AI Solutions,,120Ð160k
+AI13792,AI Specialist,53092,USD,EN,PT,Australia,M,Singapore,0,"PyTorch, Kubernetes, Spark, Deep Learning, Mathematics",Bachelor,0,Retail,25/1/2024,21/2/2024,1527,7.9,Future Systems,,30Ð60k
+AI13800,ML Ops Engineer,54485,USD,EN,FT,Australia,S,Ireland,0,"Docker, Kubernetes, Azure",Bachelor,0,Manufacturing,29/3/2025,16/4/2025,1082,9,Advanced Robotics,,30Ð60k
+AI13801,Robotics Engineer,141726,USD,EX,CT,Australia,M,Australia,0,"MLOps, Git, PyTorch, Kubernetes, TensorFlow",Master,11,Manufacturing,19/5/2024,19/7/2024,1677,7.7,AI Innovations,,120Ð160k
+AI13818,AI Product Manager,156230,USD,SE,FT,Australia,L,Austria,0,"MLOps, Deep Learning, SQL, AWS",Master,6,Consulting,3/9/2024,9/11/2024,547,8.8,Digital Transformation LLC,,120Ð160k
+AI13831,ML Ops Engineer,159550,USD,EX,FT,Australia,L,Australia,100,"TensorFlow, R, Python, Mathematics",Bachelor,19,Real Estate,18/7/2024,6/8/2024,629,7.4,Machine Intelligence Group,,120Ð160k
+AI13855,AI Architect,125104,USD,SE,FT,Australia,L,Australia,50,"Python, Computer Vision, Kubernetes",PhD,8,Consulting,26/5/2024,24/7/2024,522,7.9,Neural Networks Co,,120Ð160k
+AI13882,Computer Vision Engineer,55662,USD,EN,PT,Australia,S,Australia,0,"Hadoop, Docker, Kubernetes",Associate,0,Energy,16/9/2024,22/11/2024,1144,9.6,Machine Intelligence Group,,30Ð60k
+AI13885,Deep Learning Engineer,81478,USD,MI,PT,Australia,M,Australia,0,"Docker, Kubernetes, Azure, Python, MLOps",Associate,3,Energy,16/8/2024,28/10/2024,1139,5.6,Algorithmic Solutions,,60Ð90k
+AI13909,AI Architect,107584,USD,SE,PT,Australia,M,Australia,100,"GCP, Computer Vision, Scala, Mathematics, Data Visualization",PhD,5,Automotive,1/11/2024,26/11/2024,628,7.5,Quantum Computing Inc,,90Ð120k
+AI13925,Deep Learning Engineer,51864,USD,EN,FL,Australia,M,Australia,100,"SQL, GCP, Data Visualization",Associate,0,Media,9/3/2025,4/4/2025,2080,7.8,DeepTech Ventures,,30Ð60k
+AI13939,ML Ops Engineer,211106,USD,EX,FL,Australia,S,Australia,50,"Scala, Computer Vision, Linux",Master,13,Gaming,31/1/2024,2/3/2024,1657,8.3,AI Innovations,,200Ð250k
+AI13964,AI Research Scientist,76538,USD,EN,FT,Australia,M,Australia,0,"MLOps, R, GCP, Deep Learning, Hadoop",Associate,1,Gaming,28/2/2024,7/5/2024,691,6.1,AI Innovations,,60Ð90k
+AI13965,Robotics Engineer,113796,USD,SE,FL,Australia,S,Australia,0,"Scala, Deep Learning, NLP, SQL",Master,8,Energy,3/8/2024,24/8/2024,2349,5.8,Neural Networks Co,,90Ð120k
+AI13975,Data Analyst,89802,USD,MI,FT,Australia,S,Australia,0,"Tableau, GCP, Statistics, Computer Vision, SQL",Bachelor,3,Automotive,23/12/2024,21/2/2025,871,7.9,Future Systems,,60Ð90k
+AI14002,Computer Vision Engineer,60160,USD,EN,FL,Australia,S,Australia,0,"PyTorch, Linux, Azure, Deep Learning",PhD,0,Energy,26/4/2025,28/6/2025,2430,6,Cognitive Computing,,60Ð90k
+AI14070,Autonomous Systems Engineer,116530,USD,SE,CT,Australia,S,Australia,50,"Scala, PyTorch, AWS, TensorFlow",Bachelor,6,Education,6/11/2024,3/12/2024,821,8.2,Autonomous Tech,,90Ð120k
+AI14081,Machine Learning Engineer,149502,USD,SE,PT,Australia,M,Australia,100,"Scala, PyTorch, TensorFlow, Statistics, Mathematics",PhD,9,Education,1/3/2025,24/4/2025,1818,6.7,Future Systems,,120Ð160k
+AI14086,NLP Engineer,97721,USD,MI,CT,Australia,S,Australia,100,"GCP, Docker, Git, Java, Scala",Master,4,Healthcare,7/5/2024,17/6/2024,687,8.8,Advanced Robotics,,90Ð120k
+AI14157,Deep Learning Engineer,90143,USD,MI,FT,Australia,L,Australia,0,"AWS, Linux, Data Visualization, NLP, Deep Learning",Bachelor,2,Government,10/6/2024,15/8/2024,1698,9.7,Algorithmic Solutions,,90Ð120k
+AI14175,ML Ops Engineer,120323,USD,SE,CT,Australia,S,Israel,50,"Python, Azure, MLOps, Hadoop",Bachelor,6,Automotive,3/2/2024,30/3/2024,1442,5,Advanced Robotics,,120Ð160k
+AI14176,AI Specialist,243233,USD,EX,FT,Australia,L,Australia,50,"Spark, Docker, Statistics, Deep Learning",PhD,17,Media,26/5/2024,1/7/2024,1363,9,Cloud AI Solutions,,200Ð250k
+AI14197,NLP Engineer,56596,USD,EN,PT,Australia,S,Australia,0,"Java, Statistics, R, Tableau, Computer Vision",PhD,1,Finance,13/10/2024,3/11/2024,1885,7,Future Systems,,30Ð60k
+AI14227,Machine Learning Researcher,72126,USD,EN,PT,Australia,S,Australia,0,"MLOps, R, Git",Bachelor,1,Automotive,25/1/2025,5/3/2025,1990,6.3,Quantum Computing Inc,,60Ð90k
+AI14252,Machine Learning Researcher,292415,USD,EX,FT,Australia,L,India,50,"PyTorch, Data Visualization, Tableau",Bachelor,10,Real Estate,17/4/2025,20/6/2025,2211,7.9,TechCorp Inc,,250Ð300k
+AI14273,AI Software Engineer,92210,USD,EN,FL,Australia,L,Austria,100,"R, Git, AWS",Bachelor,0,Automotive,7/2/2024,26/2/2024,2245,5.4,Machine Intelligence Group,,90Ð120k
+AI14338,NLP Engineer,150594,USD,SE,CT,Australia,M,Australia,50,"SQL, Java, Hadoop, NLP",Bachelor,6,Education,28/3/2024,22/4/2024,703,6.5,Future Systems,,120Ð160k
+AI14341,Machine Learning Engineer,83668,USD,MI,PT,Australia,L,Australia,100,"Linux, R, Data Visualization",Master,2,Real Estate,22/1/2024,20/3/2024,1736,8.5,Advanced Robotics,,60Ð90k
+AI14353,AI Research Scientist,71026,USD,MI,FL,Australia,S,Australia,100,"Git, Statistics, Python, SQL, Computer Vision",Bachelor,4,Energy,24/4/2024,15/5/2024,2478,7.8,Machine Intelligence Group,,60Ð90k
+AI14366,Computer Vision Engineer,158565,USD,EX,FT,Australia,S,Australia,0,"Spark, Python, Data Visualization",Master,14,Healthcare,10/6/2024,16/7/2024,761,7.6,Cloud AI Solutions,,120Ð160k
+AI14423,Principal Data Scientist,210469,USD,EX,FL,Australia,L,Norway,0,"Linux, NLP, Kubernetes, Python, Docker",Master,13,Transportation,27/5/2024,3/8/2024,683,7.4,Smart Analytics,,200Ð250k
+AI14470,ML Ops Engineer,65356,USD,MI,PT,Australia,S,Germany,0,"R, Scala, Azure, SQL",PhD,4,Government,18/1/2025,16/3/2025,577,9.8,DeepTech Ventures,,60Ð90k
+AI14487,Research Scientist,123275,USD,SE,FL,Australia,S,Finland,0,"TensorFlow, GCP, Linux",PhD,5,Consulting,21/1/2025,27/3/2025,799,5.1,Algorithmic Solutions,,120Ð160k
+AI14509,Head of AI,63866,USD,EN,FT,Australia,M,South Korea,100,"Scala, Statistics, Python, Kubernetes",Master,0,Finance,27/12/2024,26/2/2025,1013,6.7,Future Systems,,60Ð90k
+AI14518,NLP Engineer,64013,USD,EN,CT,Australia,L,Australia,100,"Deep Learning, Hadoop, Linux",Associate,1,Energy,22/3/2024,20/4/2024,737,8.8,Advanced Robotics,,60Ð90k
+AI14554,AI Specialist,73990,USD,EN,CT,Australia,M,Singapore,50,"Hadoop, Git, Python",Master,1,Retail,15/4/2024,18/6/2024,1798,8.8,Algorithmic Solutions,,60Ð90k
+AI14558,Data Engineer,154306,USD,EX,FL,Australia,S,Australia,0,"R, Docker, Azure, Statistics, MLOps",Associate,14,Gaming,6/10/2024,24/10/2024,1382,8.8,Neural Networks Co,,120Ð160k
+AI14562,Computer Vision Engineer,85214,USD,MI,PT,Australia,S,Australia,100,"TensorFlow, Spark, Docker, AWS, Azure",Associate,2,Automotive,12/2/2025,31/3/2025,1322,7.4,Quantum Computing Inc,,60Ð90k
+AI14586,NLP Engineer,109089,USD,MI,FL,Australia,M,Australia,100,"AWS, NLP, GCP",PhD,4,Education,21/6/2024,19/8/2024,2263,6.7,Future Systems,,90Ð120k
+AI14608,Deep Learning Engineer,94191,USD,SE,PT,Australia,S,Australia,100,"Data Visualization, MLOps, TensorFlow, Spark",Master,8,Real Estate,29/4/2024,11/7/2024,1122,8.6,Autonomous Tech,,90Ð120k
+AI14610,ML Ops Engineer,65816,USD,EN,FL,Australia,L,Australia,100,"Python, Docker, Deep Learning, AWS, Linux",PhD,0,Education,24/3/2025,23/5/2025,2265,7.8,Smart Analytics,,60Ð90k
+AI14617,Machine Learning Engineer,66158,USD,EN,FL,Australia,M,Australia,100,"Kubernetes, Scala, AWS",PhD,1,Media,12/2/2025,3/4/2025,1393,9.7,Algorithmic Solutions,,60Ð90k
+AI14624,Data Analyst,93829,USD,MI,FL,Australia,S,Australia,50,"Kubernetes, R, Statistics",Bachelor,2,Government,8/7/2024,19/9/2024,2409,7.7,Predictive Systems,,90Ð120k
+AI14629,Deep Learning Engineer,63911,USD,EN,PT,Australia,S,Sweden,100,"SQL, Deep Learning, Linux",Associate,1,Technology,27/8/2024,7/10/2024,2220,6.6,DeepTech Ventures,,60Ð90k
+AI14648,Robotics Engineer,48404,USD,EN,PT,Australia,S,France,50,"Python, AWS, Docker, TensorFlow, Computer Vision",Bachelor,1,Automotive,27/4/2025,2/6/2025,1377,7.1,TechCorp Inc,,30Ð60k
+AI14664,AI Product Manager,80224,USD,MI,CT,Australia,M,Australia,50,"Scala, TensorFlow, MLOps, Kubernetes, Computer Vision",Master,4,Media,1/4/2024,29/5/2024,2284,6.4,Autonomous Tech,,60Ð90k
+AI14675,AI Product Manager,287672,USD,EX,CT,Australia,L,Finland,50,"Tableau, SQL, GCP, Mathematics, MLOps",Bachelor,18,Media,26/7/2024,23/8/2024,1528,5.4,AI Innovations,,250Ð300k
+AI14688,AI Specialist,199179,USD,EX,FT,Australia,L,France,50,"Computer Vision, Scala, Statistics",PhD,16,Manufacturing,20/1/2025,14/2/2025,1660,5.7,Neural Networks Co,,160Ð200k
+AI14768,Data Engineer,77365,USD,MI,CT,Australia,M,Australia,100,"Python, Docker, Data Visualization, Azure",PhD,4,Retail,2/3/2025,1/4/2025,1022,5.9,Predictive Systems,,60Ð90k
+AI14771,Robotics Engineer,162236,USD,EX,CT,Australia,S,France,50,"SQL, NLP, TensorFlow, PyTorch, Data Visualization",Associate,17,Real Estate,28/9/2024,10/12/2024,2349,6.8,Cloud AI Solutions,,160Ð200k
+AI14779,Machine Learning Researcher,158627,USD,EX,FT,Australia,S,Australia,0,"Tableau, Azure, Scala, Hadoop, Docker",Master,14,Real Estate,13/8/2024,29/9/2024,2303,9.4,DataVision Ltd,,120Ð160k
+AI14788,Research Scientist,56002,USD,EN,CT,Australia,S,Australia,100,"SQL, AWS, Java, Mathematics, Linux",PhD,0,Technology,27/3/2025,28/4/2025,940,8,TechCorp Inc,,30Ð60k
+AI14790,AI Product Manager,89876,USD,MI,PT,Australia,M,Australia,50,"PyTorch, Spark, Scala, Data Visualization",PhD,4,Education,13/11/2024,9/12/2024,2312,8.6,DeepTech Ventures,,60Ð90k
+AI14814,Robotics Engineer,129243,USD,SE,CT,Australia,L,Australia,50,"Tableau, GCP, Python, Data Visualization, Deep Learning",Associate,7,Real Estate,1/10/2024,30/10/2024,1014,5.9,Cognitive Computing,,120Ð160k
+AI14870,NLP Engineer,63824,USD,EN,FT,Australia,S,Australia,100,"Linux, Computer Vision, Scala, Hadoop, Data Visualization",Associate,0,Gaming,8/2/2024,4/4/2024,1787,8.6,AI Innovations,,60Ð90k
+AI14875,Robotics Engineer,54915,USD,EN,CT,Australia,M,Australia,100,"Spark, Deep Learning, Git",Associate,0,Education,23/3/2024,27/5/2024,1292,10,Algorithmic Solutions,,30Ð60k
+AI14902,NLP Engineer,148344,USD,EX,CT,Australia,S,Australia,0,"Hadoop, Linux, Deep Learning, Scala, Kubernetes",Bachelor,17,Retail,13/2/2024,10/4/2024,1772,9.2,Future Systems,,120Ð160k
+AI14924,ML Ops Engineer,60611,USD,EN,FL,Australia,M,United States,0,"R, Deep Learning, Kubernetes",Associate,1,Government,17/3/2024,7/5/2024,579,6,Cloud AI Solutions,,60Ð90k
+AI14942,ML Ops Engineer,162509,USD,EX,FL,Australia,M,Australia,50,"Kubernetes, GCP, Statistics, Tableau",Master,12,Government,27/2/2025,18/3/2025,941,8.9,AI Innovations,,160Ð200k
+AI14958,AI Product Manager,152471,USD,EX,FL,Australia,M,Australia,0,"NLP, Mathematics, Data Visualization",Master,16,Energy,23/12/2024,20/2/2025,2041,7.2,Neural Networks Co,,120Ð160k
+AI14982,AI Product Manager,116274,USD,SE,FL,Australia,M,Australia,0,"NLP, Spark, Linux",PhD,7,Manufacturing,2/1/2025,17/2/2025,1309,8,Advanced Robotics,,90Ð120k
+AI14991,ML Ops Engineer,100684,USD,MI,CT,Australia,L,Finland,100,"MLOps, AWS, Computer Vision, Azure",Master,4,Automotive,3/10/2024,3/12/2024,1989,9.6,Neural Networks Co,,90Ð120k
