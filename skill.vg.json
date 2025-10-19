@@ -1,0 +1,102 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "description": "Word cloud of required skills from AI job dataset.",
+  "width": 250,
+  "height": 350,
+  "padding": 0,
+
+  "data": [
+    {
+      "name": "table",
+      "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/ai_job_dataset.csv",
+      "format": {"type": "csv"},
+      "transform": [
+        {
+          "type": "countpattern",
+          "field": "required_skills",
+          "case": "upper",
+          "pattern": "[\\w']{2,}",
+          "stopwords": "(AND|OR|WITH|IN|ON|FOR|TO|FROM|BY|OF|THE|A|AN|AS|AT|IS|ARE|BE|THIS|THAT|IT|WE|YOU|I)"
+        },
+        {
+          "type": "formula",
+          "as": "angle",
+          "expr": "[-45, 0, 45][~~(random() * 3)]"
+        },
+        {
+          "type": "formula",
+          "as": "weight",
+          "expr": "if(datum.text=='PYTHON', 600, 200)"
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "text"},
+      "range": ["#af81e4", "#efe4b1", "#168aad", "#cd005b", "#7cc2f6","#fb8587"]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "text",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "text": {"field": "text"},
+          "align": {"value": "center"},
+          "baseline": {"value": "alphabetic"},
+          "fill": {"scale": "color", "field": "text"},
+          "tooltip": {"signal": "datum.text + ': ' + datum.count"}
+        },
+        "update": {"fillOpacity": {"value": 1}},
+        "hover": {"fillOpacity": {"value": 0.5}}
+      },
+      "transform": [
+        {
+          "type": "wordcloud",
+          "size": [280, 350],
+          "text": {"field": "text"},
+          "rotate": {"field": "datum.angle"},
+          "font": "Helvetica Neue, Arial",
+          "fontSize": {"field": "datum.count"},
+          "fontWeight": {"field": "datum.weight"},
+          "fontSizeRange": [12, 35],
+          "padding": 2
+        }
+      ]
+    }
+  ],
+  "config": {
+  "axis": {
+    "labelColor": "white",
+    "titleColor": "white",
+    "labelFontSize": 12,   
+    "titleFontSize": 13    
+  },
+  "legend": {
+    "labelColor": "white",
+    "titleColor": "white",
+    "labelFontSize": 12,   
+    "titleFontSize": 13    
+  },
+  "title": {
+    "color": "white",
+    "fontSize": 16         
+  },
+  "header": {
+    "labelColor": "white",
+    "titleColor": "white",
+    "labelFontSize": 12,
+    "titleFontSize": 13
+  },
+  "tooltip": {
+    "color": "white",
+    "fontSize": 12         
+  }
+}
+}

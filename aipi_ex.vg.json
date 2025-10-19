@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 520,
+  "height": 220,
+  "background": null,
+  "view": {"fill": "transparent", "stroke": null},
+  "data": {
+    "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/ai_adoption_by_country.csv"
+  },
+  "transform": [
+    {"calculate": "toNumber(datum['AI_Adoption_Rate (%)'])", "as": "pct1"},
+    {"calculate": "toNumber(datum.adoption)", "as": "pct2"},
+    {"calculate": "isValid(datum.pct2) ? datum.pct2 : datum.pct1", "as": "pct_points"},
+    {"calculate": "(datum.pct_points > 1 ? datum.pct_points/100 : datum.pct_points)", "as": "adoption_rate"},
+    {"calculate": "datum.adoption_rate * 100", "as": "adoption_pct"}   
+  ],
+  "layer": [
+    {
+      "mark": {"type": "bar"},
+      "encoding": {
+        "y": {
+          "field": "Country",
+          "type": "nominal",
+          "sort": {"field": "adoption_rate", "op": "max", "order": "descending"},               
+          "title": null
+        },
+        "x": {
+          "field": "adoption_pct",
+          "type": "quantitative",
+          "title": "Adoption Rate (%)",
+          "scale": {"domain": [0, 100]},
+          "axis": {"format": "d", "tickCount": 11, "titlePadding": 10}
+        },
+        "fill": {
+          "condition": {
+            "test": "datum.Country === 'Australia'",
+            "value": {
+              "gradient": "linear",
+              "x1": 0, "y1": 0, "x2": 1, "y2": 0,
+              "stops": [
+                {"offset": 0, "color": "#feb4a7"},
+                {"offset": 0.5, "color": "#ffc69e"},
+                {"offset": 1, "color": "#fdffb6"}
+              ]
+            }
+          },
+          "value": {
+            "gradient": "linear",
+            "x1": 0, "y1": 0, "x2": 1, "y2": 0,
+            "stops": [
+              {"offset": 0, "color": "#9bf6ff"},
+              {"offset": 0.5, "color": "#c8b6fe"},
+              {"offset": 1, "color": "#ffc6ff"}
+            ]
+          }
+        },
+        "tooltip": [
+          {"field": "Country"},
+          {"field": "adoption_pct", "title": "Adoption Rate (%)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 4},
+      "encoding": {
+        "y": {"field": "Country", "type": "nominal", "sort": {"field": "adoption_rate", "op": "max", "order": "descending"}},
+        "x": {"field": "adoption_pct", "type": "quantitative"},
+        "text": {"field": "adoption_rate", "type": "quantitative", "format": ".1%"},
+        "color": {"value": "white"}
+      }
+    }
+  ],
+  "config": {
+    "axis": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#7e7e7e",
+      "gridOpacity": 0.5
+    },
+    "legend": {"labelColor": "white", "titleColor": "white", "labelFontSize": 12, "titleFontSize": 13},
+    "title": {"color": "white", "fontSize": 16},
+    "header": {"labelColor": "white", "titleColor": "white", "labelFontSize": 12, "titleFontSize": 13},
+    "tooltip": {"color": "white", "fontSize": 12}
+  }
+}

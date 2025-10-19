@@ -1,0 +1,79 @@
+:root{
+  --color-primary:#fff;
+  --color-surface:rgb(0, 0, 0);
+}
+
+/* page background + film-grain overlay that uses your #noise filter */
+html,body{height:100%}
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  background:var(--color-surface);
+  color:var(--color-primary);
+  overflow:hidden;
+}
+body::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  mix-blend-mode:screen;
+  /* this references the <filter id="noise"> in your HTML */
+  filter:url(#noise) saturate(0) brightness(1.35);
+  opacity:.36;
+}
+
+/* the big gradient “cutout” text */
+.container {
+  font-size: 25vmin;
+  font-weight: 800;
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
+  position: relative;
+
+  /* Gradient background applied to text */
+  background: conic-gradient(#ffc6ff, #ffadad, #a0c4ff, #fdff66, #caffbf, #9bf6ff, #ffd6a5);
+
+  -webkit-background-clip: text;
+          background-clip: text;
+
+  -webkit-text-fill-color: transparent; /* makes black area transparent */
+          color: transparent;
+}
+
+/* rim highlights & inner bevel using stacked text-shadows on a duplicate */
+.container::before{
+  content:"Artificial";             /* mirror the text content */
+  position:absolute; inset:0;
+  color:transparent;
+
+  /* two tones used in the highlight ramp */
+  --c: color-mix(in srgb, white, transparent 94%);
+  --c2: var(--color-surface);
+
+  /* precomputed shadow stack (replaces your Sass loop) */
+  text-shadow:
+   -5vmin -3.33vmin .25vmin var(--c2),
+   -4.75vmin -3.16vmin .4vmin rgba(255,255,255,.9),
+   -4.5vmin -3.00vmin .25vmin var(--c),
+   -4.25vmin -2.83vmin .25vmin var(--c),
+   -4.0vmin  -2.66vmin .25vmin var(--c),
+   -3.75vmin -2.50vmin .25vmin var(--c),
+   -3.5vmin  -2.33vmin .25vmin var(--c),
+   -3.25vmin -2.16vmin .25vmin var(--c),
+   -3.0vmin  -2.00vmin .25vmin var(--c),
+   -2.75vmin -1.83vmin .25vmin var(--c),
+   -2.5vmin  -1.66vmin .25vmin var(--c),
+   -2.25vmin -1.50vmin .25vmin var(--c),
+   -2.0vmin  -1.33vmin .25vmin var(--c),
+   -1.75vmin -1.16vmin .25vmin var(--c),
+   -1.5vmin  -1.00vmin .25vmin var(--c),
+   -1.25vmin  -.83vmin .25vmin var(--c),
+   -1.0vmin   -.66vmin .25vmin var(--c),
+   -.75vmin   -.50vmin .25vmin var(--c),
+   -.5vmin    -.33vmin .25vmin var(--c),
+   -.25vmin   -.16vmin .25vmin var(--c);
+}
+
+*{box-sizing:border-box}

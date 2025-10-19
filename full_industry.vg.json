@@ -1,0 +1,209 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": null,
+  "view": {"fill": "transparent", "stroke": null},
+
+  "params": [
+    {
+      "name": "industry_sel",
+      "value": null,
+      "bind": {
+        "input": "select",
+        "name": "Select Industry: ",
+        "options": [
+          null,
+           "Agriculture","Education","Finance",
+          "Healthcare","Manufacturing","Retail",
+          "Technology","Transportation"
+        ],
+        "labels": [
+          "All",
+          "Agriculture","Education","Finance",
+          "Healthcare","Manufacturing","Retail",
+          "Technology","Transportation"
+        ]
+      }
+    }
+  ],
+
+  "vconcat": [
+
+    
+    {
+  "width": 355,
+  "height": 192,
+  "background": null,
+  "view": {"fill": "transparent", "stroke": null},
+  "data": {"url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/AI_adoption_data2.csv"},
+  "transform": [
+    {"filter": "datum.year == 2023 || datum.year == 2024"},
+    {
+      "aggregate": [
+        {"op": "sum", "field": "daily_active_users", "as": "total_users"}
+      ],
+      "groupby": ["industry", "year"]
+    },
+    {"pivot": "year", "value": "total_users", "groupby": ["industry"]},
+    {"calculate": "datum['2024'] - datum['2023']", "as": "delta"},
+    {"calculate": "datum['2023'] / 1000000", "as": "users_2023_m"},
+    {"calculate": "datum['2024'] / 1000000", "as": "users_2024_m"},
+    {"calculate": "datum.delta / 1000000", "as": "delta_m"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "rule", "strokeWidth": 2},
+      "encoding": {
+        "y": {
+          "field": "industry",
+          "type": "nominal",
+          "title": "Industry",
+          "sort": {"field": "delta_m", "order": "descending"}
+        },
+        "x": {"field": "users_2023_m", "type": "quantitative", "title": "Daily Active Users (millions)", "axis": {"titlePadding": 10}},
+        "x2": {"field": "users_2024_m"},
+        "color": {
+          "condition": {"test": "datum.delta_m >= 0", "value": "#bcf4f0"},
+          "value": "#bcf4f0"
+        },
+        "opacity": {
+          "condition": {"test": "industry_sel == null || datum.industry == industry_sel", "value": 1},
+          "value": 0.25
+        },
+        "tooltip": [
+          {"field": "industry", "title": "Industry"},
+          {"field": "users_2023_m", "title": "2023 Users (millions)", "format": ".1f"},
+          {"field": "users_2024_m", "title": "2024 Users (millions)", "format": ".1f"},
+          {"field": "delta_m", "title": "Change (millions)", "format": "+.1f"}
+        ]
+      }
+    },
+    {
+      "transform": [{"calculate": "2023", "as": "year"}],
+      "mark": {"type": "point", "filled": true, "size": 100},
+      "encoding": {
+        "y": {"field": "industry", "type": "nominal", "sort": {"field": "delta_m", "order": "descending"}},
+        "x": {"field": "users_2023_m", "type": "quantitative"},
+        "opacity": {
+          "condition": {"test": "industry_sel == null || datum.industry == industry_sel", "value": 1},
+          "value": 0.25
+        },
+        "color": {
+          "field": "year",
+          "type": "ordinal",
+          "scale": {"domain": [2023, 2024], "range": ["#fed5ff", "#9d8bdd"]},
+          "legend": {
+            "title": "Year",
+            "orient": "none",
+            "legendX": 300,          
+    "legendY": 70,
+            "direction": "vertical",
+            "dx": -40,
+            "dy": 6,
+            "symbolType": "circle",
+            "symbolSize": 120,
+            "labelColor": "white",
+            "titleColor": "white"
+          }
+        }
+      }
+    },
+    {
+      "transform": [{"calculate": "2024", "as": "year"}],
+      "mark": {"type": "point", "filled": true, "size": 100},
+      "encoding": {
+        "y": {"field": "industry", "type": "nominal", "sort": {"field": "delta_m", "order": "descending"}, "title": null},
+        "x": {"field": "users_2024_m", "type": "quantitative"},
+        "opacity": {
+          "condition": {"test": "industry_sel == null || datum.industry == industry_sel", "value": 1},
+          "value": 0.25
+        },
+        "color": {
+          "field": "year",
+          "type": "ordinal",
+          "scale": {"domain": [2023, 2024], "range": ["#f6a5c0", "#4E7AB1"]},
+          "legend": null
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "dx": 8, "align": "left", "baseline": "middle"},
+      "encoding": {
+        "y": {"field": "industry", "type": "nominal", "sort": {"field": "delta_m", "order": "descending"}},
+        "x": {"field": "users_2024_m", "type": "quantitative"},
+        "text": {"field": "delta_m", "format": "+.1f"},
+        "opacity": {
+          "condition": {"test": "industry_sel == null || datum.industry == industry_sel", "value": 1},
+          "value": 0.25
+        },
+        "color": {"value": "white"}
+      }
+    }
+  ],
+  "encoding": {
+    "x": {
+      "title": "Daily Active Users (millions)",
+      "axis": {"format": "d", "tickCount": 11, "titlePadding": 10},
+      "scale": {"domain": [0, 10]}
+    }
+  }
+},
+
+    
+    {
+      "width": 355,
+      "height": 192,
+      "background": null,
+      "view": {"fill": "transparent", "stroke": null},
+      "data": {"url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/AI_adoption_data2.csv"},
+      "transform": [
+        {"filter": "datum.year == 2023 || datum.year == 2024"},
+        {"filter": "isValid(datum.adoption_rate)"},
+        {"calculate": "toNumber(datum.adoption_rate) / 100", "as": "adopt_frac"},
+        {"aggregate": [{"op": "mean","field": "adopt_frac","as": "rate"}], "groupby": ["industry","year"]},
+        {"pivot": "year", "value": "rate", "groupby": ["industry"]},
+        {"calculate": "datum['2024'] - datum['2023']", "as": "delta"},
+        {"calculate": "datum['2023'] * 100", "as": "rate_2023"},
+        {"calculate": "datum['2024'] * 100", "as": "rate_2024"},
+        {"calculate": "datum.delta * 100", "as": "delta_pct"}
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "industry", "type": "nominal", "sort": {"field": "delta","order": "descending"}, "title": null},
+        "x": {"field": "delta_pct", "type": "quantitative", "title": "Change in Adoption Rate (%)", "axis": {"format": "+.0f", "titlePadding": 10}},
+        "color": {"condition": {"test": "datum.delta >= 0","value": "#b8d7d5"}, "value": "#cea0aa"},
+        "fill": {
+          "condition": {
+            "test": "datum.delta >= 0",
+            "value": {"gradient": "linear","x1": 0,"y1": 0,"x2": 1,"y2": 0,"stops": [{"offset": 0,"color": "#bddeca"},{"offset": 1,"color": "#d9e5ab"}]}
+          },
+          "value": {"gradient": "linear","x1": 0,"y1": 0,"x2": 1,"y2": 0,"stops": [{"offset": 0,"color": "#ffc69e"},{"offset": 1,"color": "#ffadad"}]}
+        },
+        "opacity": {
+          "condition": {"test": "industry_sel == null || datum.industry == industry_sel", "value": 1},
+          "value": 0.25
+        },
+        "tooltip": [
+          {"field": "industry", "title": "Industry"},
+          {"field": "rate_2023", "title": "2023 Rate (%)", "format": ".1f"},
+          {"field": "rate_2024", "title": "2024 Rate (%)", "format": ".1f"},
+          {"field": "delta_pct", "title": "Change (%)", "format": "+.1f"}
+        ]
+      }
+    }
+  ],
+  "spacing": 30,
+  "config": {
+    "axis": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#7e7e7e",
+      "gridOpacity": 0.5
+    },
+    "legend": {"labelColor": "white", "titleColor": "white", "labelFontSize": 12, "titleFontSize": 13},
+    "title": {"color": "white", "fontSize": 16},
+    "header": {"labelColor": "white", "titleColor": "white", "labelFontSize": 12, "titleFontSize": 13},
+    "tooltip": {"color": "white", "fontSize": 12}
+  }
+}

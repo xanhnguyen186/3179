@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "height": 100,
+  "width": 220,
+  "background": null,
+  "view": {"fill": "transparent", "stroke": null},
+  "data": {
+    "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/student%20life.csv"
+  },
+  "transform": [
+    {"calculate": "datum.uses_AI_for_study == 'Yes' ? 1 : 0", "as": "ai_yes"},
+    {"calculate": "toNumber(datum.stress_level)", "as": "stress_num"},
+    {
+      "aggregate": [
+        {"op": "count", "as": "total"},
+        {"op": "sum", "field": "ai_yes", "as": "yes_count"}
+      ],
+      "groupby": ["board_exam_prep", "stress_num"]
+    },
+    {"calculate": "datum.yes_count / datum.total", "as": "ai_use_proportion"},
+    {"calculate": "datum.ai_use_proportion * 100", "as": "ai_pct"}
+  ],
+  "mark": "rect",
+  "encoding": {
+    "y": {"field": "board_exam_prep", "type": "nominal", "title": "Board Exam Preparation", "axis": {"titlePadding": 10}},
+    "x": {"field": "stress_num", "type": "ordinal", "title": "Stress Level", "sort": [1,2,3,4,5,6,7,8,9,10]},
+    "color": {
+      "field": "ai_pct",
+      "type": "quantitative",
+      "title": "AI Use (%)",
+      "legend": {"format": ".0f"},
+      "scale": {
+        "domain": [50, 100],
+        "range": ["#f6a5c0", "#694786", "#3c2d57"]
+      }
+    },
+    "tooltip": [
+      {"field": "board_exam_prep", "title": "Exam Preparation Status"},
+      {"field": "stress_num", "title": "Stress Level"},
+      {"field": "ai_pct", "title": "AI Use (%)", "format": ".1f"}
+    ]
+  },
+  "config": {
+    "axis": {
+      "grid": false, "tickBand": "extent",
+      "labelColor": "white", "titleColor": "white",
+      "labelFontSize": 12, "titleFontSize": 13
+    },
+    "legend": {
+      "labelColor": "white", "titleColor": "white",
+      "labelFontSize": 12, "titleFontSize": 13
+    },
+    "title": {"color": "white", "fontSize": 16},
+    "header": {
+      "labelColor": "white", "titleColor": "white",
+      "labelFontSize": 12, "titleFontSize": 13
+    },
+    "tooltip": {"color": "white", "fontSize": 12}
+  }
+}

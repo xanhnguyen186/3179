@@ -1,0 +1,127 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 750,
+  "height": 350,
+  "background": null,
+  "view": {"fill": "transparent", "stroke": null},
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/ai_job_dataset.csv"
+  },
+  
+  
+
+  "params": [
+    {
+      "name": "exp_sel",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "name": "Select Experience Level: ",
+        "options": ["All", "Entry", "Mid", "Senior", "Expert"],
+        "labels": ["All", "Entry", "Mid", "Senior", "Expert"]
+      }
+    },
+    {
+      "name": "ind_sel",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "name": " Select Industry: ",
+        "options": [
+          "All",
+          "Automotive","Consulting","Education","Energy","Finance","Gaming",
+          "Government","Healthcare","Manufacturing","Media","Real Estate",
+          "Retail","Technology","Telecommunications","Transportation"
+        ]
+      }
+    }
+  ],
+
+  "transform": [
+    { "filter": "lower(toString(datum.employment_type)) == 'ft'" },
+    {
+  "calculate": "datum.experience_level == 'EN' ? 'Entry' : datum.experience_level == 'MI' ? 'Mid' : datum.experience_level == 'SE' ? 'Senior' : 'Expert'",
+  "as": "exp_label"
+},
+{
+  "calculate": "upper(slice(datum.industry,0,1)) + slice(datum.industry,1)",
+  "as": "Industry"
+},
+{
+  "calculate": "format(datum.salary_usd, ',.0f')",
+  "as": "salary_fmt"
+},
+
+   
+    {
+      "filter": "(ind_sel == 'All' || datum.Industry == ind_sel) && (exp_sel == 'All' || datum.exp_label == exp_sel)"
+    }
+  ],
+
+  "mark": {
+    "type": "boxplot",
+    "extent": 1.5,
+    "color": "white",                
+    "strokeWidth": 1.5,
+    "median": { "color": "black", "strokeWidth": 2 }
+  },
+
+  "encoding": {
+    "y": {
+      "field": "Industry",
+      "type": "nominal",
+      "title": null,
+      "axis": { "labelLimit": 140 }
+    },
+    "x": {
+      "field": "salary_usd",
+      "type": "quantitative",
+      "title": "Salary (USD)",
+      "scale": { "zero": false },
+      "axis": { "format": "~s", "titlePadding": 10 }
+    },
+    "color": {
+      "field": "exp_label",
+      "type": "nominal",
+      "title": "Experience Level",
+      "sort": ["Entry", "Mid", "Senior", "Expert"],
+      "scale": {
+      "domain": ["Entry", "Mid", "Senior", "Expert"],           
+      "range":  ["#d9ed92","#99d98c","#34a0a4","#1a759f"]
+    },
+    "legend": {"values": ["Entry", "Mid", "Senior", "Expert"], "symbolOpacity": 1}
+  }
+    ,
+    "tooltip": [
+  { "field": "Industry",   "title": "Industry" },
+  { "field": "exp_label",  "title": "Experience Level" },
+  { "field": "salary_usd",  "title": "Salary (USD)",  "format": ",.0f" }
+]
+  },
+
+  "config": {
+    "axis": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#7e7e7e",
+      "gridOpacity": 0.3
+    },
+    "legend": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": { "color": "white", "fontSize": 16 },
+    "header": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "tooltip": { "color": "white", "fontSize": 12 }
+  }
+}

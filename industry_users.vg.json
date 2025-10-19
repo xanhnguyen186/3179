@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 420,
+  "width": 290,
+  "height": 200,
   "background": null,
-  "view": {"fill": "transparent"},
+  "view": {"fill": "transparent", "stroke": null},
   "data": {
     "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/AI_adoption_data2.csv"
   },
@@ -15,76 +16,116 @@
       "groupby": ["industry", "year"]
     },
     {"pivot": "year", "value": "total_users", "groupby": ["industry"]},
-    {"calculate": "datum['2024'] - datum['2023']", "as": "delta"}
+    {"calculate": "datum['2024'] - datum['2023']", "as": "delta"},
+   
+    {"calculate": "datum['2023'] / 1000000", "as": "users_2023_m"},
+    {"calculate": "datum['2024'] / 1000000", "as": "users_2024_m"},
+    {"calculate": "datum.delta / 1000000", "as": "delta_m"}
   ],
   "layer": [
     {
-      "mark": {"type": "rule", "strokeWidth": 4},
+      "mark": {"type": "rule", "strokeWidth": 2},
       "encoding": {
         "y": {
           "field": "industry",
           "type": "nominal",
           "title": "Industry",
-          "sort": {"field": "delta", "order": "descending"}
+          "sort": {"field": "delta_m", "order": "descending"}
         },
-        "x": {"field": "2023", "type": "quantitative", "title": "Daily Active Users"},
-        "x2": {"field": "2024"},
+        "x": {"field": "users_2023_m", "type": "quantitative", "title": "Daily Active Users (millions)"},
+        "x2": {"field": "users_2024_m"},
         "color": {
-          "condition": {"test": "datum.delta >= 0", "value": "#bbb4d8"},
+          "condition": {"test": "datum.delta_m >= 0", "value": "#feb4a7"},
           "value": "#d62728"
         },
         "tooltip": [
           {"field": "industry", "title": "Industry"},
-          {"field": "2023", "title": "2023 users", "format": ","},
-          {"field": "2024", "title": "2024 users", "format": ","},
-          {"field": "delta", "title": "Change in users", "format": "+,"}
+          {"field": "users_2023_m", "title": "2023 Users (millions)", "format": ".1f"},
+          {"field": "users_2024_m", "title": "2024 Users (millions)", "format": ".1f"},
+          {"field": "delta_m", "title": "Change (millions)", "format": "+.1f"}
         ]
       }
     },
     {
       "transform": [{"calculate": "2023", "as": "year"}],
-      "mark": {"type": "point", "filled": true, "size": 90},
+      "mark": {"type": "point", "filled": true, "size": 100, "opacity": 100},
       "encoding": {
-        "y": {"field": "industry", "type": "nominal"},
-        "x": {"field": "2023", "type": "quantitative"},
+        "y": {
+          "field": "industry",
+          "type": "nominal",
+          "sort": {"field": "delta_m", "order": "descending"}
+        },
+        "x": {"field": "users_2023_m", "type": "quantitative"},
         "color": {
           "field": "year",
           "type": "ordinal",
-          "scale": {"domain": [2023, 2024], "range": ["#8c3352", "#4E7AB1"]},
-          "legend": {"title": "Year"}
+          "scale": {"domain": [2023, 2024], "range": ["#fed5ff", "#9d8bdd"]},
+          "legend": {"title": "Year", "orient": "top-right", "anchor": "top-left", "dx": 20, "dy": 20}
         }
       }
     },
     {
       "transform": [{"calculate": "2024", "as": "year"}],
-      "mark": {"type": "point", "filled": true, "size": 90},
+      "mark": {"type": "point", "filled": true, "size": 100, "opacity": 100},
       "encoding": {
-        "y": {"field": "industry", "type": "nominal"},
-        "x": {"field": "2024", "type": "quantitative"},
+        "y": {
+          "field": "industry",
+          "type": "nominal",
+          "sort": {"field": "delta_m", "order": "descending"},
+          "title": null
+        },
+        "x": {"field": "users_2024_m", "type": "quantitative"},
         "color": {
           "field": "year",
           "type": "ordinal",
           "scale": {"domain": [2023, 2024], "range": ["#f6a5c0", "#4E7AB1"]},
-          "legend": {"title": "Year"}
+          "legend": {"title": "Year", "orient": "top-right"}
         }
       }
     },
     {
       "mark": {"type": "text", "dx": 8, "align": "left", "baseline": "middle"},
       "encoding": {
-        "y": {"field": "industry", "type": "nominal"},
-        "x": {"field": "2024", "type": "quantitative"},
-        "text": {"field": "delta", "format": "+.2s"},
-        "color": {"value": "#555"}
+        "y": {
+          "field": "industry",
+          "type": "nominal",
+          "sort": {"field": "delta_m", "order": "descending"}
+        },
+        "x": {"field": "users_2024_m", "type": "quantitative"},
+        "text": {"field": "delta_m", "format": "+.1f"},
+        "color": {"value": "white"}
       }
     }
   ],
   "encoding": {
     "x": {
-      "title": "Daily Active Users",
-      "axis": {"format": "s"},
-      "scale": {"domain": [0, 8000000]}
+      "title": "Daily Active Users (millions)",
+      "axis": {"format": "d", "tickCount": 13},
+      "scale": {"domain": [0, 12]}
     }
   },
-  "title": "Daily Active Users by Industry (2023 - 2024)"
+  "config": {
+    "axis": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "gridColor": "#7e7e7e",
+      "gridOpacity": 0.5,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {"color": "white", "fontSize": 16},
+    "header": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "tooltip": {"color": "white", "fontSize": 12}
+  }
 }

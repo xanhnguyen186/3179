@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+       
+    <script src="vega_lite_vis.js"></script>
+    <script src="vega_lite_vis_2.js"></script>
+    <script src="vega_lite_vis_3.js"></script>
+    <script src="vega_lite_vis_4.js"></script>
+    <script src="vega_lite_vis_5.js"></script>
+    <script src="vega_lite_vis_6.js"></script>
+    <script src="vega_lite_vis_7.js"></script>
+    <script src="vega_lite_vis_8.js"></script>
+    <script src="vega_lite_vis_9.js"></script>
+    <script src="vega_lite_vis_10.js"></script>
+    <script src="vega_lite_vis_11.js"></script>
+    <script src="vega_lite_vis_12.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Search Bar Mockup</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@3.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="styles.css" />
+
+
+<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism UI</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+        min-height: 100%;
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
+        overflow-y: auto;
+        font-size: 16px;
+        line-height: 1.4;
+
+        /* one continuous background */
+        background-image: url('images/b4.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* optional, for parallax feel */
+    }
+
+/* remove background from .background */
+    .background {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0; /* spacing between cards */
+    }
+
+
+    /* Glass frame */
+    .glass-card {
+      width: 100%;
+      max-width: 1100px;
+      padding: 1.5rem;
+      border-radius: 20px;
+      background: rgba(14, 14, 14, 0.382);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(3px);
+      border: 0.5px solid rgba(255, 255, 255, 0.449);
+      color: rgb(255, 255, 255);
+      text-align: left;
+    }
+
+    .glass-card-head {
+      width: 100%;
+      max-width: 820px;
+      padding: 1.5rem;
+      border-radius: 40px;
+      background: rgba(255, 255, 255, 0.382);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(25px);
+      border: 0.5px solid rgba(255, 255, 255, 0.449);
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+
+    .glass-card-tail {
+      width: 100%;
+      max-width: 1100px;
+      padding: 1.5rem;
+      border-radius: 40px;
+      background: rgba(255, 255, 255, 0.382);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(25px);
+      border: 0.5px solid rgba(255, 255, 255, 0.449);
+      color: rgb(0, 0, 0);
+      text-align: left;
+    }
+
+
+    .glass-visual {
+    width: 100%;
+    max-width: 1100px;
+    padding: 1rem;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    text-align: center;
+    }
+
+    /* Variants */
+    .glass-visual--dark {
+    background: rgba(0, 0, 0, 0.631);
+    color: white;
+    }
+
+    .glass-visual--light {
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+    }
+
+    .glass-visual--small {
+    max-width: 500px;
+    width: 100%;
+    padding: 1rem;
+    }
+
+     .glass-visual--medium {
+    max-width: 800px;
+    padding: 1rem;
+    }
+
+    .glass-visual--large {
+    max-width: 1100px;
+    padding: 1rem;
+    }
+
+    .glass-card-text {
+        width: 100%;
+        max-width: 1100px;
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .glass-card-text--pink {
+        color: #000000;
+        padding: 1.5rem;
+        border-radius: 20px;
+        text-align: left;
+        background: linear-gradient(
+            135deg,  /* diagonal direction */
+            rgb(255, 191, 234),   /* top-left */
+            rgb(171, 245, 255)     /* bottom-right */
+        );   
+    }
+
+    .glass-card-text--red {
+        color: #000000;
+        
+        padding: 1.5rem;
+        border-radius: 20px;
+        text-align: left;
+        background: linear-gradient(
+            135deg,  /* diagonal direction */
+            rgb(255, 191, 191),   /* top-left */
+            rgb(255, 240, 171)     /* bottom-right */
+        );   
+    }
+
+    .glass-card-text--green {
+        color: #000000;
+        padding: 1.5rem;
+        border-radius: 20px;
+        text-align: left;
+        background: linear-gradient(
+            135deg,  /* diagonal direction */
+            rgb(228, 255, 191),   /* top-left */
+            rgb(171, 255, 230)     /* bottom-right */
+        );   
+    }
+
+    .glass-card-text--plain {
+        color: #ffffff;
+        padding: 0.5rem;
+        border-radius: 40px;
+        text-align: center;
+     background: rgba(255, 255, 255, 0.472);
+     border: 0.5px solid rgb(255, 255, 255);
+     height: auto;
+     margin-top: -15px;
+    }
+
+    .glass-card-text--plain-1 {
+        color: #ffffff;
+        padding: 0.5rem;
+        border-radius: 40px;
+        text-align: center;
+     background: rgba(255, 255, 255, 0.472);  
+     height: auto;
+     border: 0.5px solid rgb(255, 255, 255);
+     
+    }
+
+    .glass-card-text--plig {
+        color: #ffffff;
+        padding: 1rem;
+        border-radius: 30px;
+        text-align: center;
+     background: rgba(255, 255, 255, 0.472);  
+     height: auto;
+     border: 0.5px solid rgb(255, 255, 255);
+    }
+
+
+    .glass-card-text--plast {
+        color: #ffffff;
+        padding: 1.5rem;
+        border-radius: 40px;
+        text-align: left;
+     background: rgba(255, 255, 255, 0.382);  
+     height: auto;
+     border: 0.5px solid rgb(255, 255, 255);
+    }
+    
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.631);
+      border-radius: 40px;
+      padding: 12px 19px;
+      width: 100%;
+      max-width: 1100px;
+    }
+    .search-bar i {
+      margin-right: 15px;
+      color: #ffffff;
+      font-size: 22px;
+    }
+    .search-text {
+      flex-grow: 1;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .split-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* half-half */
+    gap: 1rem;
+    align-items: stretch;
+    }
+
+    /* If you want 2/1 split */
+    .split-container.two-one {
+    grid-template-columns: 2fr 1fr; 
+    align-items: stretch
+    }
+
+    .split-container.one-two {
+        display: grid;
+    grid-template-columns: 1fr 2fr; 
+    align-items: start;
+    }
+
+    .split-container.one-one-one {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: stretch; 
+    }
+
+    .split-container.equal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: stretch;     /* same column height */
+    }
+
+    
+    /* left column = two equal rows (stacked text cards) */
+    .left-stack {
+    display: grid;
+    grid-template-rows: auto auto;  /* make both text frames equal height */
+    gap: 1rem;
+    align-items: start;
+    }
+
+
+
+    /* make the chart fill its column */
+    .glass-visual.glass-visual--dark.glass-visual--small {
+    height: 100%;
+    display: grid;
+    }
+    #full {
+    width: 100%;
+    height: 100%;
+    min-height: 420px;         /* adjust for your chart lib */
+    }
+
+    /* mobile: stack everything */
+    @media (max-width: 768px) {
+    .split-container.equal {
+        grid-template-columns: 1fr;
+    }
+    .left-stack {
+        grid-template-rows: auto auto;} /* let text take natural height on mobile */
+    }
+
+    @media (max-width: 900px) {
+  .split-container.one-two {
+    grid-template-columns: 1fr;
+  }
+  .left-stack {
+        grid-template-rows: auto auto;}
+}
+
+    h3 {
+      margin-top: 15px;  /* adjust spacing below search bar */
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: -10px;
+    }
+
+    h2 {
+      margin-top: 25px;  /* adjust spacing below search bar */
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: -10px;
+    }
+
+    .vega-bind-name {
+        margin-top: 15px;
+        font-size: 14px;      /* smaller font for "Industry:" */
+        color: white;         /* label text color */
+        margin-right: 10px;
+    }
+
+        /* Style the dropdown select menu */
+    .vega-bind select {
+        margin-top: 25px;
+        font-size: 12px;           /* shrink font */
+        color: black;              /* text color */
+        background: linear-gradient(90deg, #ffc6ff 0%, #9bf6ff 100%);
+        border: 0.5px solid #ffffff;
+        border-radius: 4px;
+        padding: 2px 6px;
+    }
+
+    .image-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+        }
+
+        .image-grid img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;   /* crop nicely */
+        border-radius: 20px;
+        }
+
+    .image-grid-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+        }
+
+        .image-grid img {
+        width: 100%;
+        height: 92%;
+        object-fit: cover;   /* crop nicely */
+        border-radius: 20px;
+        }
+
+       
+/* container + label */
+.vega-bindings {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: inherit;
+}
+.vega-bindings .vega-bind-name {
+  font-weight: 600;
+  margin-right: 6px;
+  color: #fff;               /* label color ("Year:") */
+  font-size: 16px;
+}
+
+/* RANGE — common */
+.vega-bindings input[type="range"]{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 220px;              /* slider width */
+  height: 8px;               /* track height */
+  border-radius: 999px;
+  outline: none;
+  background:
+    /* fake tick marks every step */
+    repeating-linear-gradient(
+      to right,
+      transparent 0 43px,    /* adjust to match width/(max-min) */
+      rgba(255,255,255,.15) 43px 44px
+    ),
+    linear-gradient(90deg, #fff0f0, #111); /* base track */
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);
+}
+
+/* RANGE — WebKit thumb */
+.vega-bindings input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 30%, #ffafaf, #ffffb6 60%, #a9c18d 61%),
+    linear-gradient(180deg, #ffffffaa, #ffffff11);
+  box-shadow: 0 0 0 2px #000, 0 2px 8px rgba(0,0,0,.6);
+  cursor: pointer;
+}
+
+/* RANGE — Firefox track + thumb */
+.vega-bindings input[type="range"]::-moz-range-track{
+  height: 8px; border-radius: 999px; background: transparent;
+}
+.vega-bindings input[type="range"]::-moz-range-thumb{
+  width: 22px; height: 22px; border: none; border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 30%, #ffffff, #e6e6e6 60%, #cccccc 61%),
+    linear-gradient(180deg, #ffffffaa, #ffffff11);
+  box-shadow: 0 0 0 2px #000, 0 2px 8px rgba(0,0,0,.6);
+  cursor: pointer;
+}
+
+
+.control-buttons {
+  display: flex;
+  gap: 12px; /* space between buttons */
+  margin-top: -15px;
+}
+
+.btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  cursor: pointer;
+}
+
+.btn.close {
+  background-color: #ff9090; /* red */
+}
+.btn.close::before {
+  content: "×"; /* X sign */
+  color: white;
+  font-size: 13px;
+}
+
+.btn.minimize {
+  background-color: #f9ca82; /* orange */
+}
+.btn.minimize::before {
+  content: "–"; /* minus sign */
+  color: white;
+  font-size: 14px;
+}
+
+.btn.maximize {
+  background-color: #72c59b; /* green */
+}
+.btn.maximize::before {
+  content: "▢"; /* square-like symbol */
+  color: white;
+  font-weight: bold;
+  font-size: 8px;
+}
+
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+
+<body>
+
+    <img src="images/A-8.png" alt="My Photo" width="700">
+
+    <div class="background">
+        <div class="glass-card-head">
+            <div class="control-buttons">
+                <span class="btn close"></span>
+                <span class="btn minimize"></span>
+                <span class="btn maximize"></span>
+            </div>
+            <p>AI is transforming the world - <b>so where does Australia stand in this shift?</b></p>
+            <p>This visualisation highlights Australia’s AI adoption trends, their connection to students, and the impact on future job opportunities - showing why AI is essential for both study and career readiness.</p>
+        </div>
+    </div>
+
+
+    <div class="background">
+        <div class="glass-card">
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <div class="search-text">Is Australia Ready for AI?</div>
+            </div>
+
+
+            <h2>Global AI Preparedness Index (2023)</h2>
+            <div class="background">
+                <div class="glass-visual glass-visual--dark glass-visual--large">
+                    <div id="map"></div>
+                </div>
+            </div>
+            
+            <div class="background">
+                <div class="glass-card-text glass-card-text--plain">
+                    <p>AI Preparedness Index (AIPI) assesses the level of AI preparedness across 174 countries</p>
+                </div> 
+            </div>
+
+            <h3>AI Adoption Rate across Countries (2025)</h3>
+            <div class="split-container two-one">
+                <div class="background">
+                    <div class="glass-visual glass-visual--dark glass-visual--medium">
+                        <div id="barchart"></div>
+                    </div>
+                </div>
+
+                <div class="background">
+                    <div class="glass-card-text glass-card-text--red">
+                        <p>In 2023, the global map shows Australia scoring highly on AI preparedness, keeping pace with other advanced nations. By 2025, Australia has moved to the top in AI adoption rates, ahead of many major economies. This progression shows that <b>Australia is not only ready for AI but is actively embracing it</b> — an important signal for students preparing for AI-driven careers.</p>
+                    </div> 
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+    <div class="background">
+        <div class="glass-card">
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <div class="search-text">How Has AI Use and Adoption Shifted Across Australian Industries (2023-2024)?</div>
+            </div>
+
+            <div class="split-container equal">
+                <!-- LEFT COLUMN: two text frames -->
+                <div class="background left-stack">
+                    <div class="glass-card-text glass-card-text--pink">
+                    <p>The dumbbell chart depicts that <b>daily active AI users have strongly grown across all Australian industries from 2023 to 2024</b>. Manufacturing, education, and technology lead with over 4 million active users each, while finance and healthcare show smaller but steady growth, showing that <b>AI is becoming a core part of the wider economy</b>. Education’s strong rise highlights how quickly AI is <b>becoming part of student learning and teaching</b>. For them, this growth signals not only a shift in how they learn today but also the kinds of workplaces and careers they will step into tomorrow.</p>
+                    </div>
+
+                    <div class="glass-card-text glass-card-text--green">
+                    <p>According to the change of AI adoption rate as shown in diverging bars, <b>technology and agriculture</b> recorded the <b>strongest increases</b>. In contrast, finance, manufacturing, healthcare, and especially <b>education saw major declines</b>, suggesting adoption in these areas may already be saturated or slowing. For students, this means that while their sector is already ahead in using AI, future growth may come more from how they deepen and diversify their AI use rather than from new adoption.</p>
+                    </div>
+
+                    <div class="glass-card-text glass-card-text--plain-1">
+                    <p>Select an industry to see its AI use and adoption trends</p>
+                    </div>
+                </div>
+
+                <!-- RIGHT COLUMN: full chart -->
+                <div class="background">
+                    <div class="glass-visual glass-visual--dark glass-visual--medium">
+                    <div id="full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="background">
+        <div class="glass-card">
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <div class="search-text">How Australian High School Students Are Using AI?</div>
+            </div>
+            
+            <h2>Proportion of Students using AI</h2>
+            <div class="split-container one-one-one">
+                <div class="background">
+                    <div class="glass-visual glass-visual--dark glass-visual--medium">
+                        <div id="donut"></div>
+                    </div>
+                </div>
+
+                <div class="background">
+                    <div class="glass-card-text glass-card-text--green">
+                        <p>The donut chart shows how many students use AI for study compared to those who don’t. <b>A large majority, 81.3%, already use AI tools</b> in their learning, while only 18.8% do not.
+This highlights that AI has quickly become a <b>mainstream study tool</b>, with most students relying on it for assignments, research, or exam preparation.</p>
+                    </div> 
+                </div>
+                
+                <div class="image-grid">
+                    <img src="https://www.weshop.ai/blog/wp-content/uploads/2023/08/best-ai-productivity.jpeg" alt="AI Image">
+                </div>
+            </div>    
+
+
+            <h3>AI Tools used by Grades</h3>
+            <div class="split-container one-two">
+                <div class="background left-stack">
+                    <div class="glass-card-text glass-card-text--plig">
+                        <p>Click on a tool to see how its use changes by grade</p>
+                    </div> 
+
+                    <div class="glass-card-text glass-card-text--red">
+                        <p>The chart highlights the diversity of AI tools available to students, showing that each tool tends to be used at different stages of study. Some, like Gemini and ChatGPT, are more popular in earlier grades, while tools such as Notion, Educhat, and QuillBot grow in use by Grade 12. This suggests <b>students experiment with a variety of tools over time</b>, relying on different ones as their study needs become more advanced.</p>
+                    </div> 
+                </div>
+
+                <div class="background">
+                    <div class="glass-visual glass-visual--dark glass-visual--medium">
+                        <div id="area"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3>AI support in Exam Preparation and Mental Health</h3>
+            <div class="split-container equal">
+
+                <div class="background">
+                    <div class="glass-visual glass-visual--dark glass-visual--medium">
+                        <div id="heatmap"></div>
+                    </div>
+                </div>
+
+                <div class="background">
+                    <div class="glass-card-text glass-card-text--pink">
+                        <p>This heatmap shows how students use AI during exam preparation at different stress levels. It highlights that students who are <b>on track or fully revised use AI most consistently</b>, and <b>AI use peaks at stress level 10 where a very high proportion rely on it</b> — suggesting that while AI is a steady study aid, it becomes especially crucial when exam pressure is at its highest.</p>
+                    </div> 
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="background">
+        <div class="glass-card">
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <div class="search-text">Will AI Create Opportunities or Take Them Away?</div>
+            </div>
+
+            <h3>Australian AI Job Market and Salary Trends (2024 - 2025)</h3>
+            <div class="background">
+                <div class="glass-visual glass-visual--dark">
+                    <div id="boxplot"></div>
+                </div>
+            </div>
+            
+            <div class="background">
+                    <div class="glass-card-text glass-card-text--plain">
+                        <p>Choose your industry and experience to see where you could be headed</p>
+                    </div>
+            </div>
+
+            <div class="split-container equal">
+                <div class="background">
+                    <div class="glass-card-text glass-card-text--green">
+                        <p>This chart shows how AI full-time employment annual salaries vary across different industries and experience levels. Each bar represents a salary range in one industry, from entry-level (EN) through mid (MI), senior (SE), and expert (EX). There are measures to look for in each bar - min, max and median (the middle value). The circles outside the main bars represent unusually high salaries in some industries.
+                    </div>
+                </div>
+
+                <div class="background">
+                    <div class="glass-card-text glass-card-text--green">
+                        <p>The chart highlights how AI creates <b>opportunities across a wide range of industries, offering appealing salaries at every stage of experience</b>. From entry-level to expert roles, pay steadily increases, showing that students can expect <b>strong career prospects in AI-related fields </b> regardless of where they start.</p>
+                    </div>
+                </div>
+            </div>    
+
+            <h3>Do AI-Generated Content and Revenue Increases create Job Loss?</h3>
+
+            <div class="split-container one-two">
+                <!-- LEFT COLUMN: two text frames -->
+                <div class="background left-stack">
+                    <div class="glass-card-text glass-card-text--plig">
+                        <p>Slide through the years to track how AI reshapes jobs and revenue in different industries
+                    </div>
+                    
+
+                    <div class="glass-card-text glass-card-text--red">
+                        <p>Despite the attractive salaries in AI-related fields, the rise of AI-generated content can also lead to job losses. Industries with a <b>higher proportion of AI use</b> tend to experience <b>greater job displacement</b>, with job loss rates already high around 2020. This highlights both the opportunities and risks students may face as AI continues to expand.<br><br>AI-Generated Content Volume (TB/yr): Relative scale of AI-generated content volume per year.<br><br> Intersection between dashlines is the average value of all industries.</p>
+                    </div>
+                </div>
+                    
+                <!-- RIGHT COLUMN: full chart -->
+                <div class="background">
+                    <div class="glass-visual glass-visual--dark glass-visual--medium">
+                        <div id="scatter"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+
+            <h3>Skills to Stay Competitive in AI Jobs</h3>
+            <div class="split-container one-one-one">
+                <div class="image-grid">
+                    <img src="https://academichelp.net/wp-content/uploads/2023/07/professional-programmer-working-late-dark-office-min-scaled.jpg" alt="ST Image">
+                </div>
+
+                
+                <div class="background">
+                    <div class="glass-visual glass-visual--dark glass-visual--medium">
+                        <div id="wordcloud"></div>
+                    </div>
+                </div>
+
+                <div class="background">
+                    <div class="glass-card-text glass-card-text--pink">
+                        <p>The word cloud shows the essential skills that make candidates stand out in the competitive AI job market. Core programming tools like <b>Python, frameworks such as TensorFlow and PyTorch, and platforms like Kubernetes dominate</b>, while supporting skills in <b>cloud services, data visualization, and mathematics</b> also play a key role. For students, this means that building a strong mix of <b>technical and analytical skills</b> is crucial to stay competitive and secure high-paying AI opportunities.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="background">
+                    <div class="glass-card-text glass-card-text--plain">
+                        <p>Data was collected through recruitment and hiring records</p>
+                    </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="background">
+        <div class="glass-card">
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <div class="search-text">Final Words</div>
+            </div>
+
+            <div class="split-container equal">
+                <div class="background">
+                    <div class="glass-card-text glass-card-text--plast">
+                        <p>AI is reshaping the world, and Australia is emerging as one of the leaders in adoption. Industries from technology to agriculture are rapidly expanding their use of AI, while education already shows high uptake, reflecting how deeply AI is integrated into student learning. The real challenge is how students adapt as industries continue to evolve. Most students now rely on AI tools, with preferences shifting as they move through grades and prepare for exams.</p>
+                    </div>
+                </div>
+
+                <div class="background">
+                    <div class="glass-card-text glass-card-text--plast">
+                        <p>At the same time, AI opens up a wide range of job opportunities with attractive salaries, but it also brings risks of job loss in fields heavily affected by automation and AI-generated content. This makes adaptability and continuous skill development critical for students entering the workforce. By embracing AI tools and building key technical skills, students can position themselves not just to cope with change, but to thrive in an AI-driven future.</p>
+                    </div>
+                </div>
+            </div> 
+            
+
+        </div>
+    </div>
+
+
+    <div class="background">
+        <div class="glass-card-tail">
+            <div class="control-buttons">
+                <span class="btn close"></span>
+                <span class="btn minimize"></span>
+                <span class="btn maximize"></span>
+            </div>
+            <p>Visualization by Nhu Xuan Anh Nguyen</p><br>
+            <p>Images Sources: </p>
+            <p>https://www.weshop.ai/blog/wp-content/uploads/2023/08/best-ai-productivity.jpeg</p>
+            <P>https://academichelp.net/wp-content/uploads/2023/07/professional-programmer-working-late-dark-office-min-scaled.jpg</P><br>
+            <p>Data sources:</p>
+            <p>https://www.imf.org/external/datamapper/datasets/AIPI</p>
+            <p>https://www.kaggle.com/datasets/dakshbhatnagar08/ai-tools-usage-among-global-high-school-students?select=ai_adoption_by_country.csv</p>
+            <p>https://www.kaggle.com/datasets/tfisthis/global-ai-tool-adoption-across-industries</p>
+            <p>https://www.kaggle.com/datasets/dakshbhatnagar08/inside-teen-minds-global-mental-health-and-habits?select=ai_usage_by_country.csv</p>
+            <p>https://www.kaggle.com/datasets/dakshbhatnagar08/global-high-school-student-lifestyle-and-wellness?select=student+life.csv</p>
+            <p>https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025?select=ai_job_dataset.csv</p>
+            <p>https://www.kaggle.com/datasets/atharvasoundankar/impact-of-ai-on-digital-media-2020-2025</p>
+                               
+        </div>
+    </div>
+    
+
+
+</body>
+
+

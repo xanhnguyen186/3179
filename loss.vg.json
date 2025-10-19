@@ -1,0 +1,135 @@
+{
+  "$schema":"https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 400,
+  "height": 422,
+  "background": null,
+  "view": {"fill": "transparent", "stroke": null},
+  "data":{"url":"https://raw.githubusercontent.com/xanhnguyen186/3179/main/Global_AI_Content_Impact_Dataset.csv"},
+
+  "transform": [
+    { "filter": "indexof(['Legal','Marketing'], datum.Industry) < 0" }
+  ],
+
+  "params":[
+    {"name":"year_sel","value":2025,
+     "bind":{"input":"range","min":2020,"max":2025,"step":1,"name":"Year: "}}
+  ],
+
+  "layer":[
+    {
+      "transform":[
+        {"filter":"toNumber(datum.Year) >= 2020 && toNumber(datum.Year) <= 2025"},
+        {"aggregate":[
+          {"op":"mean","field":"AI-Generated Content Volume (TBs per year)","as":"Content"},
+          {"op":"mean","field":"Revenue Increase Due to AI (%)","as":"Revenue"},
+          {"op":"mean","field":"Job Loss Due to AI (%)","as":"JobLoss"}
+        ],"groupby":["Industry","Year"]}
+      ],
+      "mark":{"type":"point","opacity":0},
+      "encoding":{
+        "x":{"field":"Revenue","type":"quantitative"},
+        "y":{"field":"JobLoss","type":"quantitative"}
+      }
+    },
+
+    {
+      "transform":[
+        {"filter":"toNumber(datum.Year) == year_sel"},
+        {"aggregate":[
+          {"op":"mean","field":"AI-Generated Content Volume (TBs per year)","as":"Content"},
+          {"op":"mean","field":"Revenue Increase Due to AI (%)","as":"Revenue"},
+          {"op":"mean","field":"Job Loss Due to AI (%)","as":"JobLoss"}
+        ],"groupby":["Industry"]},
+        {"joinaggregate":[
+          {"op":"mean","field":"Revenue","as":"rev_mean_all"},
+          {"op":"mean","field":"JobLoss","as":"loss_mean_all"}
+        ]}
+      ],
+      "layer":[
+        {
+          "mark":{"type":"rule","strokeDash":[4,3],"color":"#999"},
+          "encoding":{"x":{"field":"rev_mean_all","type":"quantitative"}}
+        },
+        {
+          "mark":{"type":"rule","strokeDash":[4,3],"color":"#999"},
+          "encoding":{"y":{"field":"loss_mean_all","type":"quantitative"}}
+        },
+        {
+          "mark":{"type":"point","filled":true, "opacity": 0.8},
+          "encoding":{
+            "x":{"field":"Revenue","type":"quantitative","title":"Revenue Increase Due to AI (%)", "axis": {"titlePadding":10}},
+            "y":{"field":"JobLoss","type":"quantitative","title":"Job Loss Due to AI (%)","axis": {"titlePadding":10}, "scale": {"domain": [0,60]}},
+            "size": {
+  "field": "Content",
+  "type": "quantitative",
+  "title": ["AI-Generated Content", "Volume (TB/yr)"],
+  "scale": {
+    "type": "pow",
+    "exponent": 3,
+    "domain": [0, 100],
+    "range": [80, 2000],
+    "zero": false,
+    "nice": false,
+    "clamp": true
+  },
+  "legend": {
+    "format": ".0f",
+    "symbolOpacity": 1,
+    "symbolFillColor": "#a7a7a7",
+    "padding": 10    
+  }
+},
+            "color":{"field":"Industry",
+            "type":"nominal",
+            "sort": ["Automotive","Education","Finance","Gaming","Healthcare","Manufacturing","Media","Retail"], 
+            "scale": {
+              "domain": ["Automotive","Education","Finance","Gaming","Healthcare","Manufacturing","Media","Retail"],
+              "range":  ["#f08080","#fea98e","#ffd99e","#a5d6a7","#87cefa","#7986cb","#ce93d8","#f8bbd0"]},
+            "legend": {
+      "values": ["Automotive","Education","Finance","Gaming","Healthcare","Manufacturing","Media","Retail"], "symbolOpacity": 1}
+    },
+
+            "tooltip":[
+              {"field":"Industry"},
+              {"field":"Content","title":"AI Content (TB/yr)","format":".2f"},
+              {"field":"Revenue","title":"Revenue Increase (%)","format":".2f"},
+              {"field":"JobLoss","title":"Job Loss (%)","format":".2f"},
+              {"value":"Year:","title":""},{"expr":"year_sel"}
+            ]
+          }
+        }
+      ]
+    }
+  ],
+
+  "config": {
+  "axis": {
+    "labelColor": "white",
+    "titleColor": "white",
+    "labelFontSize": 12,   
+    "titleFontSize": 13,
+    "gridColor": "#7e7e7e",
+      "gridOpacity": 0.3    
+  },
+  "legend": {
+    "labelColor": "white",
+    "titleColor": "white",
+    "labelFontSize": 12,   
+    "titleFontSize": 13    
+  },
+  "title": {
+    "color": "white",
+    "fontSize": 16         
+  },
+  "header": {
+    "labelColor": "white",
+    "titleColor": "white",
+    "labelFontSize": 12,
+    "titleFontSize": 13
+  },
+  "tooltip": {
+    "color": "white",
+    "fontSize": 12         
+  }
+}
+}

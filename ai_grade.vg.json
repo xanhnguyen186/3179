@@ -1,9 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 640,
-  "height": 320,
+  "width": 467,
+  "height": 300,
   "background": null,
-  "view": {"fill": "transparent"},
+  "view": {"fill": "transparent", "stroke": null},
+
   "data": {
     "url": "https://raw.githubusercontent.com/xanhnguyen186/3179/main/global_ai_tools_students_use.csv"
   },
@@ -26,49 +27,100 @@
 
   "layer": [
     {
-  "selection": {
-    "tool_filter": {
-      "type": "point",
-      "fields": ["tool"],
-      "bind": "legend",
-      "empty": "none"
-    }
-  },
-  "mark": { "type": "area", "interpolate": "monotone", "line": true },
-  "encoding": {
-    "x": { "field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"], "title": "Grade" },
-    "y": { "field": "prop_use", "type": "quantitative", "title": "Proportion of Students Using Tool", "axis": {"format": ".0%"}, "stack": null },
-    "color": {
-      "field": "tool", "type": "nominal", "title": "AI Tool",
-      "scale": {
-        "domain": ["Gemini","ChatGPT","Grammarly","Phind","QuillBot","Notion","Educhat"],
-        "range":  ["#ee2e21","#f86624","#f3a332","#a7cb8e","#83a6ce","#c78dc7","#f496a6"]
-      }
-    },
-    "opacity": {
-      "condition": { "selection": "tool_filter", "value": 1 },
-      "value": 0.1
-    },
-    "tooltip": [
-      { "field": "tool", "title": "Tool" },
-      { "field": "grade", "title": "Grade" },
-      { "field": "prop_use", "title": "Proportion", "format": ".1%" }
-    ]
-  }
-},
-
-
-    {
-      "transform": [{ "filter": { "selection": "tool_filter" } }], 
-      "mark": { "type":"text","align":"center","baseline":"bottom","dy":-6,"fontSize":11 },
+      "selection": {
+        "tool_filter": {
+          "type": "point",
+          "fields": ["tool"],
+          "bind": "legend",
+          "empty": "all"
+        }
+      },
+      "mark": { "type": "line", "interpolate": "monotone", "point": true },
       "encoding": {
-        "x": {"field":"grade","type":"ordinal","sort":["9th","10th","11th","12th"]},
-        "y": {"field":"prop_use","type":"quantitative"},
-        "color": {"field":"tool","type":"nominal"},
-        "text": {"field":"prop_use","type":"quantitative","format":".0%"}
+        "x": { "field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"], "title": "Grade", "axis": {"titlePadding": 10} },
+        "y": { "field": "prop_use", "type": "quantitative", "title": "Proportion of Students Using Tool", "axis": {"format": ".0%"} },
+        "color": {
+          "field": "tool", "type": "nominal", "title": "AI Tool",
+          "scale": {
+            "domain": ["Gemini","ChatGPT","Grammarly","Phind","QuillBot","Notion","Educhat"],
+            "range":  ["#f08080","#fea98e","#a5d6a7","#87cefa","#7986cb","#ce93d8","#f8bbd0"]
+          }
+        },
+        "opacity": {
+          "condition": { "selection": "tool_filter", "value": 1 },
+          "value": 0.05
+        },
+        "tooltip": [
+          { "field": "tool", "title": "Tool" },
+          { "field": "grade", "title": "Grade" },
+          { "field": "prop_use", "title": "Proportion", "format": ".1%" }
+        ]
+      }
+    },
+
+    { "data": { "values": [ 
+    {"grade": "12th", "note": "Grade 12 students rely more on AI tools for study support"}
+  ] 
+}, 
+    "mark": { "type": "text", "fontSize": 12, "align": "right", "dx": -20}, 
+    "encoding": { 
+      "x": { "field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"] }, 
+      "y": { "value": 193 }, "text": { "field": "note" }, "color": { "value": "white" } } },
+
+      {
+        "data": {
+          "values": [
+            {
+            "grade": "11th", "prop_use": 0.14},
+            {"grade": "12th", "prop_use": 0.20}
+
+          ]
+        },
+        "mark": {"type":"line", "strokeWidth": 1, "color": "white"},
+  "encoding": {
+    "x": { "field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"], "title": "Grade", "axis": {"titlePadding": 10} },
+    "y":  { "field": "prop_use", "type": "quantitative", "title": "Proportion of Students Using Tool", "axis": {"format": ".0%", "titlePadding": 10} }
+      }},
+      
+      {
+      "data": {"values": [{"grade": "12th"}]},
+      "mark": {"type": "rule", "strokeDash": [5,5], "strokeWidth": 2, "color": "#ffffffaa"},
+      "encoding": {
+        "x": {"field": "grade", "type": "ordinal", "sort": ["9th","10th","11th","12th"]}
       }
     }
-  ],
 
-  "title": "AI Tool Usage by Grade"
+      
+    
+    
+    
+    ],
+
+    
+
+  "config": {
+    "axis": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#7e7e7e",
+      "gridOpacity": 0.5
+    },
+    "legend": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": { "color": "white", "fontSize": 16 },
+    "header": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "tooltip": { "color": "white", "fontSize": 12 }
+  }
 }
+
