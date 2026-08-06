@@ -1,8 +1,13 @@
 AI in Australia: Adoption, Education and the Future of Work
+
 An interactive data visualisation exploring how prepared Australia is for artificial intelligence and what growing AI adoption means for students, industries and the future workforce.
+
+
 Live Demo
 View the interactive visualisation:
 https://xanhnguyen186.github.io/3179/
+
+
 Project Overview
 Artificial intelligence is changing how people study, work and make decisions. This project examines Australia's position in this transformation through an interactive, data-driven visualisation.
 The project connects three major questions:
